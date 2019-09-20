@@ -1,12 +1,12 @@
 {
-  "private": false,
+  "private": true,
   "name": "schafevormfenster-platform",
   "version": "1.0.0",
   "author": "Jan-Henrik Hempel <jan@schafe-vorm-fenster.de>",
   "engines": {
     "node": "10.x"
   },
-  "workspaces": ["studio", "web"],
+  "workspaces": ["studio", "website"],
   "scripts": {
     "clean": "lerna clean",
     "deploy": "lerna run deploy",

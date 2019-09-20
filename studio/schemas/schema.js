@@ -26,7 +26,7 @@ export default createSchema({
           title: "Name",
           name: "name",
           type: "string",
-          required: true
+          validation: Rule => Rule.required()
         },
         {
           title: "URL",
@@ -43,7 +43,7 @@ export default createSchema({
               .replace(/ß/g, 'ss')
               .slice(0, 200)
           },
-          required: true
+          validation: Rule => Rule.required()
         },
         {
           title: "Description",
@@ -74,6 +74,7 @@ export default createSchema({
           title: "Name",
           name: "name",
           type: "string",
+          validation: Rule => Rule.required()
         },
         {
           title: "URL",
@@ -89,7 +90,8 @@ export default createSchema({
               .replace(/ü/g, 'ue')
               .replace(/ß/g, 'ss')
               .slice(0, 200)
-          }
+          },
+          validation: Rule => Rule.required()
         },
         {
           title: "Description",
@@ -148,6 +150,7 @@ export default createSchema({
           title: "Name",
           name: "name",
           type: "string",
+          validation: Rule => Rule.required()
         },
         {
           title: "Google Place ID",
@@ -170,7 +173,8 @@ export default createSchema({
           type: 'reference',
           weak: true,
           to: [{type: 'community'}],
-          description: 'To which village does that place belong to?'
+          description: 'To which village does that place belong to?',
+          validation: Rule => Rule.required()
         },
         {
           title: "Visual",
@@ -213,6 +217,7 @@ export default createSchema({
           title: "Name",
           name: "name",
           type: "string",
+          validation: Rule => Rule.required()
         },
         {
           title: "Full name",
@@ -233,7 +238,8 @@ export default createSchema({
               .replace(/ü/g, 'ue')
               .replace(/ß/g, 'ss')
               .slice(0, 200)
-          }
+          },
+          validation: Rule => Rule.required()
         },
         {
           title: "Description",
@@ -290,6 +296,7 @@ export default createSchema({
           title: "Google Calendar ID",
           name: "calendar_id",
           type: "string",
+          validation: Rule => Rule.required()
         }
       ],
       preview: {
@@ -310,6 +317,7 @@ export default createSchema({
           title: "Summary",
           name: "name",
           type: "string",
+          validation: Rule => Rule.required()
         },
         {
           title: "Description",
@@ -325,7 +333,8 @@ export default createSchema({
             timeFormat: 'HH:mm',
             timeStep: 15,
             calendarTodayLabel: 'Today'
-          }
+          },
+          validation: Rule => Rule.required()
         },
         {
           title: "Allday?",
