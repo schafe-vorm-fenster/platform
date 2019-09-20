@@ -1,0 +1,51 @@
+{
+  "name": "schafevormfenster-studio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Sanity studio configuration for the Schafe vorm Fenster platform.",
+  "main": "package.json",
+  "author": "Jan-Henrik Hempel <jan@schafe-vorm-fenster.de>",
+  "license": "MIT",
+  "engines": {
+    "node": "10.x"
+  },
+  "scripts": {
+    "deploy": "yarn graphql-deploy && yarn sanity-deploy",
+    "format": "prettier-eslint --write \"**/*.js\" \"!node_modules/**\"",
+    "graphql-deploy": "sanity graphql deploy --playground",
+    "sanity-deploy": "sanity deploy",
+    "lint": "eslint .",
+    "start": "sanity start",
+    "build": "sanity build",
+    "now-build": "yarn build",
+    "now-dev": "yarn build",
+    "test": "sanity check"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^0.142.2",
+    "@sanity/components": "^0.142.5",
+    "@sanity/core": "^0.142.5",
+    "@sanity/default-layout": "^0.142.5",
+    "@sanity/default-login": "^0.142.3",
+    "@sanity/desk-tool": "^0.142.5",
+    "prop-types": "^15.6",
+    "react": "^16.2",
+    "react-dom": "^16.2",
+    "react-icons": "^3.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-config-standard-react": "^9.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier-eslint-cli": "^5.0.0"
+  },
+  "repository": "https://github.com/schafe-vorm-fenster/platform"
+}
