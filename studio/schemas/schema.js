@@ -118,6 +118,13 @@ export default createSchema({
           weak: true,
           to: [{type: 'municipality'}],
           description: 'To which municipality does that village belong to?'
+        },
+        {
+          title: "Address aliases",
+          name: "address_aliases",
+          type: "array",
+          of: [{type: 'string'}],
+          validation: Rule => Rule.unique()
         }
       ],
       preview: {
