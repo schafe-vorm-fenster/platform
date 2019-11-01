@@ -167,9 +167,6 @@ export default createSchema({
           name: "address_aliases",
           type: "array",
           of: [{type: 'string'}],
-          options: {
-            layout: 'tags'
-          },
           validation: Rule => Rule.unique()
         },
         {
