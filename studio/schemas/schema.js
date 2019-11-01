@@ -163,6 +163,16 @@ export default createSchema({
           type: "string",
         },
         {
+          title: "Address aliases",
+          name: "address_aliases",
+          type: "array",
+          of: [{type: 'string'}],
+          options: {
+            layout: 'tags'
+          },
+          validation: Rule => Rule.unique()
+        },
+        {
           title: "Geolocation",
           name: "geolocation",
           type: "geopoint",
