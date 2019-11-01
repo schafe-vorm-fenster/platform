@@ -44,7 +44,7 @@
     "wrench": "^1.5.9"
   },
   "devDependencies": {
-    "dotenv": "^8.0.0",
+    "dotenv": "^8.2.0",
     "gulp-concat-json": "^1.0.0",
     "gulp-concat-json-to-array": "0.0.1",
     "gulp-google-calendar-events": "^1.0.0",

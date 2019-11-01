@@ -14,7 +14,7 @@
     "name": "Jan-Henrik Hempel"
   },
   "bugs": {
-    "url": "https://github.com/schafe-vorm-fenster/gulp-google-calendar-events/issues"
+    "url": "https://github.com/schafe-vorm-fenster/platform"
   },
   "license": "MIT",
   "main": "index.js",
