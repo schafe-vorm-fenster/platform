@@ -1,0 +1,20 @@
+# Mac files
+.DS_Store
+
+# Package managers
+yarn.lock
+package-lock.json
+yarn-error.log
+
+# Dependency directories
+/node_modules
+
+# lerna files
+/lerna-debug.log
+
+# Ignore temp data
+/_json
+
+# Ignore hidden files as default
+.*
+!.gitignore
