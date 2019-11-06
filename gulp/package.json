@@ -7,7 +7,8 @@
   "main": "gulpfile.js",
   "scripts": {
     "build": "gulp build",
-    "develop": "gulp",
+    "deploy": "gulp build",
+    "develop": "gulp build && gulp watch",
     "start": "gulp",
     "test": "gulp -v"
   },
@@ -50,6 +51,7 @@
     "gulp-google-calendar-events": "^1.0.0",
     "gulp-jsbeautifier": "^3.0.1",
     "gulp-json-concat": "^0.1.1",
-    "gulp-jsoncombine": "^1.0.4"
+    "gulp-jsoncombine": "^1.0.4",
+    "schafevormfenster-studio": "file:../studio"
   }
 }

@@ -18,8 +18,9 @@ wrench.readdirSyncRecursive('./tasks').filter(function(file) {
 
 gulp.task('build', 
 	gulp.series([
-		'villages',
-		'calendars',
+    'sanity:calendars',
+		'google:events',
+		'sanity:events',
 		'events'
 	])
 );

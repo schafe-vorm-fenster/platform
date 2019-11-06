@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "gatsby build",
-    "deploy": "yarn now-deploy",
+    "deploy": "gatsby build",
     "develop": "gatsby develop",
     "empty-cache": "gatsby clean",
     "lint": "eslint .",
@@ -43,6 +43,7 @@
     "eslint-plugin-react": "^7.13.0",
     "eslint-plugin-standard": "^4.0.0",
     "prettier-eslint-cli": "^4.7.1",
-    "prop-types": "^15.7.2"
+    "prop-types": "^15.7.2",
+    "schafevormfenster-gulp": "file:../gulp"
   }
 }

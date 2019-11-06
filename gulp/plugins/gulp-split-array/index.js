@@ -38,8 +38,8 @@ module.exports = function(jsonpath,itemname) {
     }
 
     for (var i = 0; i < jsonarray.length; i++){
-      console.log(i)
-      console.log(jsonarray[i])
+      // console.log(i)
+      // console.log(jsonarray[i])
       var item = jsonarray[i]
       // defaults filename to input file plus iterator
       var filename = file.stem + '_' + i + file.extname

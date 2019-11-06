@@ -16,6 +16,7 @@
     "sanity-deploy": "sanity deploy",
     "lint": "eslint .",
     "start": "sanity start",
+    "develop": "sanity start",
     "build": "sanity build",
     "now-build": "yarn build",
     "now-dev": "yarn build",

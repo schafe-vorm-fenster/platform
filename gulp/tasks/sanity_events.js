@@ -83,7 +83,8 @@ gulp.task('sanity:events:push', function() {
 
 
 gulp.task('sanity:events', 
-	gulp.series([
+	gulp.parallel([
+		'sanity:events:delete',
 		'sanity:events:push'
 	])
 );

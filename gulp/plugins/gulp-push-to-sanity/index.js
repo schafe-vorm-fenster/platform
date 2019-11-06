@@ -45,7 +45,7 @@ module.exports = function(credentials) {
       return cb(new PluginError(PLUGIN_NAME, 'No or invalid json data.'))
     }
 
-    console.log(jsonobj)
+    // console.log(jsonobj)
 
     const client = sanityClient({
       projectId: credentials.projectId,

@@ -6,11 +6,12 @@
   "engines": {
     "node": "10.x"
   },
-  "workspaces": ["studio", "website"],
+  "workspaces": ["gulp", "studio", "website"],
   "scripts": {
     "clean": "lerna clean",
     "deploy": "lerna run deploy",
     "empty-cache": "lerna run empty-cache",
+    "build": "lerna run build",
     "init": "cd studio && sanity init && lerna run graphql-deploy",
     "format": "lerna run format",
     "graphql-deploy": "lerna run graphql-deploy",
