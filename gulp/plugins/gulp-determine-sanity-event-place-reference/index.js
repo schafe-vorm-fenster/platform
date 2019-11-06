@@ -94,7 +94,7 @@ module.exports = function(credentials) {
               "_ref": community._id,
               "_weak": true
             }
-            jsonobj.place = {}
+            // jsonobj.place = null
 
             const filename = file.stem + file.extname
             var opts = {
@@ -106,8 +106,8 @@ module.exports = function(credentials) {
             this.push(newfile)
             return cb(null)
           }else {
-            jsonobj.community = {}
-            jsonobj.place = {}
+            // jsonobj.community = {}
+            // jsonobj.place = {}
             const filename = file.stem + file.extname
             var opts = {
               path: path.resolve(file.dirname, filename)
