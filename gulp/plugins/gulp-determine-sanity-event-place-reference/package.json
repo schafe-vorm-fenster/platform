@@ -1,6 +1,6 @@
 {
-  "name": "gulp-split-array",
-  "description": "Gulp plugin to split an incoming json array into single jsons per item.",
+  "name": "gulp-determine-sanity-event-place-reference",
+  "description": "Gulp plugin determine a reference id from sanity.io.",
   "keywords": [
     "buffer",
     "stream",
