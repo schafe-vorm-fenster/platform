@@ -1,4 +1,4 @@
 [build]
-  base = "website/"
-  command = "yarn build"
+  base = "."
+  command = "yarn run build"
   publish = "website/public"
