@@ -6,7 +6,12 @@
   "engines": {
     "node": "10.x"
   },
-  "workspaces": ["gulp", "studio", "website"],
+  "repository": "git@github.com:schafe-vorm-fenster/platform.git",
+  "workspaces": [
+    "gulp",
+    "studio",
+    "website"
+  ],
   "scripts": {
     "clean": "lerna clean",
     "deploy": "lerna run deploy",
@@ -22,11 +27,11 @@
     "start": "lerna run empty-cache && lerna run start --parallel",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "lerna": "^3.16.4",
-    "rimraf": "^3.0.0"
-  },
+  "devDependencies": {},
   "main": "index.js",
-  "repository": "git@github.com:schafe-vorm-fenster/platform.git",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lerna": "^3.19.0",
+    "rimraf": "^3.0.0"
+  }
 }
