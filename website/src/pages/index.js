@@ -2,7 +2,6 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import { mapEdgesToNodes } from '../lib/helpers'
 import CommunitytPreviewGrid from '../components/community-preview-grid'
-import Container from '../components/container'
 import GraphQLErrorList from '../components/graphql-error-list'
 
 export const query = graphql`
