@@ -1,11 +1,11 @@
 {
   "root": true,
-  "project": {
-    "name": "Schafe-vorm-Fenster"
-  },
   "api": {
     "projectId": "gzgufr8h",
     "dataset": "production"
+  },
+  "project": {
+    "name": "Schafe vorm Fenster"
   },
   "plugins": [
     "@sanity/base",
@@ -18,6 +18,14 @@
     {
       "name": "part:@sanity/base/schema",
       "path": "./schemas/schema.js"
+    },
+    {
+      "implements": "part:@sanity/base/theme/variables/override-style",
+      "path": "./styles/variables.css"
+    },
+    {
+      "implements": "part:@sanity/base/brand-logo",
+      "path": "./logo/myLogo.js"
     }
   ]
 }

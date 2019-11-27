@@ -1,0 +1,7 @@
+:root {
+  --brand-primary: #4196d0;
+  --brand-primary--inverted: #ffffff;
+  --brand-secondary: #b3bf1d;
+  --brand-secondary--inverted: #5e630f;
+  --font-family-sans-serif: "Catamaran Light", Catamaran, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Droid Sans, Helvetica Neue, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
