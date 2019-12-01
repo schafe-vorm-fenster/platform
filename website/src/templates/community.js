@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { mapEdgesToNodes } from '../lib/helpers'
+import Layout from '../components/layout'
 import Container from '../components/container'
 import GraphQLErrorList from '../components/graphql-error-list'
 import Community from '../components/community'
@@ -10,13 +11,20 @@ export const query = graphql`
   query CommunityTemplateQuery($id: String!) {
     community: sanityCommunity(id: { eq: $id }) {
       id
-      name
-      description
-      municipality {
-        name
-      }
       slug {
         current
+      }
+      name
+      description
+      image {
+        asset {
+          fluid {
+            ...GatsbySanityImageFluid
+          }
+        }
+      }
+      municipality {
+        name
       }
     }
 
@@ -53,9 +61,7 @@ const CommunityTemplate = props => {
   const community = data && data.community
   const eventNodes = data && data.events && mapEdgesToNodes(data.events)
   return (
-    <div>
-      <section>
-        <p>Dorf Ansicht</p>
+    <Layout>
         {errors && (
           <Container>
             <GraphQLErrorList errors={errors} />
@@ -67,8 +73,7 @@ const CommunityTemplate = props => {
         <h2>Termine</h2>
         <div><pre>{JSON.stringify(eventNodes, null, 2) }</pre></div>
         {eventNodes && eventNodes.length > 0 && <EventPreviewGrid nodes={eventNodes} />}
-      </section>
-    </div>
+    </Layout>
   )
 }
 

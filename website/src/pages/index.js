@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { mapEdgesToNodes } from '../lib/helpers'
+import Layout from '../components/layout'
 import CommunitytPreviewGrid from '../components/community-preview-grid'
 import GraphQLErrorList from '../components/graphql-error-list'
 
@@ -35,8 +36,10 @@ const IndexPage = props => {
 
   return (
     <div>
+      <Layout>
         <h1>Unsere Dörfer</h1>
         {communityNodes && communityNodes.length > 0 && <CommunitytPreviewGrid nodes={communityNodes} />}
+      </Layout>
     </div>
   )
 }

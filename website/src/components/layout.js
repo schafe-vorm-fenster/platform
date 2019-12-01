@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Layout = () => (
-  <>
-    <div>{children}</div>
-  </>
+const Layout = ({ children }) => (
+    <>
+      {children}
+    </>
 )
 
 export default Layout
