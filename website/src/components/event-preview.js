@@ -1,22 +1,28 @@
 import { Link } from 'gatsby'
 import React from 'react'
 import { getEventUrl } from '../lib/helpers'
+import Moment from 'react-moment'
+import 'moment-timezone'
 
 function EventPreview (props) {
+  var dateString
+  if(props.allday){
+    dateString = <Moment format="DD.MM.YYYY" tz="Europe/Berlin">{props.start}</Moment>
+  }else {
+    dateString = <Moment format="DD.MM.YYYY HH:mm" tz="Europe/Berlin">{props.start}</Moment>
+  }
   return (
-    <div>
+    <article id={props.id} className="mb-5 p-3 shadow">
+      <p>{dateString}</p>
       <Link to={getEventUrl(props.name, props.start)}>
-        <h3>{props.name}</h3>
+        <h3 className="text-xl font-medium">{props.name}</h3>
       </Link>
-      <div><pre>{JSON.stringify(props, null, 2) }</pre></div>
-      <p>{props.allday}</p>
-      <p>{props.description}</p>
-      <p>{props.start}</p>
+      <p>{props.location}</p>
       { props.place != null && <p>{props.place.name} ({props.place._id})</p> }
-      { props.community.name && <p>{props.community.name} ({props.community._id})</p> }
-      <em>{props.id}</em>
-    </div>
+    </article>
   )
 }
 
 export default EventPreview
+
+//       <div><pre>{JSON.stringify(props, null, 2) }</pre></div>

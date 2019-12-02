@@ -4,16 +4,8 @@ import EventPreview from './event-preview'
 
 function EventPreviewGrid (props) {
   return (
-    <div>
-      {props.name && (
-        <h2>
-          {props.browseMoreHref ? (
-            <Link to={props.browseMoreHref}>{props.title}</Link>
-          ) : (
-            props.name
-          )}
-        </h2>
-      )}
+    <section id="eventlist" className="w-full p-3">
+      <h2 className="invisible">Termine im Grid</h2>
       <ul>
         {props.nodes &&
           props.nodes.map(node => (
@@ -22,12 +14,7 @@ function EventPreviewGrid (props) {
             </li>
           ))}
       </ul>
-      {props.browseMoreHref && (
-        <div>
-          <Link to={props.browseMoreHref}>Browse more</Link>
-        </div>
-      )}
-    </div>
+    </section>
   )
 }
 

@@ -8,7 +8,7 @@ function CommunitytPreviewGrid (props) {
       <ul>
         {props.nodes &&
           props.nodes.map(node => (
-            <li key={node.id}>
+            <li id={node.id}>
               <CommunityPreview {...node} />
             </li>
           ))}

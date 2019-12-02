@@ -28,7 +28,7 @@ export const query = graphql`
       }
     }
 
-    events: allSanityEvent(filter: { community: { id: { eq: $id } } }, limit: 50, sort: { fields: [name], order: DESC }) {
+    events: allSanityEvent(filter: { community: { id: { eq: $id } } }, limit: 50, sort: { fields: [start], order: ASC }) {
       edges {
         node {
           id
@@ -67,11 +67,7 @@ const CommunityTemplate = props => {
             <GraphQLErrorList errors={errors} />
           </Container>
         )}
-
         {community && <Community {...community} />}
-
-        <h2>Termine</h2>
-        <div><pre>{JSON.stringify(eventNodes, null, 2) }</pre></div>
         {eventNodes && eventNodes.length > 0 && <EventPreviewGrid nodes={eventNodes} />}
     </Layout>
   )
