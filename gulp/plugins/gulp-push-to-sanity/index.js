@@ -56,6 +56,13 @@ module.exports = function(credentials) {
 
     client.createOrReplace(jsonobj).then(res => {
       console.log(`Document created with id ${res._id}`)
+    }).catch(err => {
+      if(err.message.includes('HTTP 429')){
+        console.error('Sanity API Rate Limits exceeded: ', err.message)
+      }else{
+        console.error('Oh no, the update failed: ', err.message)
+      }
+      
     })
 
     const filename = file.stem + file.extname

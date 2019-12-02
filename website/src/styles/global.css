@@ -32,4 +32,5 @@
 body {
   @apply font-sans;
   @apply font-light;
+  @apply text-gray-900;
 }

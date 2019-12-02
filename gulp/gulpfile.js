@@ -20,8 +20,7 @@ gulp.task('build',
 	gulp.series([
     'sanity:calendars',
 		'google:events',
-		'sanity:events',
-		'events'
+		'sanity:events'
 	])
 );
 

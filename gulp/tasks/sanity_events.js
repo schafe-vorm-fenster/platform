@@ -39,8 +39,14 @@ gulp.task('sanity:events:delete', function() {
 	return client.fetch(query).then(events => {
 	  events.forEach(event => {
 	    client.delete(event._id)
+        .catch(err => {
+			    console.error('Oh no, the update failed: ', err.message)
+			  })
 	  })
 	})
+	.catch(err => {
+    console.error('Oh no, the update failed: ', err.message)
+  })
 });
 
 

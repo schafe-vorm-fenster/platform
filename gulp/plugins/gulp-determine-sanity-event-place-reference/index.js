@@ -56,7 +56,10 @@ module.exports = function(credentials) {
     // if place could be found, set the place reference and the community reference based on the place data
     // if no place could be found, query for communities with the address/location string, to set the community reference
 
-    var address = jsonobj.location
+    if(!jsonobj.location) {
+      jsonobj.location = ''
+      console.log('Info: No jsonobj.location supplied.')
+    }
     const query = '*[_type == "place" && (address == $address || $address in address_aliases)]'
     const params = {address: jsonobj.location}
 
@@ -120,11 +123,17 @@ module.exports = function(credentials) {
 
           }
         })
+        .catch(err => {
+          console.error('Oh no, the update failed: ', err.message)
+        })
 
 
       }
 
 
+    })
+    .catch(err => {
+      console.error('Oh no, the update failed: ', err.message)
     })
 
   }
