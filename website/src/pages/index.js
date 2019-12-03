@@ -8,7 +8,7 @@ import Logo from '../../assets/schafe-vorm-fenster_logo.inline.svg'
 
 export const query = graphql`
   query IndexPageQuery {
-    communities: allSanityCommunity(limit: 12, sort: { fields: [name], order: DESC }) {
+    communities: allSanityCommunity(limit: 50, sort: { fields: [name], order: ASC }) {
       edges {
         node {
           id
