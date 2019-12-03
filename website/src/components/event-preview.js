@@ -17,8 +17,7 @@ function EventPreview (props) {
       <Link to={getEventUrl(props.name, props.start)}>
         <h3 className="text-xl font-medium">{props.name}</h3>
       </Link>
-      <p>{props.location}</p>
-      { props.place != null && <p>{props.place.name} ({props.place._id})</p> }
+      { props.place != null && <p>{props.place.name}</p> }
     </article>
   )
 }
