@@ -51,7 +51,7 @@ gulp.task('google:events:get', function() {
 		}
 		// set datetime for date and datetime values for easier sorting
 		if (json.start.hasOwnProperty('date')) {
-        	json.startDateTime = json.start.date + 'T00:00:00+02:00'
+        	json.startDateTime = json.start.date + 'T03:00:00+02:00'
     	} else{
     		json.startDateTime = json.start.dateTime	
     	}

@@ -55,14 +55,14 @@ gulp.task('sanity:events:push', function() {
 	.pipe(jeditor(function(json) {
 		// set datetime for date and datetime values for easier sorting
 		if (json.start.hasOwnProperty('date')) {
-			json.startDateTime = json.start.date + 'T00:00:00+02:00'
+			json.startDateTime = json.start.date + 'T03:00:00+02:00'
 			json.allday = true
 		} else{
 			json.startDateTime = json.start.dateTime	
 			json.allday = false
 		}
 		if (json.end.hasOwnProperty('date')) {
-			json.endDateTime = json.end.date + 'T00:00:00+02:00'
+			json.endDateTime = json.end.date + 'T03:00:00+02:00'
 			json.allday = true
 		} else{
 			json.endDateTime = json.end.dateTime	
