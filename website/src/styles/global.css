@@ -1,8 +1,18 @@
+@charset "UTF-8";
+
 @tailwind base;
 
 @tailwind components;
 
+
 @tailwind utilities;
+
+
+body {
+  @apply font-sans;
+  @apply font-light;
+  @apply text-gray-900;
+}
 
 @responsive {
   .h-hero {
@@ -28,9 +38,95 @@
   }
 }
 
+@responsive {
+  .eventblock {
+    h2 {
+      position: relative;
+      @apply text-center;
+      @apply text-sm;
+      @apply mb-6;
+      @apply leading-none;
 
-body {
-  @apply font-sans;
-  @apply font-light;
-  @apply text-gray-900;
+      &:before {
+        position: absolute;
+        display: block;
+        content: ' ';
+        @apply w-full;
+        @apply border-t;
+        @apply border-gray-300;
+        @apply border-solid;
+
+        height: 1px;
+        top: .3rem;
+        z-index: 10;
+      }
+      span {
+        position: relative;
+        display: inline-block;
+        z-index: 20;
+        @apply bg-white;
+        @apply py-0;
+        @apply px-4;
+        @apply uppercase;
+        @apply text-gray-500;
+      }
+    }
+  }
+}
+
+
+@responsive {
+  .calendersheet {
+    background-color: #afafaf;
+    display: block;
+    border-radius: .25rem;
+    color: #fff;
+    text-align: center;
+    line-height: 1.1;
+
+    .weekday {
+      display: block;
+      border-top-left-radius: .25rem;
+      border-top-right-radius: .25rem;
+      background-color: #333;
+      font-size: .65rem;
+      padding: .2rem 0 .05rem 0;
+    }
+
+    .day {
+      display: block;
+      font-size: 2rem;
+      font-weight: 700;
+      margin-top: 0;
+      margin-bottom: -.3rem;
+    }
+
+    .month {
+      display: block;
+      font-size: .65rem;
+      padding: 0 0 .1rem 0;
+    }
+  }
+
+  article.event {
+    @apply leading-tight;
+
+    .time {
+      @apply text-gray-600;
+      @apply mb-1;
+    }
+    .title {
+      @apply text-lg;
+      @apply mb-1;
+    }
+    .location {
+      @apply text-gray-600;
+      @apply mb-1;
+    }
+    .description {
+      @apply text-gray-600;
+      @apply mb-1;
+    }
+  }
+
 }

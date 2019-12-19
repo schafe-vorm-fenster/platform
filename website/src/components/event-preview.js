@@ -2,26 +2,45 @@ import { Link } from 'gatsby'
 import React from 'react'
 import { getEventUrl } from '../lib/helpers'
 import Moment from 'react-moment'
+import 'moment/locale/de';
 import 'moment-timezone'
 
 function EventPreview (props) {
-  var dateString
+  var timeString
+  var eventType = 'default'
   if(props.allday){
-    dateString = <Moment format="DD.MM.YYYY" tz="Europe/Berlin">{props.start}</Moment>
+    timeString = ''
+    eventType = 'allday'
   }else {
-    dateString = <Moment format="DD.MM.YYYY HH:mm" tz="Europe/Berlin">{props.start}</Moment>
+    if(props.end) {
+      timeString = (
+          <>
+            <Moment format="HH:mm" tz="Europe/Berlin">{props.start}</Moment> bis <Moment format="HH:mm" tz="Europe/Berlin">{props.end}</Moment>
+          </> 
+        )
+    }else{
+      timeString = <Moment format="HH:mm" tz="Europe/Berlin">{props.start}</Moment>
+    }
   }
   return (
-    <article id={props.id} className="mb-5 p-3 shadow">
-      <p>{dateString}</p>
-      <Link to={getEventUrl(props.name, props.start)}>
-        <h3 className="text-xl font-medium">{props.name}</h3>
-      </Link>
-      { props.place != null && <p>{props.place.name}</p> }
+    <article id={props.id} className={"event " + eventType + " mb-5 p-3 flex"} >
+
+      <div class="calendersheet shadow-sm day-today day-4 w-1/6">
+        <span class="weekday"><Moment format="dddd" tz="Europe/Berlin" locale="de">{props.start}</Moment></span>
+        <span class="day"><Moment format="D" tz="Europe/Berlin">{props.start}</Moment></span>
+        <span class="month"><Moment format="MMM." tz="Europe/Berlin" locale="de">{props.start}</Moment></span>
+      </div>
+
+      <div className="w-5/6 pl-5">
+        <p className="time">{ timeString }</p>
+        <Link to={getEventUrl(props.name, props.start)}>
+          <h3 className="title">{props.name}</h3>
+        </Link>
+        { props.place != null && <p className="location">{props.place.name}</p> }
+        { props.description != null && <p className="description">{props.description}</p> }
+      </div>
     </article>
   )
 }
 
 export default EventPreview
-
-//       <div><pre>{JSON.stringify(props, null, 2) }</pre></div>
