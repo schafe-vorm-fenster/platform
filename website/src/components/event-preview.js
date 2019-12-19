@@ -9,7 +9,6 @@ function EventPreview (props) {
   var timeString
   var eventType = 'default'
   if(props.allday){
-    timeString = ''
     eventType = 'allday'
   }else {
     if(props.end) {
@@ -32,10 +31,8 @@ function EventPreview (props) {
       </div>
 
       <div className="w-5/6 pl-5">
-        <p className="time">{ timeString }</p>
-        <Link to={getEventUrl(props.name, props.start)}>
-          <h3 className="title">{props.name}</h3>
-        </Link>
+        { timeString != null && <p className="time">{timeString}</p> }
+        <h3 className="title">{props.name}</h3>
         { props.place != null && <p className="location">{props.place.name}</p> }
         { props.description != null && <p className="description">{props.description}</p> }
       </div>
@@ -44,3 +41,10 @@ function EventPreview (props) {
 }
 
 export default EventPreview
+
+
+
+/**
+        // <Link to={getEventUrl(props.name, props.start)}>
+        // </Link>
+*/
