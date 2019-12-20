@@ -4,7 +4,6 @@
 
 @tailwind components;
 
-
 @tailwind utilities;
 
 
@@ -12,6 +11,7 @@ body {
   @apply font-sans;
   @apply font-light;
   @apply text-gray-900;
+  @apply leading-tight;
 }
 
 @responsive {
@@ -129,4 +129,27 @@ body {
     }
   }
 
+}
+
+
+footer {
+  @apply border-t;
+  @apply border-gray-300;
+  @apply border-solid;  
+  @apply mt-6;
+  @apply pt-6;
+  @apply text-center;
+}
+
+.contactperson {
+  @apply text-center;
+  @apply mb-6;
+
+  img.avatar {
+    @apply inline-block;
+    @apply mb-3;
+    width: 50%;
+    border-radius: 100%;
+    max-width: 40vw;
+  }
 }

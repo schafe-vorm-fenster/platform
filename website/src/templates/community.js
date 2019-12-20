@@ -122,7 +122,7 @@ const CommunityTemplate = props => {
             <GraphQLErrorList errors={errors} />
           </Container>
         )}
-        {community && <Community {...community} />}
+        <Community {...community} />
 
         <section id="today" className="eventblock">
           <h2><span>Heute</span></h2>

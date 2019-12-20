@@ -1,6 +1,6 @@
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
 import React from 'react'
-import { getEventUrl } from '../lib/helpers'
+// import { getEventUrl } from '../lib/helpers'
 import Moment from 'react-moment'
 import 'moment/locale/de';
 import 'moment-timezone'
