@@ -228,6 +228,7 @@ module.exports = {
         'sans-serif',
       ],
       serif: [
+        'Courier',
         'Georgia',
         'Cambria',
         '"Times New Roman"',

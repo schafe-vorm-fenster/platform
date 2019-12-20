@@ -7,11 +7,19 @@
 @tailwind utilities;
 
 
+html {
+  @apply bg-gray-200;
+}
+
 body {
+  @apply max-w-md;
+  margin: 0 auto;
+  @apply bg-white;
   @apply font-sans;
   @apply font-light;
   @apply text-gray-900;
   @apply leading-tight;
+  @apply pb-3;
 }
 
 @responsive {
@@ -138,6 +146,7 @@ footer {
   @apply border-solid;  
   @apply mt-6;
   @apply pt-6;
+  @apply px-3;
   @apply text-center;
 }
 
