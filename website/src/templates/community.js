@@ -6,11 +6,14 @@ import Container from '../components/container'
 import GraphQLErrorList from '../components/graphql-error-list'
 import Community from '../components/community'
 import EventPreviewGrid from '../components/event-preview-grid'
+import MunicipalityEventPreviewGrid from '../components/municipality-event-preview-grid'
+import EventPreviewFragment from "../components/event-preview-fragment"
 
 export const query = graphql`
-  query CommunityTemplateQuery($id: String!, $todayOffset: Date!, $todayLimit: Date!, $tomorrowOffset: Date!, $tomorrowLimit: Date!, $nextdaysOffset: Date!, $nextdaysLimit: Date!) {
-    community: sanityCommunity(id: { eq: $id }) {
-      id
+  query CommunityTemplateQuery($_id: String!, $municipalityId: String!, $todayOffset: Date!, $todayLimit: Date!, $tomorrowOffset: Date!, $tomorrowLimit: Date!, $nextdaysOffset: Date!, $nextdaysLimit: Date!) {
+
+    community: sanityCommunity(_id: { eq: $_id }) {
+      _id
       slug {
         current
       }
@@ -24,84 +27,49 @@ export const query = graphql`
         }
       }
       municipality {
+        _id
         name
       }
     }
 
-    todayEvents: allSanityEvent(filter: { community: { id: { eq: $id } }, start: { gt: $todayOffset, lt: $todayLimit } }, limit: 50, sort: { fields: [start, allday], order: ASC }) {
+    todayEvents: allSanityEvent(filter: { community: { _id: { eq: $_id } }, start: { gt: $todayOffset, lt: $todayLimit } }, limit: 50, sort: { fields: [start, allday], order: ASC }) {
       edges {
         node {
-          id
-          name
-          start
-          end
-          allday
-          description
-          location
-          place {
-            _id
-            name
-          }
-          community {
-            _id
-            name
-          }
-          organizer {
-            _id
-            name
-          }
+          ...SanityEventPreview
         }
       }
     }
 
-    tomorrowEvents: allSanityEvent(filter: { community: { id: { eq: $id } }, start: { gt: $tomorrowOffset, lt: $tomorrowLimit } }, limit: 50, sort: { fields: [start, allday], order: ASC }) {
+    tomorrowEvents: allSanityEvent(filter: { community: { _id: { eq: $_id } }, start: { gt: $tomorrowOffset, lt: $tomorrowLimit } }, limit: 50, sort: { fields: [start, allday], order: ASC }) {
       edges {
         node {
-          id
-          name
-          start
-          end
-          allday
-          description
-          location
-          place {
-            _id
-            name
-          }
-          community {
-            _id
-            name
-          }
-          organizer {
-            _id
-            name
-          }
+          ...SanityEventPreview
         }
       }
     }
 
-    nextdaysEvents: allSanityEvent(filter: { community: { id: { eq: $id } }, start: { gt: $nextdaysOffset, lt: $nextdaysLimit} }, limit: 50, sort: { fields: [start, allday], order: ASC }) {
+    nextdaysEvents: allSanityEvent(filter: { community: { _id: { eq: $_id } }, start: { gt: $nextdaysOffset, lt: $nextdaysLimit} }, limit: 50, sort: { fields: [start, allday], order: ASC }) {
       edges {
         node {
-          id
-          name
-          start
-          end
-          allday
-          description
-          location
-          place {
-            _id
-            name
+          ...SanityEventPreview
+        }
+      }
+    }
+  
+    eventsInMunicipality: allSanityEvent(filter: {
+      community: {
+        municipality: {
+          _id: {
+            eq: $municipalityId 
           }
-          community {
-            _id
-            name
-          }
-          organizer {
-            _id
-            name
-          }
+        },
+        _id: { 
+          ne: $_id 
+        }
+      }}) {
+      edges {
+        node {
+          ...SanityEventPreview
         }
       }
     }
@@ -115,6 +83,8 @@ const CommunityTemplate = props => {
   const todayEventNodes = data && data.todayEvents && mapEdgesToNodes(data.todayEvents)
   const tomorrowEventNodes = data && data.tomorrowEvents && mapEdgesToNodes(data.tomorrowEvents)
   const nextdaysEventNodes = data && data.nextdaysEvents && mapEdgesToNodes(data.nextdaysEvents)
+  const eventsInMunicipalityNodes = data && data.eventsInMunicipality && mapEdgesToNodes(data.eventsInMunicipality)
+
   return (
     <Layout>
         {errors && (
@@ -137,6 +107,11 @@ const CommunityTemplate = props => {
         <section id="nearfuture" className="eventblock">
           <h2><span>In den kommenden Tagen</span></h2>
           {nextdaysEventNodes && nextdaysEventNodes.length > 0 && <EventPreviewGrid nodes={nextdaysEventNodes} />}
+        </section>
+
+        <section id="municipality" className="eventblock">
+          <h2><span>In der Gemeinde</span></h2>
+          {eventsInMunicipalityNodes && eventsInMunicipalityNodes.length > 0 && <MunicipalityEventPreviewGrid currentCommunity={community._id} nodes={eventsInMunicipalityNodes} />}
         </section>
 
     </Layout>

@@ -24,10 +24,10 @@ function EventPreview (props) {
   return (
     <article id={props.id} className={"event " + eventType + " mb-5 p-3 flex"} >
 
-      <div class="calendersheet shadow-sm day-today day-4 w-1/6">
-        <span class="weekday"><Moment format="dddd" tz="Europe/Berlin" locale="de">{props.start}</Moment></span>
-        <span class="day"><Moment format="D" tz="Europe/Berlin">{props.start}</Moment></span>
-        <span class="month"><Moment format="MMM." tz="Europe/Berlin" locale="de">{props.start}</Moment></span>
+      <div className="calendersheet shadow-sm day-today day-4 w-1/6">
+        <span className="weekday"><Moment format="dddd" tz="Europe/Berlin" locale="de">{props.start}</Moment></span>
+        <span className="day"><Moment format="D" tz="Europe/Berlin">{props.start}</Moment></span>
+        <span className="month"><Moment format="MMM." tz="Europe/Berlin" locale="de">{props.start}</Moment></span>
       </div>
 
       <div className="w-5/6 pl-5">

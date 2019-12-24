@@ -14,12 +14,15 @@ async function createCommunityPages (graphql, actions, reporter) {
       allSanityCommunity(filter: { slug: { current: { ne: null } } }) {
         edges {
           node {
-            id
+            _id
             name
             slug {
               current
             }
             place_id
+            municipality {
+              _id
+            }
           }
         }
       }
@@ -31,8 +34,9 @@ async function createCommunityPages (graphql, actions, reporter) {
   const communityEdges = (result.data.allSanityCommunity || {}).edges || []
 
   communityEdges.forEach((edge, index) => {
-    const { id, slug = {} } = edge.node
+    const { _id, slug = {} } = edge.node
     const path = `/${slug.current}/`
+    const municipalityId = edge.node.municipality._id
     const todayOffset = moment().startOf('day').format()
     const todayLimit = moment().endOf('day').format()
     const tomorrowOffset = moment().add(1, 'days').startOf('day').format()
@@ -40,12 +44,12 @@ async function createCommunityPages (graphql, actions, reporter) {
     const nextdaysOffset = moment().add(2, 'days').startOf('day').format()
     const nextdaysLimit = moment().add(10, 'days').endOf('day').format()
 
-    reporter.info(`Creating community/village page: ${path}`)
+    reporter.info(`Creating community page: ${path}`)
 
     createPage({
       path,
       component: require.resolve('./src/templates/community.js'),
-      context: { id, todayOffset, todayLimit, tomorrowOffset, tomorrowLimit, nextdaysOffset, nextdaysLimit }
+      context: { _id, municipalityId, todayOffset, todayLimit, tomorrowOffset, tomorrowLimit, nextdaysOffset, nextdaysLimit }
     })
   })
 }
