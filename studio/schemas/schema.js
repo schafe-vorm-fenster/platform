@@ -160,6 +160,13 @@ export default createSchema({
           validation: Rule => Rule.required()
         },
         {
+          title: "Local name",
+          name: "localname",
+          type: "string",
+          description: 'How is the place called within the village context?',
+          validation: Rule => Rule.required()
+        },
+        {
           title: "Google Place ID",
           name: "place_id",
           type: "string",
@@ -269,23 +276,12 @@ export default createSchema({
           title: "Website",
           name: "website",
           type: "url",
-        },
-        {
-          title: 'Calendars',
-          name: 'calendars',
-          type: 'array',
-          of: [
-            {
-              type: 'reference',
-              to: [{type: 'calendar'}]
-            }
-          ]
         }
       ],
       preview: {
         select: {
           title: 'name',
-          subtitle: 'longname' // if the movie has a director, follow the relation and get the name
+          subtitle: 'longname'
         }
       }
     },
@@ -311,8 +307,33 @@ export default createSchema({
           name: "calendar_id",
           type: "string",
           validation: Rule => Rule.required()
+        },
+        {
+          title: 'Organizer',
+          name: 'organizer',
+          type: 'reference',
+          weak: true,
+          to: [{type: 'organizer'}],
+          description: 'Which organizer is responsible?'
+        },
+        {
+          title: "Publication Scope",
+          name: "scope",
+          type: "string", 
+          options: {
+            list: [
+              {title: 'Village', value: '0'},
+              {title: 'Municipality', value: '1'},
+              {title: 'Surrounding', value: '2'},
+              {title: 'Region', value: '3'}
+            ],
+            layout: 'dropdown'
+          }
         }
       ],
+      initialValue: {
+        scope: "0"
+      },
       preview: {
         select: {
           title: 'name',
@@ -393,12 +414,12 @@ export default createSchema({
           description: 'To which village does that place belong to?'
         },
         {
-          title: 'Organizer',
-          name: 'organizer',
+          title: 'Calendar',
+          name: 'calendar',
           type: 'reference',
           weak: true,
-          to: [{type: 'organizer'}],
-          description: 'Which organizer is responsible?'
+          to: [{type: 'calendar'}],
+          description: 'To which calendar does the event belong to?'
         },
         {
           title: "Google Event ID",
