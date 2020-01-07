@@ -14,14 +14,24 @@ export const query = graphql`
     place {
       _id
       name
+      localname
+      community {
+        _id
+        name
+      }
     }
     community {
       _id
       name
     }
-    organizer {
+    calendar {
       _id
       name
+      scope
+      organizer {
+        _id
+        name
+      }
     }
   }
 `

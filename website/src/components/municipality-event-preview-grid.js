@@ -9,7 +9,7 @@ function MunicipalityEventPreviewGrid (props) {
     <>
       {props.nodes &&
         props.nodes.map(node => {
-          return node.community._id != currentCommunityId ?
+          return node.community._id !== currentCommunityId ?
             <EventPreview {...node} />
             : null
         })}

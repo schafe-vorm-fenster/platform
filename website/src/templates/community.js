@@ -57,6 +57,11 @@ export const query = graphql`
     }
   
     eventsInMunicipality: allSanityEvent(filter: {
+      calendar: {
+        scope : {
+          eq: "1"
+        }
+      },
       community: {
         municipality: {
           _id: {
