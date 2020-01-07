@@ -222,7 +222,6 @@ module.exports = {
     fontFamily: {
       sans: [
         'Catamaran',
-        '"Catamaran ExtraLight"',
         '"Helvetica Neue"',
         'Arial',
         'sans-serif',

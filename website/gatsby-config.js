@@ -40,6 +40,24 @@ module.exports = {
           include: /\.inline\.svg$/
         }
       }
+    },
+    {
+      resolve: `gatsby-plugin-webfonts`,
+      options: {
+        fonts: {
+          google: [
+            {
+              family: "Catamaran",
+              variants: ["300", "400", "700", "800"],
+              fontDisplay: 'swap',
+              strategy: 'selfHosted'
+            },
+          ],
+        },
+        formats: ['woff2', 'woff'],
+        useMinify: true,
+        usePreload: true
+      }
     }
   ]
 }
