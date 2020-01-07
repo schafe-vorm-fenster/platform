@@ -337,7 +337,14 @@ export default createSchema({
       preview: {
         select: {
           title: 'name',
-          subtitle: 'calendar_id'
+          organizer: 'organizer.name'
+        },
+        prepare(selection) {
+          const {title, organizer} = selection
+          return {
+            title: title,
+            subtitle: `${organizer ? organizer : 'unknown'}`
+          }
         }
       }
     },
@@ -439,7 +446,7 @@ export default createSchema({
             title: title,
             subtitle: `in ${community ? community : 'unknown'} at ${start ? start : 'unknown'}`
           }
-      }
+        }
       }
     }
 
