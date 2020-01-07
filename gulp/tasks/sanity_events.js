@@ -16,6 +16,7 @@ const source = require('vinyl-source-stream')
 const streamify = require('gulp-streamify')
 const pushtosanity = require("../plugins/gulp-push-to-sanity")
 const sanityeventplacereference = require("../plugins/gulp-determine-sanity-event-place-reference")
+const sanityeventcalendarreference = require("../plugins/gulp-determine-sanity-event-calendar-reference")
 const sanityClient = require('@sanity/client')
 const dotenv = require('dotenv').config()
 
@@ -77,11 +78,13 @@ gulp.task('sanity:events:push', function() {
 			location: json.location,
 			start: json.startDateTime,
 			end: json.endDateTime,
-			allday: json.allday
+			allday: json.allday,
+			calendar_id: json.organizer.email
 		}
 		return event
 	}))
 	.pipe(sanityeventplacereference(sanity_credentials))
+	.pipe(sanityeventcalendarreference(sanity_credentials))
 	.pipe(pushtosanity(sanity_credentials))
 	.pipe(beautify({ indent_size: 2 }))
 	.pipe(gulp.dest('_json/sanity/events'));
