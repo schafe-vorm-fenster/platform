@@ -51,7 +51,7 @@ body {
     h2 {
       position: relative;
       @apply text-center;
-      @apply text-sm;
+      @apply text-xs;
       @apply mb-6;
       @apply leading-none;
 
@@ -63,9 +63,8 @@ body {
         @apply border-t;
         @apply border-gray-300;
         @apply border-solid;
-
         height: 1px;
-        top: .3rem;
+        top: .25rem;
         z-index: 10;
       }
       span {

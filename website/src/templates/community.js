@@ -7,7 +7,7 @@ import GraphQLErrorList from '../components/graphql-error-list'
 import Community from '../components/community'
 import EventPreviewGrid from '../components/event-preview-grid'
 import MunicipalityEventPreviewGrid from '../components/municipality-event-preview-grid'
-import EventPreviewFragment from "../components/event-preview-fragment"
+import '../components/event-preview-fragment'
 
 export const query = graphql`
   query CommunityTemplateQuery($_id: String!, $municipalityId: String!, $todayOffset: Date!, $todayLimit: Date!, $tomorrowOffset: Date!, $tomorrowLimit: Date!, $nextdaysOffset: Date!, $nextdaysLimit: Date!) {
