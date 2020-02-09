@@ -1,10 +1,11 @@
 import React from 'react'
 import Img from 'gatsby-image'
 import Logo from '../../assets/schafe-vorm-fenster_logo.inline.svg'
+import BetaBadge from '../../assets/beta-badge.inline.svg'
 import Placeholder from '../../assets/community-hero-placeholder.inline.svg'
 
 function Community (props) {
-  const { _id, name, description, municipality, image } = props
+  const { _id, name, description, municipality, image, publication_status } = props
   var heroImg
   if(image && image.asset && image.asset.fluid) {
     heroImg = <Img id="community-image" fluid={image.asset.fluid} className="object-cover h-hero" />
@@ -16,10 +17,12 @@ function Community (props) {
       <div id="community-hero" className="w-full h-hero bg-gray-500 mb-6">
         {heroImg}
         <Logo id="svf-logo" className="absolute top-0 left-0 m-3 w-1/6 max-w-20" />
+        { publication_status=="1" && <div id="publication-status" className="publication-status publication-status-beta"><BetaBadge id="beta" className="absolute w-16 h-16 -mt-12 right-0 mx-3" /></div> }
       </div>
+      { publication_status=="1" && <p id="community-publication-status" className="community-publication-status text-center">Diese Webseite ist eine Vorschau und kann durchaus noch falsche Daten enthalten.</p> }
       <h1 className="text-5xl leading-tight text-center mt-0 pt-0">{name}</h1>
       { municipality.name != null && <p id="community-municipality" className="text-center">{municipality.name}</p> }
-      <p id="community-description" className="text-center">{description}</p>
+      <p id="community-description" className="community-description text-center">{description}</p>
     </header>
   )
 }

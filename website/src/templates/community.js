@@ -19,6 +19,7 @@ export const query = graphql`
       }
       name
       description
+      publication_status
       image {
         asset {
           fluid {
@@ -71,7 +72,9 @@ export const query = graphql`
         _id: { 
           ne: $_id 
         }
-      }}) {
+      }},
+        limit: 50, sort: { fields: [start, allday], order: ASC }
+      ) {
       edges {
         node {
           ...SanityEventPreview
