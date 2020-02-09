@@ -125,6 +125,29 @@ export default createSchema({
           type: "array",
           of: [{type: 'string'}],
           validation: Rule => Rule.unique()
+        },
+        {
+          title: "Publication status",
+          name: "publication_status",
+          type: "string", 
+          options: {
+            list: [
+              {title: 'Online', value: '0'},
+              {title: 'Beta', value: '1'},
+              {title: 'Hidden', value: '2'},
+              {title: 'Offline', value: '3'}
+            ],
+            layout: 'dropdown'
+          }
+        }
+      ],
+      orderings: [
+        {
+          title: 'Village',
+          name: 'community',
+          by: [
+            {field: 'name', direction: 'asc'}
+          ]
         }
       ],
       preview: {

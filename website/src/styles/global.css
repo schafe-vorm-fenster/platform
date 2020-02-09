@@ -139,6 +139,20 @@ body {
 }
 
 
+@responsive {
+  .publication-status {
+    &.publication-status-beta {
+    }
+  }
+  .community-description {
+    @apply mb-1;
+  }
+  .community-publication-status {
+    @apply mb-4;
+    color:  theme('colors.red.700');
+  }
+}
+
 footer {
   @apply border-t;
   @apply border-gray-300;
