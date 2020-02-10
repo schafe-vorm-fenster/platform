@@ -42,7 +42,8 @@ async function createCommunityPages (graphql, actions, reporter) {
     const tomorrowOffset = moment().add(1, 'days').startOf('day').format()
     const tomorrowLimit = moment().add(1, 'days').endOf('day').format()
     const nextdaysOffset = moment().add(2, 'days').startOf('day').format()
-    const nextdaysLimit = moment().add(10, 'days').endOf('day').format()
+    // const nextdaysLimit = moment().add(10, 'days').endOf('day').format()
+    const nextdaysLimit = moment().add(60, 'days').endOf('day').format() // set to 60 days until a better sploittig is done
 
     reporter.info(`Creating community page: ${path}`)
 

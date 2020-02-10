@@ -36,7 +36,7 @@ function EventPreview (props) {
         { timeString != null && <p className="time">{timeString}</p> }
         <h3 className="title">{props.name}</h3>
         { props.place != null && props.place.community != null && <p className="location">{props.place.localname} in {props.place.community.name}</p> }
-        { props.description != null && <p className="description">{props.description}</p> }
+        { props.description != null && <div className="description" dangerouslySetInnerHTML={{__html: props.description}} /> }
       </div>
     </article>
   )

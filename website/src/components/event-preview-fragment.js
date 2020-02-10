@@ -1,6 +1,4 @@
-import React from 'react'
 import { graphql } from 'gatsby'
-import { mapEdgesToNodes } from '../lib/helpers'
 
 export const query = graphql`
   fragment SanityEventPreview on SanityEvent {

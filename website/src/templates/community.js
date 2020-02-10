@@ -73,7 +73,7 @@ export const query = graphql`
           ne: $_id 
         }
       }},
-        limit: 50, sort: { fields: [start, allday], order: ASC }
+        limit: 20, sort: { fields: [start, allday], order: ASC }
       ) {
       edges {
         node {
