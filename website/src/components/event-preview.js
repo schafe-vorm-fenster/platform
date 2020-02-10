@@ -22,7 +22,7 @@ function EventPreview (props) {
     }
   }
   return (
-    <article id={props.id} className={"event " + eventType + " mb-5 p-3 flex"} >
+    <article id={props.id} className={"event " + eventType + " mb-4 p-3 flex"} >
 
       <div className="w-1/6">
         <div className="calendersheet shadow-sm day-today day-4">
