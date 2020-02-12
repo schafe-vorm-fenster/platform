@@ -1,0 +1,5 @@
+{
+  "packages": ["gulp", "studio", "website"],
+  "npmClient": "yarn",
+  "useWorkspaces": true,  "version": "1.0.0"
+}

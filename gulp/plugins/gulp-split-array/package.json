@@ -1,0 +1,23 @@
+{
+  "name": "gulp-split-array",
+  "description": "Gulp plugin to split an incoming json array into single jsons per item.",
+  "keywords": [
+    "buffer",
+    "stream",
+    "json",
+    "array",
+    "split",
+    "gulp"
+  ],
+  "bundleDependencies": false,
+  "author": {
+    "name": "Jan-Henrik Hempel"
+  },
+  "bugs": {
+    "url": "https://github.com/schafe-vorm-fenster/platform"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "version": "1.0.0",
+  "deprecated": false
+}

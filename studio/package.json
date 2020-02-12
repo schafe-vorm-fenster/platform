@@ -1,0 +1,44 @@
+{
+  "name": "schafevormfenster-studio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Sanity studio configuration for the Schafe vorm Fenster platform.",
+  "main": "package.json",
+  "author": "Jan-Henrik Hempel <jan@schafe-vorm-fenster.de>",
+  "license": "MIT",
+  "engines": {
+    "node": "10.x"
+  },
+  "scripts": {
+    "deploy": "yarn graphql-deploy && yarn sanity-deploy",
+    "format": "prettier-eslint --write \"**/*.js\" \"!node_modules/**\"",
+    "graphql-deploy": "sanity graphql deploy --playground",
+    "sanity-deploy": "sanity deploy",
+    "lint": "eslint .",
+    "start": "sanity start",
+    "develop": "sanity start",
+    "build": "sanity build",
+    "now-build": "yarn build",
+    "now-dev": "yarn build",
+    "test": "sanity check"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^0.146.3",
+    "@sanity/cli": "^0.146.0",
+    "@sanity/client": "^0.146.0",
+    "@sanity/components": "^0.146.3",
+    "@sanity/core": "^0.146.0",
+    "@sanity/default-layout": "^0.146.3",
+    "@sanity/default-login": "^0.146.0",
+    "@sanity/desk-tool": "^0.146.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-icons": "^3.8.0"
+  },
+  "devDependencies": {},
+  "repository": "https://github.com/schafe-vorm-fenster/platform"
+}
