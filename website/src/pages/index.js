@@ -79,11 +79,11 @@ const IndexPage = props => {
           <Logo id="svf-logo" className="inline-block object-none object-center m-3 w-1/6 max-w-20" />
         </header>
         <section className="p-3 text-center">
-          <h1 className="text-3xl leading-tight text-center mt-0 pt-0 mb-4">Unsere Dörfer</h1>
+          <h2 className="text-2xl leading-tight text-center mt-0 pt-0 mb-4">Unsere Dörfer</h2>
           {onlineCommunityNodes && onlineCommunityNodes.length > 0 && <CommunitytPreviewGrid nodes={onlineCommunityNodes} />}
-          <h1 className="text-3xl leading-tight text-center mt-0 pt-0 mb-4">In der Beta Phase</h1>
+          <h2 className="text-2xl leading-tight text-center mt-0 pt-0 mb-4">In der Beta Phase</h2>
           {betaCommunityNodes && betaCommunityNodes.length > 0 && <CommunitytPreviewGrid nodes={betaCommunityNodes} />}
-          <h1 className="text-3xl leading-tight text-center mt-0 pt-0 mb-4">In Planung</h1>
+          <h2 className="text-2xl leading-tight text-center mt-0 pt-0 mb-4">In Planung</h2>
           {upcomingCommunityNodes && upcomingCommunityNodes.length > 0 && <CommunitytPreviewGrid nodes={upcomingCommunityNodes} />}
         </section>
       </Layout>

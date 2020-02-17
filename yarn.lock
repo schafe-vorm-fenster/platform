@@ -9321,10 +9321,10 @@ gulp-foreach@^0.1.0:
     gulp-util "~2.2.14"
     through2 "~0.6.3"
 
-gulp-google-calendar-events@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/gulp-google-calendar-events/-/gulp-google-calendar-events-1.0.0.tgz#943921f57ffcf9b38cbd4fe46055bdc142380837"
-  integrity sha512-bHn9iyj5lTRsnfnkP7s2f3KC4YiqK2xg4C7yFk/eCRwmgLIDpGCavs+zH+yUANdtUpU/7yQEYgi3wd291ZwnzQ==
+gulp-google-calendar-events@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/gulp-google-calendar-events/-/gulp-google-calendar-events-1.0.3.tgz#0582f56612610d1405cda35c81d76c4c7d1fe6b7"
+  integrity sha512-DrRXbXcpFwIuAFhLggp1be/DHUAmHSTg29qVMyH7ixd8faOc+Jj79mSSWx2kubmV7rZwXf8RQ261sGzdBJ1fJg==
 
 gulp-jsbeautifier@^3.0.1:
   version "3.0.1"
