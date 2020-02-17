@@ -48,7 +48,7 @@
     "dotenv": "^8.2.0",
     "gulp-concat-json": "^1.0.0",
     "gulp-concat-json-to-array": "0.0.1",
-    "gulp-google-calendar-events": "^1.0.0",
+    "gulp-google-calendar-events": "^1.0.1",
     "gulp-jsbeautifier": "^3.0.1",
     "gulp-json-concat": "^0.1.1",
     "gulp-jsoncombine": "^1.0.4"
