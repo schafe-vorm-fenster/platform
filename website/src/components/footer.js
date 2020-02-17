@@ -1,5 +1,5 @@
 import React from 'react'
-import esfLogo from '../../assets/efre-esf-mv.jpg'
+import esfLogo from '../../assets/efre-esf-mv.png'
 import Logo from '../../assets/schafe-vorm-fenster_logo.inline.svg'
 
 function Footer (props) {
@@ -14,7 +14,7 @@ function Footer (props) {
         <span className="font-serif">Schafe vorm Fenster UG</span>
       </p>
 
-      <div id="partner" className="text-center mb-6">
+      <div id="partner" className="text-center mb-6 px-6">
         <figure className="text-center">
           <figcaption className="figure-caption text-center mb-3">gefördert von der Europäischen Union durch eine Strukturentwicklungsmaßnahme (SEM) des Europäischen Sozialfonds (ESF).</figcaption>
           <img src={esfLogo} className="inline-block" alt="ESF" />

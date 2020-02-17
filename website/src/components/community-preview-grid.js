@@ -3,7 +3,7 @@ import CommunityPreview from './community-preview'
 
 function CommunitytPreviewGrid (props) {
   return (
-    <div>
+    <div className="mb-6">
 
       <ul>
         {props.nodes &&
