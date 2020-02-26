@@ -33,7 +33,7 @@ export const query = graphql`
       }
     }
 
-    todayEvents: allSanityEvent(filter: { community: { _id: { eq: $_id } }, start: { gt: $todayOffset, lt: $todayLimit } }, limit: 50, sort: { fields: [start, allday], order: ASC }) {
+    todayEvents: allSanityEvent(filter: { community: { _id: { eq: $_id } }, calendar: { publication_status: { ne: "0" } }, start: { gt: $todayOffset, lt: $todayLimit } }, limit: 50, sort: { fields: [start, allday], order: ASC }) {
       edges {
         node {
           ...SanityEventPreview
@@ -41,7 +41,7 @@ export const query = graphql`
       }
     }
 
-    tomorrowEvents: allSanityEvent(filter: { community: { _id: { eq: $_id } }, start: { gt: $tomorrowOffset, lt: $tomorrowLimit } }, limit: 50, sort: { fields: [start, allday], order: ASC }) {
+    tomorrowEvents: allSanityEvent(filter: { community: { _id: { eq: $_id } }, calendar: { publication_status: { ne: "0" } }, start: { gt: $tomorrowOffset, lt: $tomorrowLimit } }, limit: 50, sort: { fields: [start, allday], order: ASC }) {
       edges {
         node {
           ...SanityEventPreview
@@ -49,7 +49,7 @@ export const query = graphql`
       }
     }
 
-    nextdaysEvents: allSanityEvent(filter: { community: { _id: { eq: $_id } }, start: { gt: $nextdaysOffset, lt: $nextdaysLimit} }, limit: 50, sort: { fields: [start, allday], order: ASC }) {
+    nextdaysEvents: allSanityEvent(filter: { community: { _id: { eq: $_id } }, calendar: { publication_status: { ne: "0" } }, start: { gt: $nextdaysOffset, lt: $nextdaysLimit} }, limit: 50, sort: { fields: [start, allday], order: ASC }) {
       edges {
         node {
           ...SanityEventPreview
@@ -61,6 +61,9 @@ export const query = graphql`
       calendar: {
         scope : {
           eq: "1"
+        },
+        publication_status: { 
+          ne: "0" 
         }
       },
       community: {
