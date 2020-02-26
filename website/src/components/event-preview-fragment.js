@@ -29,6 +29,7 @@ export const query = graphql`
       organizer {
         _id
         name
+        longname
       }
     }
   }

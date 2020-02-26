@@ -4,6 +4,7 @@ import React from 'react'
 import Moment from 'react-moment'
 import 'moment/locale/de';
 import 'moment-timezone'
+import {MdRecordVoiceOver, MdLocationOn} from 'react-icons/md'
 
 function EventPreview (props) {
   var timeString
@@ -35,7 +36,8 @@ function EventPreview (props) {
       <div className="w-5/6 pl-5">
         { timeString != null && <p className="time">{timeString}</p> }
         <h3 className="title">{props.name}</h3>
-        { props.place != null && props.place.community != null && <p className="location">{props.place.localname} in {props.place.community.name}</p> }
+        { props.place != null && props.place.community != null && <p className="location"><i className="icon"><MdLocationOn /></i>{props.place.localname} in {props.place.community.name}</p> }
+        { props.calendar != null && props.calendar.organizer != null && <p className="organizer" title={props.calendar.organizer.longname}><i className="icon"><MdRecordVoiceOver /></i>{props.calendar.organizer.name}</p> }
         { props.description != null && <div className="description" dangerouslySetInnerHTML={{__html: props.description}} /> }
       </div>
     </article>
