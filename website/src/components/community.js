@@ -16,7 +16,7 @@ function Community (props) {
     <header id={_id} className="w-full mb-4 font-sans">
       <div id="community-hero" className="w-full h-hero bg-gray-500 mb-6">
         {heroImg}
-        <Logo id="svf-logo" className="absolute top-0 left-0 m-3 w-1/6 max-w-20" />
+        <a href="/" title="zu weiteren Dörfern"><Logo id="svf-logo" className="absolute top-0 left-0 m-3 w-1/6 max-w-20" /></a>
         { publication_status==="1" && <div id="publication-status" className="publication-status publication-status-beta"><BetaBadge id="beta" className="absolute w-16 h-16 -mt-12 right-0 mx-3" /></div> }
       </div>
       { publication_status==="1" && <p id="community-publication-status" className="community-publication-status text-center">Diese Webseite ist eine Vorschau und kann durchaus noch falsche Daten enthalten.</p> }
