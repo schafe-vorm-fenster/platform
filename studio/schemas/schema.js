@@ -352,7 +352,20 @@ export default createSchema({
             ],
             layout: 'dropdown'
           }
+        },
+        {
+          title: "Publication status",
+          name: "publication_status",
+          type: "string", 
+          options: {
+            list: [
+              {title: 'Online', value: '1'},
+              {title: 'Offline', value: '0'}
+            ],
+            layout: 'dropdown'
+          }
         }
+
       ],
       initialValue: {
         scope: "0"
