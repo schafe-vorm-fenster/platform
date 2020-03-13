@@ -350,8 +350,10 @@ export default createSchema({
               {title: 'Surrounding', value: '2'},
               {title: 'Region', value: '3'}
             ],
-            layout: 'dropdown'
-          }
+            layout: 'radio',
+            direction: 'horizontal'
+          },
+          validation: Rule => Rule.required()
         },
         {
           title: "Publication status",
@@ -362,8 +364,26 @@ export default createSchema({
               {title: 'Online', value: '1'},
               {title: 'Offline', value: '0'}
             ],
-            layout: 'dropdown'
-          }
+            layout: 'radio',
+            direction: 'horizontal'
+          },
+          validation: Rule => Rule.required()
+        },
+        {
+          title: "Display mode",
+          name: "display_mode",
+          type: "string", 
+          options: {
+            list: [
+              {title: 'Default', value: '2'},
+              {title: 'Micro', value: '0'},
+              {title: 'Mini', value: '1'},
+              {title: 'Extended', value: '3'}
+            ],
+            layout: 'radio',
+            direction: 'horizontal'
+          },
+          validation: Rule => Rule.required()
         }
 
       ],
