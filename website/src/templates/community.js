@@ -8,6 +8,7 @@ import Community from '../components/community'
 import EventPreviewGrid from '../components/event-preview-grid'
 import MunicipalityEventPreviewGrid from '../components/municipality-event-preview-grid'
 import '../components/event-preview-fragment'
+import { Helmet } from 'react-helmet'
 
 export const query = graphql`
   query CommunityTemplateQuery($_id: String!, $municipalityId: String!, $todayOffset: Date!, $todayLimit: Date!, $tomorrowOffset: Date!, $tomorrowLimit: Date!, $nextdaysOffset: Date!, $nextdaysLimit: Date!) {
@@ -95,9 +96,16 @@ const CommunityTemplate = props => {
   const tomorrowEventNodes = data && data.tomorrowEvents && mapEdgesToNodes(data.tomorrowEvents)
   const nextdaysEventNodes = data && data.nextdaysEvents && mapEdgesToNodes(data.nextdaysEvents)
   const eventsInMunicipalityNodes = data && data.eventsInMunicipality && mapEdgesToNodes(data.eventsInMunicipality)
+  const desc = community.name + ', ' + community.municipality.name
+  const canonical = 'https://schafe-vorm-fenster.de/' + community.slug.current + '/'
 
   return (
     <Layout>
+        <Helmet defer={false}>
+          <title>{community.name}</title>
+          <meta name="description" content={desc} />
+          <link rel="canonical" href={canonical} />
+        </Helmet>
         {errors && (
           <Container>
             <GraphQLErrorList errors={errors} />

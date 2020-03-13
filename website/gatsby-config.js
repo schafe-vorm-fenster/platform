@@ -21,6 +21,19 @@ module.exports = {
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "Schafe vorm Fenster",
+        short_name: "SvF",
+        start_url: "/",
+        background_color: "#B4CF39",
+        theme_color: "#B4CF39",
+        display: "minimal-ui",
+        icon: "src/img/Schafe-vorm-Fenster-UG_Logo_green.png",
+        crossOrigin: `use-credentials`,
+      }
+    },
     'gatsby-plugin-postcss',
     { 
       resolve: `gatsby-plugin-purgecss`,
