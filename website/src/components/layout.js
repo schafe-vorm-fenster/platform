@@ -6,6 +6,7 @@ const Layout = ({ children }) => (
     <>
       <Helmet defer={false} defaultTitle='Schafe vorm Fenster'>
         <link rel="canonical" href='/' />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
       </Helmet>
       {children}
       <Footer />

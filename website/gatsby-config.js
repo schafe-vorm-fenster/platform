@@ -25,8 +25,8 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: "Schafe vorm Fenster",
-        short_name: "SvF",
-        start_url: "/",
+        short_name: "Schafe vorm Fenster",
+        start_url: "https://schafe-vorm-fenster.de/",
         background_color: "#B4CF39",
         theme_color: "#B4CF39",
         display: "minimal-ui",

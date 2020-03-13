@@ -103,6 +103,8 @@ const CommunityTemplate = props => {
     <Layout>
         <Helmet defer={false}>
           <title>{community.name}</title>
+          <meta name="apple-mobile-web-app-title" content={community.name} />
+          <meta name="application-name" content={community.name} />
           <meta name="description" content={desc} />
           <link rel="canonical" href={canonical} />
         </Helmet>
