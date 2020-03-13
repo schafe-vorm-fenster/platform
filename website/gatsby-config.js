@@ -30,7 +30,7 @@ module.exports = {
         background_color: "#B4CF39",
         theme_color: "#B4CF39",
         display: "minimal-ui",
-        icon: "src/img/Schafe-vorm-Fenster-UG_Logo_green.png",
+        icon: "src/img/Schafe-vorm-Fenster-UG_Logo_green_Avatar.png",
         crossOrigin: `use-credentials`,
       }
     },
