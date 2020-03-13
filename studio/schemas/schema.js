@@ -376,9 +376,9 @@ export default createSchema({
           options: {
             list: [
               {title: 'Default', value: '2'},
-              {title: 'Micro', value: '0'},
-              {title: 'Mini', value: '1'},
-              {title: 'Extended', value: '3'}
+              {title: 'Micro (no time)', value: '0'},
+              {title: 'Mini (recurring)', value: '1'},
+              {title: 'Extended (special events)', value: '3'}
             ],
             layout: 'radio',
             direction: 'horizontal'

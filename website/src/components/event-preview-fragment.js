@@ -9,6 +9,10 @@ export const query = graphql`
     allday
     description
     location
+    community {
+      _id
+      name
+    }
     place {
       _id
       name
@@ -26,6 +30,7 @@ export const query = graphql`
       _id
       name
       scope
+      display_mode
       organizer {
         _id
         name
