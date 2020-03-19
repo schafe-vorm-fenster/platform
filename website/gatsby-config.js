@@ -34,6 +34,7 @@ module.exports = {
         crossOrigin: `use-credentials`,
       }
     },
+    'gatsby-plugin-offline',
     'gatsby-plugin-postcss',
     { 
       resolve: `gatsby-plugin-purgecss`,
