@@ -51,6 +51,11 @@ export default createSchema({
           type: "string",
         },
         {
+          title: "Official Twitter User",
+          name: "twitter_user",
+          type: "string",
+        },
+        {
           title: "Google Place ID",
           name: "place_id",
           type: "string",
