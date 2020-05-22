@@ -197,24 +197,12 @@ footer {
 
 .react-tabs__tab {
   @apply mx-1 px-8 pt-2 pb-1;
-  bottom: -1px;
-  list-style: none;
-  cursor: pointer;
-  @apply relative inline-block;
-  @apply border border-b-0 rounded-t border-gray-300 bg-gray-300 text-gray-700;
+  @apply relative inline-block list-none;
+  @apply -bottom-1 border border-b-0 rounded-t border-gray-300 bg-gray-300 text-gray-700;
 }
 
 .react-tabs__tab--selected {
   @apply rounded-t border-gray-300 bg-white text-gray-900;
-}
-
-
-.react-tabs__tab-panel {
-  display: none;
-}
-
-.react-tabs__tab-panel--selected {
-  display: block;
 }
 
 

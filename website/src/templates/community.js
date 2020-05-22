@@ -188,11 +188,12 @@ const CommunityTemplate = props => {
 
         { community.municipality.twitter_user && 
           <Tabs>
-              <TabList>
-                <Tab>Aktuell</Tab>
-                <Tab>Nachrichten</Tab>
-                <Tab>Termine</Tab>
+              <TabList className="react-tabs__tab-list">
+                <Tab className="react-tabs__tab">Aktuell</Tab>
+                <Tab className="react-tabs__tab">Nachrichten</Tab>
+                <Tab className="react-tabs__tab">Termine</Tab>
               </TabList> 
+              <div className="react-tabs__tab--selected hidden" />
 
             <TabPanel>
               {homeEventsNodes && homeEventsNodes.length > 0 && <section id="today" className="eventblock">
