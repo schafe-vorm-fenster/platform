@@ -215,7 +215,6 @@ const CommunityTemplate = props => {
                     noHeader
                     noFooter
                     noBorders
-                    noScrollbar
                     lang="de"
                     options={{tweetLimit: 3}}
                   />
@@ -229,7 +228,6 @@ const CommunityTemplate = props => {
                   noHeader
                   noFooter
                   noBorders
-                  noScrollbar
                   lang="de"
                 />
             </TabPanel>
