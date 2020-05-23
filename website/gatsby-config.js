@@ -26,12 +26,20 @@ module.exports = {
       options: {
         name: "Schafe vorm Fenster",
         short_name: "Schafe vorm Fenster",
-        start_url: "https://schafe-vorm-fenster.de/",
+        start_url: "/",
         background_color: "#B4CF39",
         theme_color: "#B4CF39",
         display: "minimal-ui",
         icon: "src/img/Schafe-vorm-Fenster-UG_Logo_green_Avatar.png",
         crossOrigin: `use-credentials`,
+        localize: [
+          {
+            start_url: `/schlatkow/`,
+            lang: `de`,
+            name: `Schlatkow`,
+            short_name: `Schlatkow`,
+          },
+        ],
       }
     },
     'gatsby-plugin-offline',
