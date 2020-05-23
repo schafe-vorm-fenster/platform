@@ -13,8 +13,8 @@ function Community (props) {
     heroImg = <Placeholder className="object-fill w-full h-hero" />
   }
   return (
-    <header id={_id} className="w-full mb-4 font-sans">
-      <div id="community-hero" className="w-full h-hero bg-gray-500 mb-6">
+    <header id={_id} className="w-full mb-5 font-sans">
+      <div id="community-hero" className="w-full h-hero bg-gray-500 mb-5">
         {heroImg}
         <a href="/" title="zu weiteren Dörfern"><Logo id="svf-logo" className="absolute top-0 left-0 m-3 w-1/6 max-w-20" /></a>
         { publication_status==="1" && <div id="publication-status" className="publication-status publication-status-beta"><BetaBadge id="beta" className="absolute w-16 h-16 -mt-12 right-0 mx-3" /></div> }
