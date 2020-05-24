@@ -69,6 +69,13 @@ gulp.task('sanity:events:push', function() {
 			json.endDateTime = json.end.dateTime	
 			json.allday = false
 		}
+		if(!json.attachments) json.attachments = []
+		json.googleeventattachment = json.attachments.map((attachment) => {
+			attachment._key = attachment.fileId
+			attachment.fileExt = attachment.title.split('.').pop()
+			return attachment
+		})
+
 		const event = {
 			_id: json.id,
 			event_id: json.id,
@@ -79,7 +86,8 @@ gulp.task('sanity:events:push', function() {
 			start: json.startDateTime,
 			end: json.endDateTime,
 			allday: json.allday,
-			calendar_id: json.organizer.email
+			calendar_id: json.organizer.email,
+			googleeventattachment: json.googleeventattachment
 		}
 		return event
 	}))

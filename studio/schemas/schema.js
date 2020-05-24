@@ -6,6 +6,8 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 
 import { FiCalendar, FiMapPin, FiCrosshair, FiWatch, FiUser, FiMap } from 'react-icons/fi'
 
+import googleeventattachment from './googleeventattachment'
+
 
 
 // Then we give our schema to the builder and provide the result to Sanity
@@ -15,7 +17,7 @@ export default createSchema({
   // Then proceed to concatenate our document type
   // to the ones provided by any plugins that are installed
   types: schemaTypes.concat([
-
+    googleeventattachment,
     {
       title: "Municipality",
       name: "municipality",
@@ -461,9 +463,10 @@ export default createSchema({
           type: "string",
         },
         {
-          title: "Attachment",
-          name: "attachment",
-          type: "file",
+          title: "Google Event Attachment",
+          name: "googleeventattachment",
+          type: "array",
+          of: [{type: 'googleeventattachment'}]
         },
         {
           title: 'Place',
