@@ -9,6 +9,15 @@ export const query = graphql`
     allday
     description
     location
+    googleeventattachment {
+      _key
+      title
+      fileUrl
+      fileExt
+      fileId
+      iconLink
+      mimeType
+    }
     community {
       _id
       name

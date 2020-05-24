@@ -5,9 +5,12 @@ import Moment from 'react-moment'
 import 'moment/locale/de';
 import 'moment-timezone'
 import {MdRecordVoiceOver, MdLocationOn} from 'react-icons/md'
+import FilePreview from './file-preview'
 
 function EventPreview (props) {
   var timeString
+
+
   var eventType = 'default'
   if(props.allday){
     eventType = 'allday'
@@ -39,8 +42,13 @@ function EventPreview (props) {
         { props.calendar != null && parseInt(props.calendar.display_mode) > 0 && props.place != null && props.place.community != null && <p className="location"><i className="icon"><MdLocationOn /></i>{props.place.localname} in {props.place.community.name}</p> }
         { props.calendar != null && parseInt(props.calendar.display_mode) > 0 && props.place === null && props.community != null && <p className="location"><i className="icon"><MdLocationOn /></i>in {props.community.name}</p> }
         { props.calendar != null && props.calendar.organizer != null && <p className="organizer" title={props.calendar.organizer.longname}><i className="icon"><MdRecordVoiceOver /></i>{props.calendar.organizer.name}</p> }
-        
+        {props.googleeventattachment.map((attachment) => (
+          <FilePreview file={attachment} type="image" />
+        ))}
         { props.calendar != null && parseInt(props.calendar.display_mode) >= 2 && props.description != null && <div className="description" dangerouslySetInnerHTML={{__html: props.description}} /> }
+        {props.googleeventattachment.map((attachment) => (
+          <FilePreview file={attachment} type="download" />
+        ))}
 
       </div>
     </article>
