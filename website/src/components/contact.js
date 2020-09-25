@@ -1,14 +1,27 @@
-import React from 'react'
-import fotoChristian from '../../assets/christian.jpg'
-import fotoJan from '../../assets/jan.jpg'
+import React from 'react';
+import { useBreakpoints, useComponentSize } from "react-use-size";
+import fotoChristian from '../../assets/christian.jpg';
+import fotoJan from '../../assets/jan.jpg';
 
 function Contact (props) {
-  return (
-      <div id="contact" className="text-center mb-6">
-          <p className="mb-6">Kontaktiere uns gerne direkt. Wir beißen nicht.</p>
 
-          <div className="contactperson">
-            <img src={fotoChristian} className="avatar" />
+  const { ref, height, width } = useComponentSize();
+  const [s, m, l] = [500, 600, 700].map(breakpoint => width >= breakpoint);
+  
+  function getClassName(arr){
+      let index = 0;
+      if(l && arr[2]) return arr[2];
+      if(m && arr[1]) return arr[1];
+      if(l && arr[0]) return arr[0];
+      return arr[0];
+  }
+
+  return (
+    <div id="contact" ref={ref}>
+      <p className="mb-6 text-center">Kontaktiere uns gerne direkt. Wir beißen nicht.</p>
+      <div  className="text-center mb-6 grid grid-cols-2 gap-5">
+          <div className={ 'contactperson ' + getClassName(['col-span-2','col-span-1'])}>
+            <img src={fotoChristian} className="avatar mb-3" />
             <h4 className="name">Christian Sauer</h4>
             <p className="role">Projektkoordinator</p>
             <p>
@@ -17,9 +30,8 @@ function Contact (props) {
               <a href="tel:++4915678689704‬">+49 156 78689704‬</a>
             </p>
           </div>
-
-          <div className="contactperson">
-            <img src={fotoJan} className="avatar" />
+          <div className={ 'contactperson ' + getClassName(['col-span-2','col-span-1'])}>
+            <img src={fotoJan} className="avatar mb-3" />
             <h4 className="name">Jan-Henrik Hempel</h4>
             <p className="role">Technischer Leiter</p>
             <p>
@@ -29,7 +41,10 @@ function Contact (props) {
             </p>
           </div>
       </div>
+    </div>
   )
 }
 
 export default Contact
+
+
