@@ -12,7 +12,6 @@ html {
 }
 
 body {
-  @apply max-w-md;
   margin: 0 auto;
   @apply bg-white;
   @apply font-sans;
@@ -182,11 +181,9 @@ footer {
 
 .contactperson {
   @apply text-center;
-  @apply mb-6;
 
   img.avatar {
     @apply inline-block;
-    @apply mb-3;
     width: 50%;
     border-radius: 100%;
     max-width: 40vw;
