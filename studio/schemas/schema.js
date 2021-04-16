@@ -384,6 +384,7 @@ export default createSchema({
             list: [
               {title: 'Micro (no time)', value: '0'},
               {title: 'Mini (recurring)', value: '1'},
+              {title: 'One Line (all events per day in one line)', value: '4'},
               {title: 'Default', value: '2'},
               {title: 'Extended (special events)', value: '3'}
             ],
