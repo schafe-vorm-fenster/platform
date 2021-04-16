@@ -3,9 +3,6 @@
   "name": "schafevormfenster-platform",
   "version": "1.0.0",
   "author": "Jan-Henrik Hempel <jan@schafe-vorm-fenster.de>",
-  "engines": {
-    "node": "10.x"
-  },
   "repository": "git@github.com:schafe-vorm-fenster/platform.git",
   "workspaces": [
     "gulp",

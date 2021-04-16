@@ -3,9 +3,6 @@
   "name": "schafevormfenster-website",
   "version": "1.0.0",
   "author": "Jan-Henrik Hempel <jan@schafe-vorm-fenster.de>",
-  "engines": {
-    "node": "10.x"
-  },
   "scripts": {
     "build": "gatsby build",
     "deploy": "gatsby build",

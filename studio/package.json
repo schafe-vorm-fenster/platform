@@ -6,16 +6,13 @@
   "main": "package.json",
   "author": "Jan-Henrik Hempel <jan@schafe-vorm-fenster.de>",
   "license": "MIT",
-  "engines": {
-    "node": "10.x"
-  },
   "scripts": {
     "deploy": "yarn graphql-deploy && yarn sanity-deploy",
     "format": "prettier-eslint --write \"**/*.js\" \"!node_modules/**\"",
     "graphql-deploy": "sanity graphql deploy --playground",
     "sanity-deploy": "sanity deploy",
     "lint": "eslint .",
-    "start": "sanity start",
+    "start": "sanity login && sanity start",
     "develop": "sanity start",
     "build": "sanity build",
     "now-build": "yarn build",
