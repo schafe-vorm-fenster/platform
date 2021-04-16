@@ -149,6 +149,15 @@ article.event {
     @apply mb-1 mr-3;
 }
 
+.shortdate {
+   @apply text-gray-600;
+   @apply whitespace-no-wrap;
+}
+
+.smalltitle {
+    @apply mb-1 mr-3;
+}
+
 .title {
     @apply text-lg;
     @apply mb-1;
