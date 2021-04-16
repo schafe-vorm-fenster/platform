@@ -494,6 +494,13 @@ export default createSchema({
           description: 'To which calendar does the event belong to?'
         },
         {
+          title: "Categories",
+          name: "categories",
+          type: "array",
+          of: [{type: 'string'}],
+          validation: Rule => Rule.unique()
+        },
+        {
           title: "Google Event ID",
           name: "event_id",
           type: "string",
