@@ -44,7 +44,8 @@ module.exports = function(jsonpath,itemname) {
       // defaults filename to input file plus iterator
       var filename = file.stem + '_' + i + file.extname
       // set file name to given id attribute
-      if(itemname) filename = slugify(item[itemname], { lower: true }) + file.extname
+      const slugBase = (typeof item[itemname] === "string") ? item[itemname] : item[itemname].toString()
+      if(itemname) filename = slugify(slugBase, { lower: true }) + file.extname
       var opts = {
         path: path.resolve(file.dirname, filename)
       }
