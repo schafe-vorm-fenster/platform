@@ -21,7 +21,7 @@ function Community (props) {
       </div>
       { publication_status==="1" && <p id="community-publication-status" className="community-publication-status text-center">Diese Webseite ist eine Vorschau und kann durchaus noch falsche Daten enthalten.</p> }
       <h1 className="text-5xl leading-tight text-center mt-0 pt-0">{name}</h1>
-      { municipality.name != null && <p id="community-municipality" className="text-center">{municipality.name}</p> }
+      { municipality.name != null && <p id="community-municipality" className="text-center">Gemeinde {municipality.name}</p> }
     </header>
   )
 }

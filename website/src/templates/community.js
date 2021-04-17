@@ -143,7 +143,7 @@ const CommunityTemplate = props => {
   const eventsInMunicipalityNodes = data && data.eventsInMunicipality && mapEdgesToNodes(data.eventsInMunicipality)
   const homeEventsInMunicipalityNodes = data && data.homeEventsInMunicipality && mapEdgesToNodes(data.homeEventsInMunicipality)
   const homeEventsNodes = data && data.homeEvents && mapEdgesToNodes(data.homeEvents)
-  const desc = community.name + ', ' + community.municipality.name
+  const desc = community.name + ', Gemeinde ' + community.municipality.name
   const canonical = 'https://schafe-vorm-fenster.de/' + community.slug.current + '/'
 
   return (
