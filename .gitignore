@@ -13,3 +13,5 @@ yarn-error.log
 # Ignore hidden files as default
 .*
 !.gitignore
+
+env.sh

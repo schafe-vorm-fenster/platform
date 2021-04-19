@@ -9,8 +9,17 @@ var jeditor = require("gulp-json-editor");
 var del = require("del");
 var split = require("../plugins/gulp-split-array");
 const patchtosanity = require("../plugins/gulp-patch-to-sanity");
+const geonameschildren = require("../plugins/gulp-geonames-children");
 const sanityClient = require("@sanity/client");
 const slugify = require("slugify");
+const beautify = require("gulp-jsbeautifier");
+
+const geonames_credentials = {
+  username: process.env.GEONAMES_USERNAME
+    ? process.env.GEONAMES_USERNAME
+    : "schafevormfenster",
+  lan: "de",
+};
 
 const sanity_credentials = {
   projectId: process.env.SANITY_PROJECTID,
@@ -27,6 +36,15 @@ const client = sanityClient({
 
 gulp.task("geonames:municipalities:clean", function () {
   return del("_json/geonames/municipalities/*");
+});
+
+gulp.task("geonames:municipalities:get", function () {
+  return gulp
+    .src("data/municipalities/*.json")
+    .pipe(geonameschildren(geonames_credentials))
+    .pipe(split("geonames", "geonameId", "name"))
+    .pipe(beautify({ indent_size: 2 }))
+    .pipe(gulp.dest("_json/geonames/municipalities/"));
 });
 
 gulp.task("geonames:municipalities:push", function () {

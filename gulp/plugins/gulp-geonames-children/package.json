@@ -1,0 +1,22 @@
+{
+  "name": "gulp-geonames-children",
+  "description": "Gulp plugin to fetch children of a location from geonames.org.",
+  "keywords": [
+    "buffer",
+    "stream",
+    "json",
+    "geonames",
+    "gulp"
+  ],
+  "bundleDependencies": false,
+  "author": {
+    "name": "Jan-Henrik Hempel"
+  },
+  "bugs": {
+    "url": "https://github.com/schafe-vorm-fenster/platform"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "version": "1.0.0",
+  "deprecated": false
+}
