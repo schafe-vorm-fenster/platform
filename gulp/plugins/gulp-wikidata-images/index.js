@@ -47,11 +47,14 @@ module.exports = function (credentials) {
         redirections: false, // defaults to true
       });
 
+      console.log(jsonobj.geonameId + " / " + jsonobj.name);
+      if (jsonobj.geonameId === 2892628) console.log(jsonobj);
+
       try {
         fetch(url)
           .then((res) => res.json())
-          .then((body) => {
-            const p18items = body.entities[jsonobj.wikidataId].claims.P18;
+          .then((json) => {
+            const p18items = json?.entities[jsonobj.wikidataId]?.claims?.P18;
             if (p18items?.length > 0) {
               jsonobj.wikimediaCommonsImages = p18items.map((image) => {
                 const imageName = image.mainsnak?.datavalue?.value.replace(

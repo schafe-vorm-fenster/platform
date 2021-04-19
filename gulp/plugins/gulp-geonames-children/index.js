@@ -59,17 +59,19 @@ module.exports = function (credentials) {
           geonameId: jsonobj.geonameId,
         })
         .then((response) => {
+          if (response?.status?.value === 19) {
+            return cb(new PluginError(PLUGIN_NAME, response?.status?.message));
+          }
           let result = null;
           result = response;
 
-          if (result) {
+          if (result?.geonames?.length > 0) {
             for (let i = 0; i < result.geonames.length; i++) {
               result.geonames[i].parent = jsonobj;
             }
           }
 
           const filename = file.stem + file.extname;
-          console.log(file.dirname);
           file.dirname = ".";
           var opts = {
             path: path.resolve(file.dirname, filename),
