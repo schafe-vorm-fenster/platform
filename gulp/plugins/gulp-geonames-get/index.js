@@ -1,6 +1,6 @@
 "use strict";
 
-const PLUGIN_NAME = "gulp-geonames-children";
+const PLUGIN_NAME = "gulp-geonames-get";
 const PluginError = require("plugin-error");
 const log = require("fancy-log");
 const through = require("through2");
@@ -55,19 +55,10 @@ module.exports = function (credentials) {
      */
     try {
       geonames
-        .children({
+        .get({
           geonameId: jsonobj.geonameId,
         })
         .then((response) => {
-          let result = null;
-          result = response;
-
-          if (result) {
-            for (let i = 0; i < result.geonames.length; i++) {
-              result.geonames[i].parent = jsonobj;
-            }
-          }
-
           const filename = file.stem + file.extname;
           console.log(file.dirname);
           file.dirname = ".";
@@ -76,7 +67,7 @@ module.exports = function (credentials) {
           };
           var newfile = new vinyl(opts);
           // stream out the event as json file
-          newfile.contents = new Buffer.from(JSON.stringify(result));
+          newfile.contents = new Buffer.from(JSON.stringify(response));
           this.push(newfile);
           return cb(null);
         });
