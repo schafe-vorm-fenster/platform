@@ -10,6 +10,8 @@ var del = require("del");
 var split = require("../plugins/gulp-split-array");
 const patchtosanity = require("../plugins/gulp-patch-to-sanity");
 const geonameschildren = require("../plugins/gulp-geonames-children");
+const geonamesget = require("../plugins/gulp-geonames-get");
+const geonamespostalcode = require("../plugins/gulp-geonames-postalcode");
 const sanityClient = require("@sanity/client");
 const slugify = require("slugify");
 const beautify = require("gulp-jsbeautifier");
@@ -43,20 +45,15 @@ gulp.task("geonames:municipalities:get", function () {
     .src("data/municipalities/*.json")
     .pipe(geonameschildren(geonames_credentials))
     .pipe(split("geonames", "geonameId", "name"))
+    .pipe(geonamesget(geonames_credentials))
+    .pipe(geonamespostalcode(geonames_credentials))
     .pipe(beautify({ indent_size: 2 }))
     .pipe(gulp.dest("_json/geonames/municipalities/"));
 });
 
 gulp.task("geonames:municipalities:push", function () {
   return gulp
-    .src("data/geonames/ADM3-8648415.json")
-    .pipe(
-      jeditor(function (json) {
-        const municipalities = json.region.municipalities.geonames;
-        return { municipalities: municipalities };
-      })
-    )
-    .pipe(split("municipalities", "geonameId"))
+    .src("_json/geonames/municipalities/*.json")
     .pipe(
       jeditor(function (json) {
         const municipality = {
@@ -65,7 +62,9 @@ gulp.task("geonames:municipalities:push", function () {
           name: json.name,
           slug: {
             _type: "slug",
-            current: slugify(json.name, { lower: true }),
+            current: json.asciiName
+              ? slugify(json.asciiName, { lower: true })
+              : slugify(json.name, { lower: true }),
           },
         };
         return municipality;

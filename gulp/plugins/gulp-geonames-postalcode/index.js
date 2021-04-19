@@ -1,6 +1,6 @@
 "use strict";
 
-const PLUGIN_NAME = "gulp-geonames-get";
+const PLUGIN_NAME = "gulp-geonames-postalcode";
 const PluginError = require("plugin-error");
 const log = require("fancy-log");
 const through = require("through2");
@@ -51,22 +51,48 @@ module.exports = function (credentials) {
     }
 
     /**
-     * query for geonames children in two levels
+     * search for the postal code of a location and add it to the data
      */
     try {
       geonames
-        .get({
-          geonameId: jsonobj.geonameId,
+        .postalCodeSearch({
+          country: jsonobj.countryCode,
+          adminCode1: jsonobj.adminCodes1.ISO3166_2,
+          placename: jsonobj.name,
         })
         .then((response) => {
-          const filename = file.stem + file.extname;
+          if (!jsonobj.postalCode || jsonobj?.postalCode === "") {
+            // only search for postalCode, it is not already set
+            let postalCode = "";
+            if (response?.postalCodes?.length === 1) {
+              postalCode = response.postalCodes[0]?.postalCode
+                ? response.postalCodes[0]?.postalCode
+                : "";
+            }
+            if (response?.postalCodes?.length > 1) {
+              const postalCodes = response.postalCodes.filter(
+                (postalCodeItem) => {
+                  if (
+                    postalCodeItem.adminCode3 === jsonobj.adminCode3 &&
+                    postalCodeItem.placeName === jsonobj.name
+                  )
+                    return postalCodeItem;
+                }
+              );
+              postalCode = postalCodes[0]?.postalCode
+                ? postalCodes[0]?.postalCode
+                : "";
+            }
+            jsonobj.postalCode = postalCode;
+          }
           file.dirname = ".";
+          const filename = file.stem + file.extname;
           var opts = {
             path: path.resolve(file.dirname, filename),
           };
           var newfile = new vinyl(opts);
           // stream out the event as json file
-          newfile.contents = new Buffer.from(JSON.stringify(response));
+          newfile.contents = new Buffer.from(JSON.stringify(jsonobj));
           this.push(newfile);
           return cb(null);
         });

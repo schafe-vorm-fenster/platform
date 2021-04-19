@@ -67,7 +67,9 @@ gulp.task("geonames:communities:push", function () {
           name: json.name,
           slug: {
             _type: "slug",
-            current: slugify(json.name, { lower: true }),
+            current: json.asciiName
+              ? slugify(json.asciiName, { lower: true })
+              : slugify(json.name, { lower: true }),
           },
         };
         return community;
