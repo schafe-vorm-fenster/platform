@@ -30,6 +30,7 @@ export const query = graphql`
           }
         }
       }
+      wikimedia_commons_imagelinks
       municipality {
         _id
         name
