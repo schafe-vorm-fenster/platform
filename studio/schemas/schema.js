@@ -124,6 +124,13 @@ export default createSchema({
           }
         },
         {
+          title: "Wikimedia Commons Images",
+          name: "wikimedia_commons_imagelinks",
+          type: "array",
+          of: [{type: 'string'}],
+          validation: Rule => Rule.unique()
+        },
+        {
           title: 'Municipality',
           name: 'municipality',
           type: 'reference',
