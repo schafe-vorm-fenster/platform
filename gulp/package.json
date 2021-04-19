@@ -16,6 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "@sanity/client": "^0.146.0",
+    "commons-photo-url": "^1.0.0",
     "del": "^4.1.0",
     "fs": "0.0.1-security",
     "geonames.js": "^3.0.3",
@@ -34,6 +35,7 @@
     "gulp-rename": "^1.4.0",
     "gulp-streamify": "^1.0.2",
     "gulp-uglify": "^3.0.2",
+    "node-fetch": "^2.6.1",
     "node-stream": "^1.7.0",
     "request": "^2.88.0",
     "require-dir": "^1.2.0",
@@ -43,6 +45,7 @@
     "through": "^2.3.8",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0",
+    "wikidata-sdk": "^7.11.1",
     "wrench": "^1.5.9"
   },
   "devDependencies": {

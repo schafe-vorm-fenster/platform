@@ -10,7 +10,7 @@ const path = require("path");
 const slugify = require("slugify");
 const sanityClient = require("@sanity/client");
 
-module.exports = function (credentials) {
+module.exports = function (credentials, mode = "patch") {
   function push(file, enc, cb) {
     if (!credentials) {
       return cb(new PluginError(PLUGIN_NAME, "Missing credentials."));
@@ -70,17 +70,29 @@ module.exports = function (credentials) {
           console.error(`Document ${jsonobj._id} already exists`, err.message);
         }
       });
-
-    client
-      .patch(jsonobj._id) // Document ID to patch
-      .set(jsonobj) // Shallow merge
-      .commit() // Perform the patch and return a promise
-      .then((res) => {
-        console.log(`Document with id ${res._id} updated`);
-      })
-      .catch((updateError) => {
-        console.error("Oh no, the update failed: ", updateError.message);
-      });
+    if (mode === "overwrite") {
+      client
+        .patch(jsonobj._id) // Document ID to patch
+        .set(jsonobj) // Shallow merge
+        .commit() // Perform the patch and return a promise
+        .then((res) => {
+          console.log(`Document with id ${res._id} updated`);
+        })
+        .catch((updateError) => {
+          console.error("Oh no, the update failed: ", updateError.message);
+        });
+    } else {
+      client
+        .patch(jsonobj._id) // Document ID to patch
+        .setIfMissing(jsonobj) // Shallow merge
+        .commit() // Perform the patch and return a promise
+        .then((res) => {
+          console.log(`Document with id ${res._id} updated`);
+        })
+        .catch((updateError) => {
+          console.error("Oh no, the update failed: ", updateError.message);
+        });
+    }
 
     const filename = file.stem + file.extname;
     var opts = {

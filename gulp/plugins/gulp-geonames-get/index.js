@@ -59,6 +59,18 @@ module.exports = function (credentials) {
           geonameId: jsonobj.geonameId,
         })
         .then((response) => {
+          let geonamesItem = response;
+          if (jsonobj?.parent) geonamesItem.parent = jsonobj.parent;
+          if (geonamesItem.alternateNames?.length > 0) {
+            const filteredAlternateIds = geonamesItem.alternateNames.filter((item) => {
+              if (item.lang === "wkdt") return item;
+            });
+            const wikidataId =
+              filteredAlternateIds?.length > 0
+                ? filteredAlternateIds[0].name
+                : null;
+            if (wikidataId) geonamesItem.wikidataId = wikidataId;
+          }
           const filename = file.stem + file.extname;
           file.dirname = ".";
           var opts = {
@@ -66,7 +78,7 @@ module.exports = function (credentials) {
           };
           var newfile = new vinyl(opts);
           // stream out the event as json file
-          newfile.contents = new Buffer.from(JSON.stringify(response));
+          newfile.contents = new Buffer.from(JSON.stringify(geonamesItem));
           this.push(newfile);
           return cb(null);
         });

@@ -57,7 +57,7 @@ gulp.task("geonames:municipalities:push", function () {
     .pipe(
       jeditor(function (json) {
         const municipality = {
-          _id: "geoname." + json.geonameId,
+          _id: "geonames." + json.geonameId,
           _type: "municipality",
           name: json.name,
           slug: {
