@@ -110,5 +110,9 @@
     },
     "postalCode": "17429"
   },
-  "wikidataId": "Q15785379"
+  "wikidataId": "Q15785379",
+  "wikimediaCommonsImages": [{
+    "link": "https://commons.wikimedia.org/wiki/File:Golfpark_Balmer_See.JPG",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Golfpark_Balmer_See.JPG/800px-Golfpark_Balmer_See.JPG"
+  }]
 }

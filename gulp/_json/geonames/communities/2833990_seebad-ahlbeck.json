@@ -129,5 +129,9 @@
     },
     "postalCode": "17424"
   },
-  "wikidataId": "Q149899"
+  "wikidataId": "Q149899",
+  "wikimediaCommonsImages": [{
+    "link": "https://commons.wikimedia.org/wiki/File:Seebruecke_Ahlbeck_2.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Seebruecke_Ahlbeck_2.jpg/800px-Seebruecke_Ahlbeck_2.jpg"
+  }]
 }

@@ -111,5 +111,9 @@
     },
     "postalCode": "17398"
   },
-  "wikidataId": "Q685341"
+  "wikidataId": "Q685341",
+  "wikimediaCommonsImages": [{
+    "link": "https://commons.wikimedia.org/wiki/File:Löwitz-Kirche-0701p-098.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/L%C3%B6witz-Kirche-0701p-098.jpg/800px-L%C3%B6witz-Kirche-0701p-098.jpg"
+  }]
 }

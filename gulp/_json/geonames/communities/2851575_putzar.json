@@ -107,5 +107,9 @@
     },
     "postalCode": "17392"
   },
-  "wikidataId": "Q689682"
+  "wikidataId": "Q689682",
+  "wikimediaCommonsImages": [{
+    "link": "https://commons.wikimedia.org/wiki/File:Putzar_Kirche_Südost_2.JPG",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Putzar_Kirche_S%C3%BCdost_2.JPG/800px-Putzar_Kirche_S%C3%BCdost_2.JPG"
+  }]
 }

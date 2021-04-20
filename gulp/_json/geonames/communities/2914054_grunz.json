@@ -110,5 +110,9 @@
     },
     "postalCode": "17328"
   },
-  "wikidataId": "Q1552399"
+  "wikidataId": "Q1552399",
+  "wikimediaCommonsImages": [{
+    "link": "https://commons.wikimedia.org/wiki/File:Gruenz_07_17_27_jiw.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gruenz_07_17_27_jiw.jpg/800px-Gruenz_07_17_27_jiw.jpg"
+  }]
 }

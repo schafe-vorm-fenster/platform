@@ -109,5 +109,9 @@
     },
     "postalCode": ""
   },
-  "wikidataId": "Q1325575"
+  "wikidataId": "Q1325575",
+  "wikimediaCommonsImages": [{
+    "link": "https://commons.wikimedia.org/wiki/File:Strandbad-Eldena_Greifswald-Eldena_Juni-2008_SL271305.JPG",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Strandbad-Eldena_Greifswald-Eldena_Juni-2008_SL271305.JPG/800px-Strandbad-Eldena_Greifswald-Eldena_Juni-2008_SL271305.JPG"
+  }]
 }

@@ -130,5 +130,9 @@
     },
     "postalCode": "17424"
   },
-  "wikidataId": "Q313975"
+  "wikidataId": "Q313975",
+  "wikimediaCommonsImages": [{
+    "link": "https://commons.wikimedia.org/wiki/File:2014_Bansin_01.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2014_Bansin_01.jpg/800px-2014_Bansin_01.jpg"
+  }]
 }

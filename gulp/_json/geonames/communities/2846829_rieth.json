@@ -107,5 +107,9 @@
     },
     "postalCode": "17375"
   },
-  "wikidataId": "Q2152591"
+  "wikidataId": "Q2152591",
+  "wikimediaCommonsImages": [{
+    "link": "https://commons.wikimedia.org/wiki/File:Rieth_aus_der_Luft.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Rieth_aus_der_Luft.jpg/800px-Rieth_aus_der_Luft.jpg"
+  }]
 }

@@ -110,5 +110,9 @@
     },
     "postalCode": "17129"
   },
-  "wikidataId": "Q1734614"
+  "wikidataId": "Q1734614",
+  "wikimediaCommonsImages": [{
+    "link": "https://commons.wikimedia.org/wiki/File:Kartlow_DM_Kirche_02.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Kartlow_DM_Kirche_02.jpg/800px-Kartlow_DM_Kirche_02.jpg"
+  }]
 }

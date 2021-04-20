@@ -109,5 +109,9 @@
     },
     "postalCode": "17398"
   },
-  "wikidataId": "Q668158"
+  "wikidataId": "Q668158",
+  "wikimediaCommonsImages": [{
+    "link": "https://commons.wikimedia.org/wiki/File:Neuendorf_A_Kirche_Ost.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Neuendorf_A_Kirche_Ost.jpg/800px-Neuendorf_A_Kirche_Ost.jpg"
+  }]
 }

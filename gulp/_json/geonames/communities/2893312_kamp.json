@@ -107,5 +107,9 @@
     },
     "postalCode": "17398"
   },
-  "wikidataId": "Q25158513"
+  "wikidataId": "Q25158513",
+  "wikimediaCommonsImages": [{
+    "link": "https://commons.wikimedia.org/wiki/File:Kamp_(Bugewitz)_-_OE_W.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Kamp_(Bugewitz)_-_OE_W.jpg/800px-Kamp_(Bugewitz)_-_OE_W.jpg"
+  }]
 }

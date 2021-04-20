@@ -107,5 +107,9 @@
     },
     "postalCode": "17398"
   },
-  "wikidataId": "Q24256697"
+  "wikidataId": "Q24256697",
+  "wikimediaCommonsImages": [{
+    "link": "https://commons.wikimedia.org/wiki/File:Busow_-_OE_S.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Busow_-_OE_S.jpg/800px-Busow_-_OE_S.jpg"
+  }]
 }

@@ -146,5 +146,9 @@
     },
     "postalCode": "17440"
   },
-  "wikidataId": "Q651201"
+  "wikidataId": "Q651201",
+  "wikimediaCommonsImages": [{
+    "link": "https://commons.wikimedia.org/wiki/File:Lassan_Pulow_Pulower_See_02.JPG",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Lassan_Pulow_Pulower_See_02.JPG/800px-Lassan_Pulow_Pulower_See_02.JPG"
+  }]
 }

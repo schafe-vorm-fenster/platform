@@ -107,5 +107,9 @@
     },
     "postalCode": ""
   },
-  "wikidataId": "Q1799888"
+  "wikidataId": "Q1799888",
+  "wikimediaCommonsImages": [{
+    "link": "https://commons.wikimedia.org/wiki/File:Ladebow_Flugplatzsiedlung.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Ladebow_Flugplatzsiedlung.jpg/800px-Ladebow_Flugplatzsiedlung.jpg"
+  }]
 }

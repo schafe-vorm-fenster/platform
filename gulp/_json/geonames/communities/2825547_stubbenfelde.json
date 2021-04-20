@@ -107,5 +107,9 @@
     },
     "postalCode": "17459"
   },
-  "wikidataId": "Q15849488"
+  "wikidataId": "Q15849488",
+  "wikimediaCommonsImages": [{
+    "link": "https://commons.wikimedia.org/wiki/File:Strandzugang_Stubbenfelde.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Strandzugang_Stubbenfelde.jpg/800px-Strandzugang_Stubbenfelde.jpg"
+  }]
 }

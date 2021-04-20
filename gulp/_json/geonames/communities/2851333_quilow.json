@@ -107,5 +107,9 @@
     },
     "postalCode": "17390"
   },
-  "wikidataId": "Q2123151"
+  "wikidataId": "Q2123151",
+  "wikimediaCommonsImages": [{
+    "link": "https://commons.wikimedia.org/wiki/File:Quilow-0701p-075.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Quilow-0701p-075.jpg/800px-Quilow-0701p-075.jpg"
+  }]
 }

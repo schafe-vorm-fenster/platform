@@ -107,5 +107,9 @@
     },
     "postalCode": "17390"
   },
-  "wikidataId": "Q33512207"
+  "wikidataId": "Q33512207",
+  "wikimediaCommonsImages": [{
+    "link": "https://commons.wikimedia.org/wiki/File:Vitense.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Vitense.jpg/800px-Vitense.jpg"
+  }]
 }

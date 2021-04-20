@@ -112,5 +112,9 @@
     },
     "postalCode": "17438"
   },
-  "wikidataId": "Q698629"
+  "wikidataId": "Q698629",
+  "wikimediaCommonsImages": [{
+    "link": "https://commons.wikimedia.org/wiki/File:Buddenhagen_Freiwillige_Feuerwehr.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Buddenhagen_Freiwillige_Feuerwehr.jpg/800px-Buddenhagen_Freiwillige_Feuerwehr.jpg"
+  }]
 }

@@ -109,5 +109,9 @@
     },
     "postalCode": "17390"
   },
-  "wikidataId": "Q15923993"
+  "wikidataId": "Q15923993",
+  "wikimediaCommonsImages": [{
+    "link": "https://commons.wikimedia.org/wiki/File:Melkerschule_Schlatkow.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Melkerschule_Schlatkow.jpg/800px-Melkerschule_Schlatkow.jpg"
+  }]
 }
