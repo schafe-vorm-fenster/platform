@@ -36,22 +36,27 @@ module.exports = function (credentials) {
      * query for geonames children in two levels
      */
     if (jsonobj.wikidataId) {
-      const wbk = WBK({
-        instance: "https://www.wikidata.org",
-        sparqlEndpoint: "https://query.wikidata.org/sparql",
-      });
-
-      const url = wbk.getEntities({
-        ids: [jsonobj.wikidataId],
-        languages: ["de"], // returns all languages if not specified
-        redirections: false, // defaults to true
-      });
-
-      console.log(jsonobj.geonameId + " / " + jsonobj.name);
-      if (jsonobj.geonameId === 2892628) console.log(jsonobj);
-
       try {
-        fetch(url)
+        const wbk = WBK({
+          instance: "https://www.wikidata.org",
+          sparqlEndpoint: "https://query.wikidata.org/sparql",
+        });
+
+        const url = wbk.getEntities({
+          ids: [jsonobj.wikidataId],
+          languages: ["de"], // returns all languages if not specified
+          redirections: false, // defaults to true
+        });
+
+        console.debug("fetch " + jsonobj.wikidataId + ' from commons.wikimedia.org');
+
+        fetch(url, {
+          method: "get",
+          headers: {
+            "User-Agent":
+              "Schafe vorm Fenster (https://www.schafe-vorm-fenster.org; jan@schafe-vorm-fenster.de) geodata enrichment",
+          },
+        })
           .then((res) => res.json())
           .then((json) => {
             const p18items = json?.entities[jsonobj.wikidataId]?.claims?.P18;
@@ -80,6 +85,10 @@ module.exports = function (credentials) {
             newfile.contents = new Buffer.from(JSON.stringify(jsonobj));
             this.push(newfile);
             return cb(null);
+          })
+
+          .catch((err) => {
+            console.error(err);
           });
       } catch (err) {
         console.error(err);

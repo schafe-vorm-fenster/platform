@@ -31,6 +31,13 @@ gulp.task("geonames:communities:get", function () {
     .pipe(geonameschildren(geonames_credentials))
     .pipe(split("geonames", "geonameId", "name"))
     .pipe(geonamesget(geonames_credentials))
+    .pipe(beautify({ indent_size: 2 }))
+    .pipe(gulp.dest("_json/geonames/communities/"));
+});
+
+gulp.task("geonames:communities:enrich", function () {
+  return gulp
+    .src("_json/geonames/communities/*.json")
     .pipe(wikidataimages())
     .pipe(beautify({ indent_size: 2 }))
     .pipe(gulp.dest("_json/geonames/communities/"));
@@ -40,6 +47,7 @@ gulp.task(
   "geonames:communities",
   gulp.series([
     "geonames:communities:clean",
-    gulp.parallel(["geonames:communities:get"]),
+    "geonames:communities:get",
+    "geonames:communities:enrich",
   ])
 );
