@@ -5,13 +5,14 @@
 yarn-error.log
 
 # Dependency directories
-/node_modules
+node_modules
 
 # lerna files
-/lerna-debug.log
+lerna-debug.log
 
 # Ignore temp data
-/_json
+_json
+!_json/geonames/**
 
 # Ignore hidden files as default
 .*
