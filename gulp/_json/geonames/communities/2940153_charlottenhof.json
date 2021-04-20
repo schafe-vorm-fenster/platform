@@ -1,0 +1,105 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.754056785866315,
+    "south": 53.75981435124857,
+    "north": 53.77780164875143,
+    "west": 13.723617214133686,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Charlottenhof",
+  "astergdem": 13,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 10,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548315",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.76881",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.73884",
+  "geonameId": 2940153,
+  "toponymName": "Charlottenhof",
+  "adminCode4": "13075116",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Rossin",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [],
+  "adminName2": "",
+  "name": "Charlottenhof",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.751078308681814,
+      "south": 53.746868183097014,
+      "north": 53.78386447492608,
+      "west": 13.67164590173544,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Rossin",
+    "astergdem": 9,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 12,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548315",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.7667",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.7",
+    "geonameId": 6548315,
+    "toponymName": "Rossin",
+    "adminCode4": "13075116",
+    "population": 168,
+    "wikipediaURL": "en.wikipedia.org/wiki/Rossin",
+    "adminName5": "",
+    "adminName4": "Rossin",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Rossin",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Rossin",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17398"
+  }
+}

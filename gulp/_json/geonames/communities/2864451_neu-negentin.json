@@ -1,0 +1,105 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.347045446901406,
+    "south": 54.00109531597359,
+    "north": 54.01908261347645,
+    "west": 13.316429589719688,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Neu Negentin",
+  "astergdem": 39,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 39,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548253",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "54.01009",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.33174",
+  "geonameId": 2864451,
+  "toponymName": "Neu Negentin",
+  "adminCode4": "13075025",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Dargelin",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [],
+  "adminName2": "",
+  "name": "Neu Negentin",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.373736751712833,
+      "south": 53.9848630563999,
+      "north": 54.035354266413805,
+      "west": 13.3061962488619,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Dargelin",
+    "astergdem": 29,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 33,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548253",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "54.0167",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.35",
+    "geonameId": 6548253,
+    "toponymName": "Dargelin",
+    "adminCode4": "13075025",
+    "population": 366,
+    "wikipediaURL": "en.wikipedia.org/wiki/Dargelin",
+    "adminName5": "",
+    "adminName4": "Dargelin",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Dargelin",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Dargelin",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17498"
+  }
+}

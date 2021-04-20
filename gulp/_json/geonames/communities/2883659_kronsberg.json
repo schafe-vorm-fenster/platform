@@ -1,0 +1,110 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.342888336346586,
+    "south": 53.89959182533616,
+    "north": 53.917579122839015,
+    "west": 13.312346954180757,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Kronsberg",
+  "astergdem": 12,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 15,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6550679",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.90859",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.32762",
+  "geonameId": 2883659,
+  "toponymName": "Kronsberg",
+  "adminCode4": "13075054",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Jarmen",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [],
+  "adminName2": "",
+  "name": "Kronsberg",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.409603845443339,
+      "south": 53.85530219779815,
+      "north": 53.93785710730481,
+      "west": 13.264927339825343,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Jarmen",
+    "astergdem": 6,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 7,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6550679",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.9167",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.35",
+    "geonameId": 6550679,
+    "toponymName": "Jarmen",
+    "adminCode4": "13075054",
+    "population": 2942,
+    "wikipediaURL": "en.wikipedia.org/wiki/Jarmen",
+    "adminName5": "",
+    "adminName4": "Jarmen",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Jarmen",
+      "lang": "link"
+    }, {
+      "isShortName": true,
+      "name": "Jarmen"
+    }, {
+      "name": "Stadt Jarmen"
+    }],
+    "adminName2": "",
+    "name": "Jarmen",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17126"
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.43844731750844,
+    "south": 54.06547144897324,
+    "north": 54.10715728773045,
+    "west": 13.343500274707765,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Greifswald",
+  "astergdem": 6,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 4,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6551180",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "54.09311",
+  "fcode": "PPLA3",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.38786",
+  "geonameId": 2917788,
+  "toponymName": "Greifswald",
+  "adminCode4": "13075039",
+  "population": 52731,
+  "adminName5": "",
+  "adminName4": "Greifswald, Hansestadt",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "그라이프스발트",
+    "lang": "ko"
+  }, {
+    "name": "グライフスヴァルト",
+    "lang": "ja"
+  }, {
+    "name": "DEGRD",
+    "lang": "unlc"
+  }, {
+    "name": "Greifsvaldas",
+    "lang": "lt"
+  }, {
+    "name": "Greifsvalde",
+    "lang": "lv"
+  }, {
+    "name": "Greifswald",
+    "lang": "da"
+  }, {
+    "name": "Greifswald",
+    "lang": "de"
+  }, {
+    "name": "Greifswald",
+    "lang": "en"
+  }, {
+    "name": "Greifswald",
+    "lang": "eo"
+  }, {
+    "name": "Greifswald",
+    "lang": "es"
+  }, {
+    "name": "Greifswald",
+    "lang": "et"
+  }, {
+    "name": "Greifswald",
+    "lang": "fr"
+  }, {
+    "name": "Greifswald",
+    "lang": "id"
+  }, {
+    "name": "Greifswald",
+    "lang": "nl"
+  }, {
+    "name": "Greifswald",
+    "lang": "no"
+  }, {
+    "name": "Greifswald",
+    "lang": "pl"
+  }, {
+    "name": "Greifswald",
+    "lang": "sv"
+  }, {
+    "name": "Greifswald",
+    "lang": "vo"
+  }, {
+    "name": "Greifswald"
+  }, {
+    "name": "Griefswald"
+  }, {
+    "name": "Griepswohld",
+    "lang": "nds"
+  }, {
+    "name": "Gripiew Las",
+    "lang": "csb"
+  }, {
+    "name": "ZGW",
+    "lang": "iata"
+  }, {
+    "name": "غرايفسفالت",
+    "lang": "ar"
+  }, {
+    "name": "گرایفسوالد",
+    "lang": "fa"
+  }, {
+    "name": "گریفزوالڈ",
+    "lang": "pnb"
+  }, {
+    "name": "גרייפסוואלד",
+    "lang": "he"
+  }, {
+    "name": "Грайфсвалд",
+    "lang": "bg"
+  }, {
+    "name": "Грайфсвальд",
+    "lang": "be"
+  }, {
+    "name": "Грайфсвальд",
+    "lang": "kk"
+  }, {
+    "name": "Грайфсвальд",
+    "lang": "ru"
+  }, {
+    "name": "Грайфсвальд",
+    "lang": "uk"
+  }, {
+    "name": "Грајфсвалд",
+    "lang": "mk"
+  }, {
+    "name": "Грајфсвалд",
+    "lang": "sr"
+  }, {
+    "name": "გრაიფსვალდი",
+    "lang": "ka"
+  }, {
+    "name": "格赖夫斯瓦尔德",
+    "lang": "zh"
+  }],
+  "adminName2": "",
+  "name": "Greifswald",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "seat of a third-order administrative division",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.50769185759334,
+      "south": 54.05418540619022,
+      "north": 54.185304434540285,
+      "west": 13.319351733636976,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Greifswald, Hansestadt",
+    "astergdem": 8,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 3,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6551180",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "54.08809",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.38756",
+    "geonameId": 6551180,
+    "toponymName": "Greifswald, Hansestadt",
+    "adminCode4": "13075039",
+    "population": 59382,
+    "wikipediaURL": "en.wikipedia.org/wiki/Greifswald",
+    "adminName5": "",
+    "adminName4": "Greifswald, Hansestadt",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Greifswald",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Greifswald, Hansestadt",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": ""
+  }
+}

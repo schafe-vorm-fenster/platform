@@ -1,0 +1,105 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.3166900073592,
+    "south": 54.07869703242926,
+    "north": 54.09668432993277,
+    "west": 13.286016901820487,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Boltenhagen",
+  "astergdem": 5,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 3,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548284",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "54.08769",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.30135",
+  "geonameId": 2884665,
+  "toponymName": "Boltenhagen",
+  "adminCode4": "13075076",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Levenhagen",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [],
+  "adminName2": "",
+  "name": "Boltenhagen",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.32200216411778,
+      "south": 54.059321943079006,
+      "north": 54.106264648249656,
+      "west": 13.250548608771549,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Levenhagen",
+    "astergdem": 8,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 6,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548284",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "54.0833",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.2667",
+    "geonameId": 6548284,
+    "toponymName": "Levenhagen",
+    "adminCode4": "13075076",
+    "population": 418,
+    "wikipediaURL": "en.wikipedia.org/wiki/Levenhagen",
+    "adminName5": "",
+    "adminName4": "Levenhagen",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Levenhagen",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Levenhagen",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17498"
+  }
+}

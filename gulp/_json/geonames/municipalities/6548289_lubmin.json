@@ -1,0 +1,58 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.71832869439205,
+    "south": 54.11741163927067,
+    "north": 54.17241298504534,
+    "west": 13.57923930477883,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Lubmin",
+  "astergdem": 12,
+  "countryId": "2921044",
+  "fcl": "A",
+  "srtm3": 12,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548289",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "54.14179",
+  "fcode": "ADM4",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.64501",
+  "geonameId": 6548289,
+  "toponymName": "Lubmin",
+  "adminCode4": "13075083",
+  "population": 2081,
+  "wikipediaURL": "en.wikipedia.org/wiki/Lubmin_%28Amt%29",
+  "adminName5": "",
+  "adminName4": "Lubmin",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "https://en.wikipedia.org/wiki/Lubmin_%28Amt%29",
+    "lang": "link"
+  }],
+  "adminName2": "",
+  "name": "Lubmin",
+  "fclName": "country, state, region,...",
+  "countryName": "Deutschland",
+  "fcodeName": "fourth-order administrative division",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "geonameId": 8648415,
+    "name": "Vorpommern-Greifswald",
+    "fCode": "ADM3",
+    "fName": "third-order administrative division"
+  },
+  "postalCode": "17509"
+}

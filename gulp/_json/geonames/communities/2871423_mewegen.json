@@ -1,0 +1,109 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 14.255728718531094,
+    "south": 53.51404505219613,
+    "north": 53.52348107422596,
+    "west": 14.240101559928057,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Mewegen",
+  "astergdem": 14,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 15,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548478",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.52031",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "14.24858",
+  "geonameId": 2871423,
+  "toponymName": "Mewegen",
+  "adminCode4": "13075119",
+  "population": 340,
+  "adminName5": "",
+  "adminName4": "Rothenklempenow",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Q1926174",
+    "lang": "wkdt"
+  }],
+  "adminName2": "",
+  "name": "Mewegen",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 14.293437099549756,
+      "south": 53.47631877047364,
+      "north": 53.59329270189309,
+      "west": 14.162061226649612,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Rothenklempenow",
+    "astergdem": 9,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 8,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548478",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.5167",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "14.2",
+    "geonameId": 6548478,
+    "toponymName": "Rothenklempenow",
+    "adminCode4": "13075119",
+    "population": 618,
+    "wikipediaURL": "en.wikipedia.org/wiki/Rothenklempenow",
+    "adminName5": "",
+    "adminName4": "Rothenklempenow",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Rothenklempenow",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Rothenklempenow",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17321"
+  },
+  "wikidataId": "Q1926174"
+}

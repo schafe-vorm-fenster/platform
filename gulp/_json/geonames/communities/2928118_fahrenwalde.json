@@ -1,0 +1,111 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 14.071052814519822,
+    "south": 53.43203721685075,
+    "north": 53.44381864873208,
+    "west": 14.057416192379037,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Fahrenwalde",
+  "astergdem": 65,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 72,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548451",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.43976",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "14.06113",
+  "geonameId": 2928118,
+  "toponymName": "Fahrenwalde",
+  "adminCode4": "13075032",
+  "population": 394,
+  "adminName5": "",
+  "adminName4": "Fahrenwalde",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Fahrenwalde"
+  }, {
+    "name": "Q32000699",
+    "lang": "wkdt"
+  }],
+  "adminName2": "",
+  "name": "Fahrenwalde",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 14.121843779927286,
+      "south": 53.41100211254314,
+      "north": 53.477475907851186,
+      "west": 14.020184695203952,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Fahrenwalde",
+    "astergdem": 66,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 67,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548451",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.4333",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "14.0667",
+    "geonameId": 6548451,
+    "toponymName": "Fahrenwalde",
+    "adminCode4": "13075032",
+    "population": 293,
+    "wikipediaURL": "en.wikipedia.org/wiki/Fahrenwalde",
+    "adminName5": "",
+    "adminName4": "Fahrenwalde",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Fahrenwalde",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Fahrenwalde",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17309"
+  },
+  "wikidataId": "Q32000699"
+}

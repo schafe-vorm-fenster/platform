@@ -1,0 +1,114 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 14.031584213373453,
+    "south": 53.70997810957218,
+    "north": 53.72491862395426,
+    "west": 14.021465000331924,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Liepgarten",
+  "astergdem": 10,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 2,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548464",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.71937",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "14.02756",
+  "geonameId": 2877803,
+  "toponymName": "Liepgarten",
+  "adminCode4": "13075078",
+  "population": 895,
+  "adminName5": "",
+  "adminName4": "Liepgarten",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "DELPQ",
+    "lang": "unlc"
+  }, {
+    "name": "Liepgarten"
+  }, {
+    "name": "Q32095532",
+    "lang": "wkdt"
+  }],
+  "adminName2": "",
+  "name": "Liepgarten",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 14.062807510879646,
+      "south": 53.65362799850671,
+      "north": 53.72822282968124,
+      "west": 13.952610220088955,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Liepgarten",
+    "astergdem": 19,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 18,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548464",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.7167",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "14.0167",
+    "geonameId": 6548464,
+    "toponymName": "Liepgarten",
+    "adminCode4": "13075078",
+    "population": 768,
+    "wikipediaURL": "en.wikipedia.org/wiki/Liepgarten",
+    "adminName5": "",
+    "adminName4": "Liepgarten",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Liepgarten",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Liepgarten",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17375"
+  },
+  "wikidataId": "Q32095532"
+}

@@ -1,0 +1,111 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.795566103406435,
+    "south": 53.60485485288511,
+    "north": 53.62098723975273,
+    "west": 13.76444169296682,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Heinrichswalde",
+  "astergdem": 19,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 16,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548457",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.61306",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.77886",
+  "geonameId": 2907207,
+  "toponymName": "Heinrichswalde",
+  "adminCode4": "13075048",
+  "population": 564,
+  "adminName5": "",
+  "adminName4": "Heinrichswalde",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Heinrichswalde"
+  }, {
+    "name": "Q32055980",
+    "lang": "wkdt"
+  }],
+  "adminName2": "",
+  "name": "Heinrichswalde",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.805811582634036,
+      "south": 53.59590673627471,
+      "north": 53.65022340379897,
+      "west": 13.727845012244835,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Heinrichswalde",
+    "astergdem": 10,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 9,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548457",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.6167",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.7667",
+    "geonameId": 6548457,
+    "toponymName": "Heinrichswalde",
+    "adminCode4": "13075048",
+    "population": 417,
+    "wikipediaURL": "en.wikipedia.org/wiki/Heinrichswalde",
+    "adminName5": "",
+    "adminName4": "Heinrichswalde",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Heinrichswalde",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Heinrichswalde",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17379"
+  },
+  "wikidataId": "Q32055980"
+}

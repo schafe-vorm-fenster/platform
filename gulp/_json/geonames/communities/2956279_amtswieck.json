@@ -1,0 +1,139 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.931922079538259,
+    "south": 53.857673051248575,
+    "north": 53.87566034875143,
+    "west": 13.901411320461742,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Amtswieck",
+  "astergdem": 8,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": -2,
+  "cc2": "DE",
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6551118",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.86667",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.91667",
+  "geonameId": 2956279,
+  "toponymName": "Amtswieck",
+  "adminCode4": "13075137",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Usedom",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Amtswieck"
+  }, {
+    "name": "Amtswiek"
+  }],
+  "adminName2": "",
+  "name": "Amtswieck",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.994403824480319,
+      "south": 53.83978805896636,
+      "north": 53.91091803224154,
+      "west": 13.821786999497542,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Usedom",
+    "astergdem": 7,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": -1,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6551118",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.86764",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.91366",
+    "geonameId": 6551118,
+    "toponymName": "Usedom",
+    "adminCode4": "13075137",
+    "population": 1747,
+    "wikipediaURL": "en.wikipedia.org/wiki/Usedom_%28town%29",
+    "adminName5": "",
+    "adminName4": "Usedom",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "우제돔",
+      "lang": "ko"
+    }, {
+      "name": "https://en.wikipedia.org/wiki/Usedom_%28town%29",
+      "lang": "link"
+    }, {
+      "name": "Stadt Usedom"
+    }, {
+      "isShortName": true,
+      "name": "Usedom"
+    }, {
+      "name": "Ūzedoma",
+      "lang": "lv"
+    }, {
+      "name": "Ùznojm",
+      "lang": "csb"
+    }, {
+      "name": "اوزدم",
+      "lang": "fa"
+    }, {
+      "name": "أوزدوم",
+      "lang": "ar"
+    }, {
+      "name": "Узедом",
+      "lang": "mk"
+    }, {
+      "name": "Узедом",
+      "lang": "ru"
+    }, {
+      "name": "Узедом",
+      "lang": "sr"
+    }],
+    "adminName2": "",
+    "name": "Usedom",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17406"
+  }
+}

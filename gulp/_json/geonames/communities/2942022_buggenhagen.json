@@ -1,0 +1,123 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.864364266680782,
+    "south": 53.92118163512485,
+    "north": 53.922980364875144,
+    "west": 13.861309733319219,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Buggenhagen",
+  "astergdem": 6,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 9,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548251",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.92208",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.86284",
+  "geonameId": 2942022,
+  "toponymName": "Buggenhagen",
+  "adminCode4": "13075021",
+  "population": 294,
+  "adminName5": "",
+  "adminName4": "Buggenhagen",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Buggenhagen"
+  }, {
+    "name": "Q31924657",
+    "lang": "wkdt"
+  }, {
+    "name": "Буггенхаген",
+    "lang": "ru"
+  }, {
+    "name": "Бугенхаген",
+    "lang": "mk"
+  }, {
+    "name": "Бугенхаген",
+    "lang": "sr"
+  }, {
+    "name": "布根哈根",
+    "lang": "zh"
+  }],
+  "adminName2": "",
+  "name": "Buggenhagen",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.914203135170851,
+      "south": 53.877372533946144,
+      "north": 53.944434899964776,
+      "west": 13.807472358063334,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Buggenhagen",
+    "astergdem": 11,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 6,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548251",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.9167",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.8667",
+    "geonameId": 6548251,
+    "toponymName": "Buggenhagen",
+    "adminCode4": "13075021",
+    "population": 206,
+    "wikipediaURL": "en.wikipedia.org/wiki/Buggenhagen",
+    "adminName5": "",
+    "adminName4": "Buggenhagen",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Buggenhagen",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Buggenhagen",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17440"
+  },
+  "wikidataId": "Q31924657"
+}

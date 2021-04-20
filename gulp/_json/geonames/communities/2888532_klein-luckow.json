@@ -1,0 +1,111 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.840003910233344,
+    "south": 53.55201263512485,
+    "north": 53.553811364875145,
+    "west": 13.836976089766656,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Klein Luckow",
+  "astergdem": 52,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 53,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548459",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.55291",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.83849",
+  "geonameId": 2888532,
+  "toponymName": "Klein Luckow",
+  "adminCode4": "13075055",
+  "population": 247,
+  "adminName5": "",
+  "adminName4": "Jatznick",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Klein Luckow"
+  }, {
+    "name": "Q646199",
+    "lang": "wkdt"
+  }],
+  "adminName2": "",
+  "name": "Klein Luckow",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 14.001492317243361,
+      "south": 53.50413995579449,
+      "north": 53.62031860447316,
+      "west": 13.799667611869628,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Jatznick",
+    "astergdem": 16,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 14,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548459",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.5833",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.9417",
+    "geonameId": 6548459,
+    "toponymName": "Jatznick",
+    "adminCode4": "13075055",
+    "population": 2268,
+    "wikipediaURL": "en.wikipedia.org/wiki/Jatznick",
+    "adminName5": "",
+    "adminName4": "Jatznick",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Jatznick",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Jatznick",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17309"
+  },
+  "wikidataId": "Q646199"
+}

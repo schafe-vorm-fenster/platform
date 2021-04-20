@@ -1,0 +1,123 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.395183932321789,
+    "south": 53.958249546170244,
+    "north": 53.96800218135799,
+    "west": 13.369928346009281,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Bandelin",
+  "astergdem": 19,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 24,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548241",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.96386",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.37414",
+  "geonameId": 2952964,
+  "toponymName": "Bandelin",
+  "adminCode4": "13075006",
+  "population": 660,
+  "adminName5": "",
+  "adminName4": "Bandelin",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "DEBP4",
+    "lang": "unlc"
+  }, {
+    "name": "Банделин",
+    "lang": "kk"
+  }, {
+    "name": "Банделин",
+    "lang": "mk"
+  }, {
+    "name": "Банделин",
+    "lang": "ru"
+  }, {
+    "name": "Банделин",
+    "lang": "sr"
+  }, {
+    "name": "班德林",
+    "lang": "zh"
+  }],
+  "adminName2": "",
+  "name": "Bandelin",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.419276104263371,
+      "south": 53.94482292522089,
+      "north": 53.98488589065747,
+      "west": 13.311759666555126,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Bandelin",
+    "astergdem": 35,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 33,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548241",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.9667",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.3833",
+    "geonameId": 6548241,
+    "toponymName": "Bandelin",
+    "adminCode4": "13075006",
+    "population": 534,
+    "wikipediaURL": "en.wikipedia.org/wiki/Bandelin",
+    "adminName5": "",
+    "adminName4": "Bandelin",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Bandelin",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Bandelin",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17506"
+  }
+}

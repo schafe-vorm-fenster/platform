@@ -1,0 +1,123 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.253044488962106,
+    "south": 53.89656891748746,
+    "north": 53.90317478217803,
+    "west": 13.228617911544132,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Kruckow",
+  "astergdem": 9,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 8,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6547839",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.90134",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.24058",
+  "geonameId": 2883477,
+  "toponymName": "Kruckow",
+  "adminCode4": "13075070",
+  "population": 505,
+  "adminName5": "",
+  "adminName4": "Kruckow",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Kruckow"
+  }, {
+    "name": "Q32068297",
+    "lang": "wkdt"
+  }, {
+    "name": "Крукков",
+    "lang": "kk"
+  }, {
+    "name": "Крукков",
+    "lang": "ru"
+  }, {
+    "name": "Круков",
+    "lang": "mk"
+  }, {
+    "name": "Круков",
+    "lang": "sr"
+  }],
+  "adminName2": "",
+  "name": "Kruckow",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.298764505374171,
+      "south": 53.848272213897225,
+      "north": 53.91868459464341,
+      "west": 13.181792877086014,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Kruckow",
+    "astergdem": 7,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 9,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6547839",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.9",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.2333",
+    "geonameId": 6547839,
+    "toponymName": "Kruckow",
+    "adminCode4": "13075070",
+    "population": 598,
+    "wikipediaURL": "en.wikipedia.org/wiki/Kruckow",
+    "adminName5": "",
+    "adminName4": "Kruckow",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Kruckow",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Kruckow",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17129"
+  },
+  "wikidataId": "Q32068297"
+}

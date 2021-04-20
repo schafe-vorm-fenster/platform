@@ -1,0 +1,113 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.462660598825222,
+    "south": 53.76522581418825,
+    "north": 53.77114562484132,
+    "west": 13.443233517166298,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Japenzin",
+  "astergdem": 16,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 18,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548321",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.76911",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.45345",
+  "geonameId": 2895181,
+  "toponymName": "Japenzin",
+  "adminCode4": "13075127",
+  "population": 220,
+  "wikipediaURL": "en.wikipedia.org/wiki/Japenzin",
+  "adminName5": "",
+  "adminName4": "Spantekow",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "https://en.wikipedia.org/wiki/Japenzin",
+    "lang": "link"
+  }, {
+    "name": "Q140226",
+    "lang": "wkdt"
+  }],
+  "adminName2": "",
+  "name": "Japenzin",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.607400937420586,
+      "south": 53.73131955420517,
+      "north": 53.81276942897802,
+      "west": 13.344001165053314,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Spantekow",
+    "astergdem": 13,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 13,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548321",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.7833",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.5333",
+    "geonameId": 6548321,
+    "toponymName": "Spantekow",
+    "adminCode4": "13075127",
+    "population": 1089,
+    "wikipediaURL": "en.wikipedia.org/wiki/Spantekow",
+    "adminName5": "",
+    "adminName4": "Spantekow",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Spantekow",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Spantekow",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17392"
+  },
+  "wikidataId": "Q140226"
+}

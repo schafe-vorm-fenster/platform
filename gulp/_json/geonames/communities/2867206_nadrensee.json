@@ -1,0 +1,111 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 14.35153505077559,
+    "south": 53.330880635124856,
+    "north": 53.33267936487515,
+    "west": 14.348522949224408,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Nadrensee",
+  "astergdem": 28,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 25,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548470",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.33178",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "14.35003",
+  "geonameId": 2867206,
+  "toponymName": "Nadrensee",
+  "adminCode4": "13075095",
+  "population": 367,
+  "adminName5": "",
+  "adminName4": "Nadrensee",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Nadrensee"
+  }, {
+    "name": "Q32172230",
+    "lang": "wkdt"
+  }],
+  "adminName2": "",
+  "name": "Nadrensee",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 14.412381008544742,
+      "south": 53.30998995723958,
+      "north": 53.353709434958006,
+      "west": 14.304611607927885,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Nadrensee",
+    "astergdem": 24,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 25,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548470",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.3333",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "14.35",
+    "geonameId": 6548470,
+    "toponymName": "Nadrensee",
+    "adminCode4": "13075095",
+    "population": 341,
+    "wikipediaURL": "en.wikipedia.org/wiki/Nadrensee",
+    "adminName5": "",
+    "adminName4": "Nadrensee",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Nadrensee",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Nadrensee",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17329"
+  },
+  "wikidataId": "Q32172230"
+}

@@ -1,0 +1,111 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 14.047930915994655,
+    "south": 54.02007235124857,
+    "north": 54.03805964875143,
+    "west": 14.017301084005346,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Stubbenfelde",
+  "astergdem": 9,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 5,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548286",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "54.02907",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "14.03262",
+  "geonameId": 2825547,
+  "toponymName": "Stubbenfelde",
+  "adminCode4": "13075080",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Loddin",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Q15849488",
+    "lang": "wkdt"
+  }, {
+    "name": "Stubbenfelde"
+  }],
+  "adminName2": "",
+  "name": "Stubbenfelde",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 14.046174975999795,
+      "south": 54.00982904835718,
+      "north": 54.04605410682587,
+      "west": 13.998149878124263,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Loddin",
+    "astergdem": 19,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 17,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548286",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "54.0333",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "14.0167",
+    "geonameId": 6548286,
+    "toponymName": "Loddin",
+    "adminCode4": "13075080",
+    "population": 967,
+    "wikipediaURL": "en.wikipedia.org/wiki/Loddin",
+    "adminName5": "",
+    "adminName4": "Loddin",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Loddin",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Loddin",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17459"
+  },
+  "wikidataId": "Q15849488"
+}

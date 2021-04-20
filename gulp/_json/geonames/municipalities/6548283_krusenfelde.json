@@ -1,0 +1,58 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.431727108914092,
+    "south": 53.81297245217479,
+    "north": 53.86848986360398,
+    "west": 13.365665897127652,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Krusenfelde",
+  "astergdem": 13,
+  "countryId": "2921044",
+  "fcl": "A",
+  "srtm3": 9,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548283",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.85",
+  "fcode": "ADM4",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.4",
+  "geonameId": 6548283,
+  "toponymName": "Krusenfelde",
+  "adminCode4": "13075073",
+  "population": 159,
+  "wikipediaURL": "en.wikipedia.org/wiki/Krusenfelde",
+  "adminName5": "",
+  "adminName4": "Krusenfelde",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "https://en.wikipedia.org/wiki/Krusenfelde",
+    "lang": "link"
+  }],
+  "adminName2": "",
+  "name": "Krusenfelde",
+  "fclName": "country, state, region,...",
+  "countryName": "Deutschland",
+  "fcodeName": "fourth-order administrative division",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "geonameId": 8648415,
+    "name": "Vorpommern-Greifswald",
+    "fCode": "ADM3",
+    "fName": "third-order administrative division"
+  },
+  "postalCode": "17391"
+}

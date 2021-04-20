@@ -1,0 +1,105 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.586555100480838,
+    "south": 54.08017835124857,
+    "north": 54.098165648751426,
+    "west": 13.555880899519162,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Stilow",
+  "astergdem": 17,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 18,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548248",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "54.08917",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.57122",
+  "geonameId": 2827003,
+  "toponymName": "Stilow",
+  "adminCode4": "13075018",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Brünzow",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [],
+  "adminName2": "",
+  "name": "Stilow",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.611569189179498,
+      "south": 54.07964937131952,
+      "north": 54.13512072984503,
+      "west": 13.538498809962324,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Bruenzow",
+    "astergdem": 16,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 17,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548248",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "54.1",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.5667",
+    "geonameId": 6548248,
+    "toponymName": "Brünzow",
+    "adminCode4": "13075018",
+    "population": 620,
+    "wikipediaURL": "en.wikipedia.org/wiki/Br%C3%BCnzow",
+    "adminName5": "",
+    "adminName4": "Brünzow",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Br%C3%BCnzow",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Brünzow",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17509"
+  }
+}

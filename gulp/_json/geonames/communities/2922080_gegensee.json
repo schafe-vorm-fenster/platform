@@ -1,0 +1,123 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 14.22860585220964,
+    "south": 53.62988735124857,
+    "north": 53.647874648751426,
+    "west": 14.19826014779036,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Gegensee",
+  "astergdem": 12,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 3,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548442",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.63888",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "14.21343",
+  "geonameId": 2922080,
+  "toponymName": "Gegensee",
+  "adminCode4": "13075001",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Ahlbeck",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [],
+  "adminName2": "",
+  "name": "Gegensee",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 14.24295062877796,
+      "south": 53.61758380067977,
+      "north": 53.6837108571225,
+      "west": 14.144363701476655,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Ahlbeck",
+    "astergdem": 7,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 1,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548442",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.6667",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "14.2",
+    "geonameId": 6548442,
+    "toponymName": "Ahlbeck",
+    "adminCode4": "13075001",
+    "population": 620,
+    "wikipediaURL": "en.wikipedia.org/wiki/Ahlbeck_%28near_Ueckerm%C3%BCnde%29",
+    "adminName5": "",
+    "adminName4": "Ahlbeck",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "Comuna Ahlbeck",
+      "lang": "ro"
+    }, {
+      "name": "https://en.wikipedia.org/wiki/Ahlbeck_%28near_Ueckerm%C3%BCnde%29",
+      "lang": "link"
+    }, {
+      "name": "اہلبک",
+      "lang": "ur"
+    }, {
+      "name": "اهلبک",
+      "lang": "fa"
+    }, {
+      "name": "Албек",
+      "lang": "mk"
+    }, {
+      "name": "Албек",
+      "lang": "sr"
+    }, {
+      "name": "Альбек",
+      "lang": "kk"
+    }],
+    "adminName2": "",
+    "name": "Ahlbeck",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17419"
+  }
+}

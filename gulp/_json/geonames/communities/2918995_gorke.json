@@ -1,0 +1,105 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.641245117035384,
+    "south": 53.845138818217556,
+    "north": 53.852864643681826,
+    "west": 13.628245401373862,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Goerke",
+  "astergdem": 11,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 6,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548308",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.84767",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.63764",
+  "geonameId": 2918995,
+  "toponymName": "Görke",
+  "adminCode4": "13075110",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Postlow",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [],
+  "adminName2": "",
+  "name": "Görke",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.643927207272652,
+      "south": 53.82177475290539,
+      "north": 53.868002601802885,
+      "west": 13.551234968434553,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Postlow",
+    "astergdem": 11,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 9,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548308",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.8333",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.5833",
+    "geonameId": 6548308,
+    "toponymName": "Postlow",
+    "adminCode4": "13075110",
+    "population": 301,
+    "wikipediaURL": "en.wikipedia.org/wiki/Postlow",
+    "adminName5": "",
+    "adminName4": "Postlow",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Postlow",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Postlow",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17391"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.565493482076723,
+    "south": 54.11362935124857,
+    "north": 54.131616648751425,
+    "west": 13.534794517923276,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Gahlkow",
+  "astergdem": 8,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 7,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548287",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "54.12262",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.55014",
+  "geonameId": 2923349,
+  "toponymName": "Gahlkow",
+  "adminCode4": "13075081",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Loissin",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [],
+  "adminName2": "",
+  "name": "Gahlkow",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.55861596033155,
+      "south": 54.09462121893281,
+      "north": 54.131075374691754,
+      "west": 13.476314776321427,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Loissin",
+    "astergdem": 10,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 6,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548287",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "54.1167",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.5333",
+    "geonameId": 6548287,
+    "toponymName": "Loissin",
+    "adminCode4": "13075081",
+    "population": 783,
+    "wikipediaURL": "en.wikipedia.org/wiki/Loissin",
+    "adminName5": "",
+    "adminName4": "Loissin",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Loissin",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Loissin",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17509"
+  }
+}

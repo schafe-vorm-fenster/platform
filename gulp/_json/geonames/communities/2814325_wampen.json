@@ -1,0 +1,105 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.433408176711577,
+    "south": 54.12090035124857,
+    "north": 54.13888764875143,
+    "west": 13.402703823288423,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Wampen",
+  "astergdem": 9,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 3,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548305",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "54.12989",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.41806",
+  "geonameId": 2814325,
+  "toponymName": "Wampen",
+  "adminCode4": "13075102",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Neuenkirchen",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [],
+  "adminName2": "",
+  "name": "Wampen",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.440054141644964,
+      "south": 54.10340657025158,
+      "north": 54.17227799350989,
+      "west": 13.332997667654864,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Neuenkirchen",
+    "astergdem": 8,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 0,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548305",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "54.13209",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.38768",
+    "geonameId": 6548305,
+    "toponymName": "Neuenkirchen",
+    "adminCode4": "13075102",
+    "population": 2422,
+    "wikipediaURL": "en.wikipedia.org/wiki/Neuenkirchen%2C_Landhagen",
+    "adminName5": "",
+    "adminName4": "Neuenkirchen",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Neuenkirchen%2C_Landhagen",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Neuenkirchen",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17498"
+  }
+}

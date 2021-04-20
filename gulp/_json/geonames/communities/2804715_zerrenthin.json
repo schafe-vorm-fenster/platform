@@ -1,0 +1,124 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 14.101636957557009,
+    "south": 53.48870211313087,
+    "north": 53.502968653713246,
+    "west": 14.083185240908698,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Zerrenthin",
+  "astergdem": 19,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 22,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548484",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.49366",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "14.08979",
+  "geonameId": 2804715,
+  "toponymName": "Zerrenthin",
+  "adminCode4": "13075149",
+  "population": 507,
+  "adminName5": "",
+  "adminName4": "Zerrenthin",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Q33527321",
+    "lang": "wkdt"
+  }, {
+    "name": "Церентин",
+    "lang": "mk"
+  }, {
+    "name": "Церентин",
+    "lang": "sr"
+  }, {
+    "name": "Церрентин",
+    "lang": "kk"
+  }, {
+    "name": "Церрентин",
+    "lang": "ru"
+  }, {
+    "name": "策伦廷",
+    "lang": "zh"
+  }],
+  "adminName2": "",
+  "name": "Zerrenthin",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 14.16605027105095,
+      "south": 53.477939367710114,
+      "north": 53.52013714993824,
+      "west": 14.068583285448037,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Zerrenthin",
+    "astergdem": 13,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 15,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548484",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.5",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "14.1",
+    "geonameId": 6548484,
+    "toponymName": "Zerrenthin",
+    "adminCode4": "13075149",
+    "population": 465,
+    "wikipediaURL": "en.wikipedia.org/wiki/Zerrenthin",
+    "adminName5": "",
+    "adminName4": "Zerrenthin",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Zerrenthin",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Zerrenthin",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17309"
+  },
+  "wikidataId": "Q33527321"
+}

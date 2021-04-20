@@ -1,0 +1,114 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 14.028197848489254,
+    "south": 53.93825635124857,
+    "north": 53.956243648751425,
+    "west": 13.997628151510744,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Balm",
+  "astergdem": 8,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 1,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548245",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.94725",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "14.01291",
+  "geonameId": 2953032,
+  "toponymName": "Balm",
+  "adminCode4": "13075010",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Benz",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Balm"
+  }, {
+    "name": "DEB6O",
+    "lang": "unlc"
+  }, {
+    "name": "Q15785379",
+    "lang": "wkdt"
+  }],
+  "adminName2": "",
+  "name": "Balm",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 14.120205393453105,
+      "south": 53.90793476923993,
+      "north": 53.962805180654044,
+      "west": 13.98477533710552,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Benz",
+    "astergdem": 31,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 23,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548245",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.9333",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "14.0667",
+    "geonameId": 6548245,
+    "toponymName": "Benz",
+    "adminCode4": "13075010",
+    "population": 1072,
+    "wikipediaURL": "en.wikipedia.org/wiki/Benz_%28Usedom%29",
+    "adminName5": "",
+    "adminName4": "Benz",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Benz_%28Usedom%29",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Benz",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17429"
+  },
+  "wikidataId": "Q15785379"
+}

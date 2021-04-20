@@ -1,0 +1,105 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.664955845244911,
+    "south": 53.87538735124857,
+    "north": 53.893374648751426,
+    "west": 13.634432154755089,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Jargelin",
+  "astergdem": 15,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 14,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548333",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.88438",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.64969",
+  "geonameId": 2895167,
+  "toponymName": "Jargelin",
+  "adminCode4": "13075150",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Ziethen",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [],
+  "adminName2": "",
+  "name": "Jargelin",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.69672931128479,
+      "south": 53.86365427337446,
+      "north": 53.90522938946701,
+      "west": 13.608623859589322,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Ziethen",
+    "astergdem": 14,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 10,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548333",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.8833",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.6833",
+    "geonameId": 6548333,
+    "toponymName": "Ziethen",
+    "adminCode4": "13075150",
+    "population": 462,
+    "wikipediaURL": "en.wikipedia.org/wiki/Ziethen%2C_Mecklenburg-Vorpommern",
+    "adminName5": "",
+    "adminName4": "Ziethen",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Ziethen%2C_Mecklenburg-Vorpommern",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Ziethen",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17390"
+  }
+}

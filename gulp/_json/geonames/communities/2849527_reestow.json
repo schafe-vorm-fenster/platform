@@ -1,0 +1,111 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.963018804411336,
+    "south": 53.96811535124857,
+    "north": 53.98610264875143,
+    "west": 13.932427195588664,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Reestow",
+  "astergdem": 11,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 0,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548312",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.97711",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.94772",
+  "geonameId": 2849527,
+  "toponymName": "Reestow",
+  "adminCode4": "13075114",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Rankwitz",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Q2136601",
+    "lang": "wkdt"
+  }, {
+    "name": "Reestow"
+  }],
+  "adminName2": "",
+  "name": "Reestow",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.984005158105319,
+      "south": 53.89099988114785,
+      "north": 53.9945770259741,
+      "west": 13.894860627269342,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Rankwitz",
+    "astergdem": 5,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 2,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548312",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.95",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.9333",
+    "geonameId": 6548312,
+    "toponymName": "Rankwitz",
+    "adminCode4": "13075114",
+    "population": 583,
+    "wikipediaURL": "en.wikipedia.org/wiki/Rankwitz",
+    "adminName5": "",
+    "adminName4": "Rankwitz",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Rankwitz",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Rankwitz",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17406"
+  },
+  "wikidataId": "Q2136601"
+}

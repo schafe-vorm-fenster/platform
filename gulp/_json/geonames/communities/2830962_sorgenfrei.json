@@ -1,0 +1,110 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.698582602537979,
+    "south": 53.84100635124857,
+    "north": 53.85899364875143,
+    "west": 13.66808399746202,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Sorgenfrei",
+  "astergdem": 16,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 13,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6550720",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.85",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.68333",
+  "geonameId": 2830962,
+  "toponymName": "Sorgenfrei",
+  "adminCode4": "13075005",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Anklam",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [],
+  "adminName2": "",
+  "name": "Sorgenfrei",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.821114131114028,
+      "south": 53.77433888789414,
+      "north": 53.87577469989895,
+      "west": 13.62305554330573,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Anklam",
+    "astergdem": 11,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 7,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6550720",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.8466",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.7083",
+    "geonameId": 6550720,
+    "toponymName": "Anklam",
+    "adminCode4": "13075005",
+    "population": 12385,
+    "wikipediaURL": "en.wikipedia.org/wiki/Anklam",
+    "adminName5": "",
+    "adminName4": "Anklam",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "isShortName": true,
+      "name": "Anklam"
+    }, {
+      "name": "https://en.wikipedia.org/wiki/Anklam",
+      "lang": "link"
+    }, {
+      "name": "Stadt Anklam"
+    }],
+    "adminName2": "",
+    "name": "Anklam",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17389"
+  }
+}

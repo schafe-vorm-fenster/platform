@@ -1,0 +1,105 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.83178766758914,
+    "south": 53.76500235124857,
+    "north": 53.782989648751425,
+    "west": 13.80134433241086,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Kalkstein",
+  "astergdem": 12,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 7,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548250",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.774",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.81657",
+  "geonameId": 2893768,
+  "toponymName": "Kalkstein",
+  "adminCode4": "13075020",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Bugewitz",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [],
+  "adminName2": "",
+  "name": "Kalkstein",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.967886837543052,
+      "south": 53.76431123140254,
+      "north": 53.84732363422853,
+      "west": 13.782618609976469,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Bugewitz",
+    "astergdem": 11,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": -6,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548250",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.8",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.8333",
+    "geonameId": 6548250,
+    "toponymName": "Bugewitz",
+    "adminCode4": "13075020",
+    "population": 239,
+    "wikipediaURL": "en.wikipedia.org/wiki/Bugewitz",
+    "adminName5": "",
+    "adminName4": "Bugewitz",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Bugewitz",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Bugewitz",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17398"
+  }
+}

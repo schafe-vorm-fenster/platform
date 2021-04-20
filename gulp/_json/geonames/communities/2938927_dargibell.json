@@ -1,0 +1,105 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.724106403646024,
+    "south": 53.78476259347244,
+    "north": 53.8027498909753,
+    "west": 13.693648723307101,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Dargibell",
+  "astergdem": 9,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 6,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548301",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.79376",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.70888",
+  "geonameId": 2938927,
+  "toponymName": "Dargibell",
+  "adminCode4": "13075098",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Neu Kosenow",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [],
+  "adminName2": "",
+  "name": "Dargibell",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.800114867884794,
+      "south": 53.76859829096783,
+      "north": 53.82464709161817,
+      "west": 13.6814281992667,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Neu Kosenow",
+    "astergdem": 17,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 2,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548301",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.8",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.75",
+    "geonameId": 6548301,
+    "toponymName": "Neu Kosenow",
+    "adminCode4": "13075098",
+    "population": 493,
+    "wikipediaURL": "en.wikipedia.org/wiki/Neu_Kosenow",
+    "adminName5": "",
+    "adminName4": "Neu Kosenow",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Neu_Kosenow",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Neu Kosenow",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17398"
+  }
+}

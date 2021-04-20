@@ -1,0 +1,111 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.74382806307267,
+    "south": 54.078860635124855,
+    "north": 54.080659364875146,
+    "west": 13.740761936927331,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Gross Ernsthof",
+  "astergdem": 13,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 8,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548316",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "54.07976",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.7423",
+  "geonameId": 2916146,
+  "toponymName": "Groß Ernsthof",
+  "adminCode4": "13075120",
+  "population": 346,
+  "adminName5": "",
+  "adminName4": "Rubenow",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Groß Ernsthof"
+  }, {
+    "name": "Q33440385",
+    "lang": "wkdt"
+  }],
+  "adminName2": "",
+  "name": "Groß Ernsthof",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.79576445862431,
+      "south": 54.06582705958707,
+      "north": 54.146370821786725,
+      "west": 13.644267912498611,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Rubenow",
+    "astergdem": 9,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 6,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548316",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "54.1",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.7",
+    "geonameId": 6548316,
+    "toponymName": "Rubenow",
+    "adminCode4": "13075120",
+    "population": 781,
+    "wikipediaURL": "en.wikipedia.org/wiki/Rubenow",
+    "adminName5": "",
+    "adminName4": "Rubenow",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Rubenow",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Rubenow",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17509"
+  },
+  "wikidataId": "Q33440385"
+}

@@ -1,0 +1,58 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.857342202578776,
+    "south": 53.51431058947939,
+    "north": 53.556446388576944,
+    "west": 13.7982114786105,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Gross Luckow",
+  "astergdem": 44,
+  "countryId": "2921044",
+  "fcl": "A",
+  "srtm3": 43,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548455",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.5333",
+  "fcode": "ADM4",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.8333",
+  "geonameId": 6548455,
+  "toponymName": "Groß Luckow",
+  "adminCode4": "13075042",
+  "population": 195,
+  "wikipediaURL": "en.wikipedia.org/wiki/Gro%C3%9F_Luckow",
+  "adminName5": "",
+  "adminName4": "Groß Luckow",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "https://en.wikipedia.org/wiki/Gro%C3%9F_Luckow",
+    "lang": "link"
+  }],
+  "adminName2": "",
+  "name": "Groß Luckow",
+  "fclName": "country, state, region,...",
+  "countryName": "Deutschland",
+  "fcodeName": "fourth-order administrative division",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "geonameId": 8648415,
+    "name": "Vorpommern-Greifswald",
+    "fCode": "ADM3",
+    "fName": "third-order administrative division"
+  },
+  "postalCode": "17337"
+}

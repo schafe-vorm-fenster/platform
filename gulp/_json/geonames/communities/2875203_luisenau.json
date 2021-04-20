@@ -1,0 +1,105 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.748009213177227,
+    "south": 53.74168035124857,
+    "north": 53.759667648751424,
+    "west": 13.717582786822774,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Luisenau",
+  "astergdem": 18,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 15,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548258",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.75067",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.7328",
+  "geonameId": 2875203,
+  "toponymName": "Luisenau",
+  "adminCode4": "13075029",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Ducherow",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [],
+  "adminName2": "",
+  "name": "Luisenau",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.888222359633396,
+      "south": 53.69328501058493,
+      "north": 53.79633199367968,
+      "west": 13.65507469588738,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Ducherow",
+    "astergdem": 11,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 7,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548258",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.7557",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.7766",
+    "geonameId": 6548258,
+    "toponymName": "Ducherow",
+    "adminCode4": "13075029",
+    "population": 2490,
+    "wikipediaURL": "en.wikipedia.org/wiki/Ducherow",
+    "adminName5": "",
+    "adminName4": "Ducherow",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Ducherow",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Ducherow",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17398"
+  }
+}

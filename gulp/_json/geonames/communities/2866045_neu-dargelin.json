@@ -1,0 +1,105 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.393566571004108,
+    "south": 54.00351625922576,
+    "north": 54.02150355672862,
+    "west": 13.36294893192558,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Neu Dargelin",
+  "astergdem": 25,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 30,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548244",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "54.01251",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.37826",
+  "geonameId": 2866045,
+  "toponymName": "Neu Dargelin",
+  "adminCode4": "13075008",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Behrenhoff",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [],
+  "adminName2": "",
+  "name": "Neu Dargelin",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.434311147232389,
+      "south": 53.96513332524994,
+      "north": 54.03148332404445,
+      "west": 13.351218903618099,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Behrenhoff",
+    "astergdem": 24,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 29,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548244",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "54.0167",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.4",
+    "geonameId": 6548244,
+    "toponymName": "Behrenhoff",
+    "adminCode4": "13075008",
+    "population": 810,
+    "wikipediaURL": "en.wikipedia.org/wiki/Behrenhoff",
+    "adminName5": "",
+    "adminName4": "Behrenhoff",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Behrenhoff",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Behrenhoff",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17498"
+  }
+}

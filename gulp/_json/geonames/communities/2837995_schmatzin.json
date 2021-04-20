@@ -1,0 +1,105 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.554021417536086,
+    "south": 53.92396349361749,
+    "north": 53.925762223367784,
+    "west": 13.550966680608445,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Schmatzin",
+  "astergdem": 31,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 25,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548320",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.92486",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.55249",
+  "geonameId": 2837995,
+  "toponymName": "Schmatzin",
+  "adminCode4": "13075125",
+  "population": 380,
+  "adminName5": "",
+  "adminName4": "Schmatzin",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [],
+  "adminName2": "",
+  "name": "Schmatzin",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.606311079774958,
+      "south": 53.9035638607404,
+      "north": 53.948192639391024,
+      "west": 13.515204460494317,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Schmatzin",
+    "astergdem": 16,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 22,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548320",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.9167",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.55",
+    "geonameId": 6548320,
+    "toponymName": "Schmatzin",
+    "adminCode4": "13075125",
+    "population": 275,
+    "wikipediaURL": "en.wikipedia.org/wiki/Schmatzin",
+    "adminName5": "",
+    "adminName4": "Schmatzin",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Schmatzin",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Schmatzin",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17390"
+  }
+}

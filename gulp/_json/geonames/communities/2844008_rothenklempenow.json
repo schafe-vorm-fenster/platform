@@ -1,0 +1,129 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 14.20807777769517,
+    "south": 53.51273429222596,
+    "north": 53.52308938154714,
+    "west": 14.195856968361642,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Rothenklempenow",
+  "astergdem": 10,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 10,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548478",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.5189",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "14.2038",
+  "geonameId": 2844008,
+  "toponymName": "Rothenklempenow",
+  "adminCode4": "13075119",
+  "population": 432,
+  "adminName5": "",
+  "adminName4": "Rothenklempenow",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "DERNM",
+    "lang": "unlc"
+  }, {
+    "name": "Q32266582",
+    "lang": "wkdt"
+  }, {
+    "name": "Rothenklempenow"
+  }, {
+    "name": "Ротенклемпенов",
+    "lang": "kk"
+  }, {
+    "name": "Ротенклемпенов",
+    "lang": "mk"
+  }, {
+    "name": "Ротенклемпенов",
+    "lang": "ru"
+  }, {
+    "name": "Ротенклемпенов",
+    "lang": "sr"
+  }, {
+    "name": "罗滕克伦佩诺",
+    "lang": "zh"
+  }],
+  "adminName2": "",
+  "name": "Rothenklempenow",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 14.293437099549756,
+      "south": 53.47631877047364,
+      "north": 53.59329270189309,
+      "west": 14.162061226649612,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Rothenklempenow",
+    "astergdem": 9,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 8,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548478",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.5167",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "14.2",
+    "geonameId": 6548478,
+    "toponymName": "Rothenklempenow",
+    "adminCode4": "13075119",
+    "population": 618,
+    "wikipediaURL": "en.wikipedia.org/wiki/Rothenklempenow",
+    "adminName5": "",
+    "adminName4": "Rothenklempenow",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Rothenklempenow",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Rothenklempenow",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17321"
+  },
+  "wikidataId": "Q32266582"
+}

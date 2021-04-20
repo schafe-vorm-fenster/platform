@@ -1,0 +1,110 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 14.260691869648223,
+    "south": 53.3213803512489,
+    "north": 53.3393676487511,
+    "west": 14.230566130351775,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Battinsthal",
+  "astergdem": 26,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 31,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "7602573",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.33037",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "14.24563",
+  "geonameId": 2952203,
+  "toponymName": "Battinsthal",
+  "adminCode4": "13075067",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Krackow",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Battinsthal"
+  }, {
+    "name": "DEBY6",
+    "lang": "unlc"
+  }],
+  "adminName2": "",
+  "name": "Battinsthal",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 14.35470966782151,
+      "south": 53.31521253379369,
+      "north": 53.3921716957723,
+      "west": 14.20344129487578,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Krackow",
+    "astergdem": 20,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 25,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "7602573",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.35",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "14.26667",
+    "geonameId": 7602573,
+    "toponymName": "Krackow",
+    "adminCode4": "13075067",
+    "population": 639,
+    "wikipediaURL": "en.wikipedia.org/wiki/Krackow%2C_Germany",
+    "adminName5": "",
+    "adminName4": "Krackow",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Krackow%2C_Germany",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Krackow",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17329"
+  }
+}

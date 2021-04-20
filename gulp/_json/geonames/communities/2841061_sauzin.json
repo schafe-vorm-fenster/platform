@@ -1,0 +1,111 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.78695342450407,
+    "south": 54.034439635124826,
+    "north": 54.036238364875175,
+    "west": 13.783890575495931,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Sauzin",
+  "astergdem": 12,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 14,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548319",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "54.03534",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.78542",
+  "geonameId": 2841061,
+  "toponymName": "Sauzin",
+  "adminCode4": "13075124",
+  "population": 411,
+  "adminName5": "",
+  "adminName4": "Sauzin",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Q32281092",
+    "lang": "wkdt"
+  }, {
+    "name": "Sauzin"
+  }],
+  "adminName2": "",
+  "name": "Sauzin",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.81057891583686,
+      "south": 54.01756390626368,
+      "north": 54.049864219135756,
+      "west": 13.763467379095552,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Sauzin",
+    "astergdem": 13,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 11,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548319",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "54.0333",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.7833",
+    "geonameId": 6548319,
+    "toponymName": "Sauzin",
+    "adminCode4": "13075124",
+    "population": 443,
+    "wikipediaURL": "en.wikipedia.org/wiki/Sauzin",
+    "adminName5": "",
+    "adminName4": "Sauzin",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Sauzin",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Sauzin",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17440"
+  },
+  "wikidataId": "Q32281092"
+}

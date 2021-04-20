@@ -1,0 +1,111 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.959460269955304,
+    "south": 53.56648609205983,
+    "north": 53.588671844808566,
+    "west": 13.927863383199087,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Jatznick",
+  "astergdem": 22,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 21,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548459",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.57951",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.93955",
+  "geonameId": 2895131,
+  "toponymName": "Jatznick",
+  "adminCode4": "13075055",
+  "population": 2082,
+  "adminName5": "",
+  "adminName4": "Jatznick",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Jatznick"
+  }, {
+    "name": "Q32063009",
+    "lang": "wkdt"
+  }],
+  "adminName2": "",
+  "name": "Jatznick",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 14.001492317243361,
+      "south": 53.50413995579449,
+      "north": 53.62031860447316,
+      "west": 13.799667611869628,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Jatznick",
+    "astergdem": 16,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 14,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548459",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.5833",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.9417",
+    "geonameId": 6548459,
+    "toponymName": "Jatznick",
+    "adminCode4": "13075055",
+    "population": 2268,
+    "wikipediaURL": "en.wikipedia.org/wiki/Jatznick",
+    "adminName5": "",
+    "adminName4": "Jatznick",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Jatznick",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Jatznick",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17309"
+  },
+  "wikidataId": "Q32063009"
+}

@@ -1,0 +1,110 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.84331323894308,
+    "south": 53.6991002200226,
+    "north": 53.708466543044445,
+    "west": 13.826597572453103,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Altwigshagen",
+  "astergdem": 19,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 10,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548444",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.70448",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.83565",
+  "geonameId": 2956757,
+  "toponymName": "Altwigshagen",
+  "adminCode4": "13075004",
+  "population": 431,
+  "adminName5": "",
+  "adminName4": "Altwigshagen",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Altwigshagen"
+  }, {
+    "name": "DE2AO",
+    "lang": "unlc"
+  }],
+  "adminName2": "",
+  "name": "Altwigshagen",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.863303844116635,
+      "south": 53.67585373392701,
+      "north": 53.729056428220396,
+      "west": 13.73411431576249,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Altwigshagen",
+    "astergdem": 8,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 4,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548444",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.7",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.8333",
+    "geonameId": 6548444,
+    "toponymName": "Altwigshagen",
+    "adminCode4": "13075004",
+    "population": 384,
+    "wikipediaURL": "en.wikipedia.org/wiki/Altwigshagen",
+    "adminName5": "",
+    "adminName4": "Altwigshagen",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Altwigshagen",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Altwigshagen",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17379"
+  }
+}

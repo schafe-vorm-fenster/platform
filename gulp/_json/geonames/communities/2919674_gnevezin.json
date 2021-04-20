@@ -1,0 +1,105 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.772048863980253,
+    "south": 53.8315683512489,
+    "north": 53.8495556487511,
+    "west": 13.741557136019747,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Gnevezin",
+  "astergdem": 7,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 6,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548243",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.84056",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.7568",
+  "geonameId": 2919674,
+  "toponymName": "Gnevezin",
+  "adminCode4": "13075007",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Bargischow",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [],
+  "adminName2": "",
+  "name": "Gnevezin",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.824418233788602,
+      "south": 53.809416042019784,
+      "north": 53.86713272817512,
+      "west": 13.71044771001306,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Bargischow",
+    "astergdem": 15,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 5,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548243",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.8333",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.75",
+    "geonameId": 6548243,
+    "toponymName": "Bargischow",
+    "adminCode4": "13075007",
+    "population": 302,
+    "wikipediaURL": "en.wikipedia.org/wiki/Bargischow",
+    "adminName5": "",
+    "adminName4": "Bargischow",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Bargischow",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Bargischow",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17398"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 14.067420991475226,
+    "south": 53.67745235124857,
+    "north": 53.695439648751424,
+    "west": 14.037041008524776,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Alt Torgelow",
+  "astergdem": 8,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 0,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6551119",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.68645",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "14.05223",
+  "geonameId": 2956794,
+  "toponymName": "Alt Torgelow",
+  "adminCode4": "13075131",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Torgelow",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [],
+  "adminName2": "",
+  "name": "Alt Torgelow",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 14.114633068798,
+      "south": 53.583634202698,
+      "north": 53.6979753337572,
+      "west": 13.8900343999234,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Torgelow",
+    "astergdem": 20,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 8,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6551119",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.6333",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "14.0167",
+    "geonameId": 6551119,
+    "toponymName": "Torgelow",
+    "adminCode4": "13075131",
+    "population": 9153,
+    "wikipediaURL": "en.wikipedia.org/wiki/Torgelow",
+    "adminName5": "",
+    "adminName4": "Torgelow",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Torgelow",
+      "lang": "link"
+    }, {
+      "name": "Stadt Torgelow"
+    }, {
+      "isShortName": true,
+      "name": "Torgelow"
+    }],
+    "adminName2": "",
+    "name": "Torgelow",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17358"
+  }
+}

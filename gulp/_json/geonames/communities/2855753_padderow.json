@@ -1,0 +1,111 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.409576875545183,
+    "south": 53.878208351248574,
+    "north": 53.89619564875143,
+    "west": 13.379051124454817,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Padderow",
+  "astergdem": 13,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 11,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "10942649",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.8872",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.39431",
+  "geonameId": 2855753,
+  "toponymName": "Padderow",
+  "adminCode4": "13075155",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Neetzow-Liepen",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Padderow"
+  }, {
+    "name": "Q15162168",
+    "lang": "wkdt"
+  }],
+  "adminName2": "",
+  "name": "Padderow",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.503228049755192,
+      "south": 53.837853515729094,
+      "north": 53.91810297823583,
+      "west": 13.372156907647208,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Neetzow-Liepen",
+    "astergdem": 10,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 8,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "10942649",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.88334",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.40666",
+    "geonameId": 10942649,
+    "toponymName": "Neetzow-Liepen",
+    "adminCode4": "13075155",
+    "population": 819,
+    "wikipediaURL": "en.wikipedia.org/wiki/Neetzow-Liepen",
+    "adminName5": "",
+    "adminName4": "Neetzow-Liepen",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Neetzow-Liepen",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Neetzow-Liepen",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": ""
+  },
+  "wikidataId": "Q15162168"
+}

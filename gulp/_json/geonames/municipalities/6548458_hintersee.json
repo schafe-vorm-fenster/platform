@@ -1,0 +1,58 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 14.31694809360117,
+    "south": 53.574643250460795,
+    "north": 53.6645786231241,
+    "west": 14.173720361096107,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Hintersee",
+  "astergdem": 13,
+  "countryId": "2921044",
+  "fcl": "A",
+  "srtm3": 21,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548458",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.6333",
+  "fcode": "ADM4",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "14.2667",
+  "geonameId": 6548458,
+  "toponymName": "Hintersee",
+  "adminCode4": "13075051",
+  "population": 317,
+  "wikipediaURL": "en.wikipedia.org/wiki/Hintersee",
+  "adminName5": "",
+  "adminName4": "Hintersee",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "https://en.wikipedia.org/wiki/Hintersee",
+    "lang": "link"
+  }],
+  "adminName2": "",
+  "name": "Hintersee",
+  "fclName": "country, state, region,...",
+  "countryName": "Deutschland",
+  "fcodeName": "fourth-order administrative division",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "geonameId": 8648415,
+    "name": "Vorpommern-Greifswald",
+    "fCode": "ADM3",
+    "fName": "third-order administrative division"
+  },
+  "postalCode": "17375"
+}

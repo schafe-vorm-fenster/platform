@@ -1,0 +1,105 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.603092353796626,
+    "south": 53.80463214360087,
+    "north": 53.822619441103726,
+    "west": 13.572620231652575,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Alt-Sanitz",
+  "astergdem": 12,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 8,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548246",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.81363",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.58786",
+  "geonameId": 2841684,
+  "toponymName": "Alt-Sanitz",
+  "adminCode4": "13075013",
+  "population": 5889,
+  "adminName5": "",
+  "adminName4": "Blesewitz",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [],
+  "adminName2": "",
+  "name": "Alt-Sanitz",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.638735494714348,
+      "south": 53.80202439383929,
+      "north": 53.84029890459695,
+      "west": 13.550044019039932,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Blesewitz",
+    "astergdem": 15,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 7,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548246",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.8167",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.6167",
+    "geonameId": 6548246,
+    "toponymName": "Blesewitz",
+    "adminCode4": "13075013",
+    "population": 236,
+    "wikipediaURL": "en.wikipedia.org/wiki/Blesewitz",
+    "adminName5": "",
+    "adminName4": "Blesewitz",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Blesewitz",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Blesewitz",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17392"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.623733268383107,
+    "south": 53.99808352164389,
+    "north": 54.03866943084374,
+    "west": 13.511887075764482,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Wrangelsburg",
+  "astergdem": 27,
+  "countryId": "2921044",
+  "fcl": "A",
+  "srtm3": 31,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548329",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "54.0167",
+  "fcode": "ADM4",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.6",
+  "geonameId": 6548329,
+  "toponymName": "Wrangelsburg",
+  "adminCode4": "13075145",
+  "population": 217,
+  "wikipediaURL": "en.wikipedia.org/wiki/Wrangelsburg",
+  "adminName5": "",
+  "adminName4": "Wrangelsburg",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "https://en.wikipedia.org/wiki/Wrangelsburg",
+    "lang": "link"
+  }],
+  "adminName2": "",
+  "name": "Wrangelsburg",
+  "fclName": "country, state, region,...",
+  "countryName": "Deutschland",
+  "fcodeName": "fourth-order administrative division",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "geonameId": 8648415,
+    "name": "Vorpommern-Greifswald",
+    "fCode": "ADM3",
+    "fName": "third-order administrative division"
+  },
+  "postalCode": "17495"
+}

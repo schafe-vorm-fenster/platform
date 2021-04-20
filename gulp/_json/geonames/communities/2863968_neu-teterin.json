@@ -1,0 +1,108 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.65922101828558,
+    "south": 53.79196132430169,
+    "north": 53.809948621804544,
+    "west": 13.628758107690983,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Neu Teterin",
+  "astergdem": 8,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 7,
+  "cc2": "DE",
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548252",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.80095",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.64399",
+  "geonameId": 2863968,
+  "toponymName": "Neu Teterin",
+  "adminCode4": "13075022",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Butzow",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Neu Tetterin"
+  }],
+  "adminName2": "",
+  "name": "Neu Teterin",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.668931639960489,
+      "south": 53.7857022638033,
+      "north": 53.84650499920107,
+      "west": 13.605783954374662,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Butzow",
+    "astergdem": 7,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 4,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548252",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.8333",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.65",
+    "geonameId": 6548252,
+    "toponymName": "Butzow",
+    "adminCode4": "13075022",
+    "population": 437,
+    "wikipediaURL": "en.wikipedia.org/wiki/Butzow",
+    "adminName5": "",
+    "adminName4": "Butzow",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Butzow",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Butzow",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17392"
+  }
+}

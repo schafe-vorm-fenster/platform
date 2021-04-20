@@ -1,0 +1,105 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.915310349619682,
+    "south": 54.007673051248574,
+    "north": 54.02566034875143,
+    "west": 13.884689650380318,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Netzelkow",
+  "astergdem": 8,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": -1,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548292",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "54.01667",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.9",
+  "geonameId": 2866316,
+  "toponymName": "Netzelkow",
+  "adminCode4": "13075087",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Lütow",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [],
+  "adminName2": "",
+  "name": "Netzelkow",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.934209408388584,
+      "south": 53.999755116169304,
+      "north": 54.061838462753705,
+      "west": 13.852504504314979,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Luetow",
+    "astergdem": 11,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 14,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548292",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "54.0167",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.8833",
+    "geonameId": 6548292,
+    "toponymName": "Lütow",
+    "adminCode4": "13075087",
+    "population": 405,
+    "wikipediaURL": "en.wikipedia.org/wiki/L%C3%BCtow",
+    "adminName5": "",
+    "adminName4": "Lütow",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/L%C3%BCtow",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Lütow",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17440"
+  }
+}

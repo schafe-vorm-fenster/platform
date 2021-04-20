@@ -1,0 +1,109 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.343990961977678,
+    "south": 53.87308157347337,
+    "north": 53.8808607871866,
+    "west": 13.327893053618219,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Voelschow",
+  "astergdem": 13,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 16,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6547857",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.87783",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.33569",
+  "geonameId": 2816531,
+  "toponymName": "Völschow",
+  "adminCode4": "13075140",
+  "population": 602,
+  "adminName5": "",
+  "adminName4": "Völschow",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Q33512734",
+    "lang": "wkdt"
+  }],
+  "adminName2": "",
+  "name": "Völschow",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.390458980270203,
+      "south": 53.84348106324047,
+      "north": 53.900784929917485,
+      "west": 13.304047519641182,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Voelschow",
+    "astergdem": 10,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 8,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6547857",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.8833",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.3333",
+    "geonameId": 6547857,
+    "toponymName": "Völschow",
+    "adminCode4": "13075140",
+    "population": 483,
+    "wikipediaURL": "en.wikipedia.org/wiki/V%C3%B6lschow",
+    "adminName5": "",
+    "adminName4": "Völschow",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/V%C3%B6lschow",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Völschow",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17129"
+  },
+  "wikidataId": "Q33512734"
+}

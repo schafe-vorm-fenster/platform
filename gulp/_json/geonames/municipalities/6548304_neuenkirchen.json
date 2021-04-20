@@ -1,0 +1,58 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.623944515927235,
+    "south": 53.76985104761901,
+    "north": 53.81072223312141,
+    "west": 13.53914351385439,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Neuenkirchen",
+  "astergdem": 14,
+  "countryId": "2921044",
+  "fcl": "A",
+  "srtm3": 15,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548304",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.8",
+  "fcode": "ADM4",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.5667",
+  "geonameId": 6548304,
+  "toponymName": "Neuenkirchen",
+  "adminCode4": "13075101",
+  "population": 230,
+  "wikipediaURL": "en.wikipedia.org/wiki/Neuenkirchen%2C_Anklam-Land",
+  "adminName5": "",
+  "adminName4": "Neuenkirchen",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "https://en.wikipedia.org/wiki/Neuenkirchen%2C_Anklam-Land",
+    "lang": "link"
+  }],
+  "adminName2": "",
+  "name": "Neuenkirchen",
+  "fclName": "country, state, region,...",
+  "countryName": "Deutschland",
+  "fcodeName": "fourth-order administrative division",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "geonameId": 8648415,
+    "name": "Vorpommern-Greifswald",
+    "fCode": "ADM3",
+    "fName": "third-order administrative division"
+  },
+  "postalCode": "17498"
+}

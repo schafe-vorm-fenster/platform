@@ -1,0 +1,116 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.696952832396763,
+    "south": 53.99391435549458,
+    "north": 54.00799438404214,
+    "west": 13.683937121876195,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Buddenhagen",
+  "astergdem": 32,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 36,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6550723",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "54.00424",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.69175",
+  "geonameId": 2942095,
+  "toponymName": "Buddenhagen",
+  "adminCode4": "13075144",
+  "population": 408,
+  "adminName5": "",
+  "adminName4": "Wolgast",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Buddenhagen"
+  }, {
+    "name": "Q698629",
+    "lang": "wkdt"
+  }],
+  "adminName2": "",
+  "name": "Buddenhagen",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.830033933147892,
+      "south": 53.966754720889995,
+      "north": 54.08541458775856,
+      "west": 13.640087922535752,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Wolgast",
+    "astergdem": 27,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 27,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6550723",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "54.0472",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.7527",
+    "geonameId": 6550723,
+    "toponymName": "Wolgast",
+    "adminCode4": "13075144",
+    "population": 12028,
+    "wikipediaURL": "en.wikipedia.org/wiki/Wolgast",
+    "adminName5": "",
+    "adminName4": "Wolgast",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Wolgast",
+      "lang": "link"
+    }, {
+      "name": "Stadt Wolgast"
+    }, {
+      "isShortName": true,
+      "name": "Wolgast"
+    }],
+    "adminName2": "",
+    "name": "Wolgast",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17438"
+  },
+  "wikidataId": "Q698629"
+}

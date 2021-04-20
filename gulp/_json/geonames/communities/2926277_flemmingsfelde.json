@@ -1,0 +1,110 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.448558355777436,
+    "south": 53.774339651248575,
+    "north": 53.79232694875143,
+    "west": 13.418108244222562,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Flemmingsfelde",
+  "astergdem": 12,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 15,
+  "cc2": "DE",
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548268",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.78333",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.43333",
+  "geonameId": 2926277,
+  "toponymName": "Flemmingsfelde",
+  "adminCode4": "13075053",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Iven",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Flemingsfelde"
+  }, {
+    "name": "Flemmingsfelde"
+  }],
+  "adminName2": "",
+  "name": "Flemmingsfelde",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.463438292453217,
+      "south": 53.76879546242535,
+      "north": 53.820526523454134,
+      "west": 13.386659366363292,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Iven",
+    "astergdem": 20,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 14,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548268",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.8",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.4333",
+    "geonameId": 6548268,
+    "toponymName": "Iven",
+    "adminCode4": "13075053",
+    "population": 173,
+    "wikipediaURL": "en.wikipedia.org/wiki/Iven",
+    "adminName5": "",
+    "adminName4": "Iven",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Iven",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Iven",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17391"
+  }
+}

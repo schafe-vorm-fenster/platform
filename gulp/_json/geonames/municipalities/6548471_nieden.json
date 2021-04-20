@@ -1,0 +1,58 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.949071151584713,
+    "south": 53.421757208639505,
+    "north": 53.452541129378496,
+    "west": 13.902893508290171,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Nieden",
+  "astergdem": 23,
+  "countryId": "2921044",
+  "fcl": "A",
+  "srtm3": 25,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548471",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.4333",
+  "fcode": "ADM4",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.9167",
+  "geonameId": 6548471,
+  "toponymName": "Nieden",
+  "adminCode4": "13075103",
+  "population": 164,
+  "wikipediaURL": "en.wikipedia.org/wiki/Nieden",
+  "adminName5": "",
+  "adminName4": "Nieden",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "https://en.wikipedia.org/wiki/Nieden",
+    "lang": "link"
+  }],
+  "adminName2": "",
+  "name": "Nieden",
+  "fclName": "country, state, region,...",
+  "countryName": "Deutschland",
+  "fcodeName": "fourth-order administrative division",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "geonameId": 8648415,
+    "name": "Vorpommern-Greifswald",
+    "fCode": "ADM3",
+    "fName": "third-order administrative division"
+  },
+  "postalCode": "17309"
+}

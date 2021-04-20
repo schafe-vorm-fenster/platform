@@ -1,0 +1,105 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.79168890028743,
+    "south": 53.957481351248575,
+    "north": 53.97546864875143,
+    "west": 13.76110509971257,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Weiblitz",
+  "astergdem": 10,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 11,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548331",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.96648",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.7764",
+  "geonameId": 2813170,
+  "toponymName": "Weiblitz",
+  "adminCode4": "13075147",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Zemitz",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [],
+  "adminName2": "",
+  "name": "Weiblitz",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.83734538933547,
+      "south": 53.955996096654836,
+      "north": 54.01160869600362,
+      "west": 13.69910983767548,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Zemitz",
+    "astergdem": 11,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 10,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548331",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.9833",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.75",
+    "geonameId": 6548331,
+    "toponymName": "Zemitz",
+    "adminCode4": "13075147",
+    "population": 716,
+    "wikipediaURL": "en.wikipedia.org/wiki/Zemitz",
+    "adminName5": "",
+    "adminName4": "Zemitz",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Zemitz",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Zemitz",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17440"
+  }
+}

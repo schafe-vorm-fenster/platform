@@ -1,0 +1,105 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.25564070201902,
+    "south": 54.01450960405721,
+    "north": 54.032496901560066,
+    "west": 13.225014968146995,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Pustow",
+  "astergdem": 31,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 28,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6551185",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "54.0235",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.24033",
+  "geonameId": 2851616,
+  "toponymName": "Pustow",
+  "adminCode4": "13075123",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Sassen-Trantow",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [],
+  "adminName2": "",
+  "name": "Pustow",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.260612005180835,
+      "south": 53.95724101931276,
+      "north": 54.056204033130136,
+      "west": 13.150962744878104,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Sassen-Trantow",
+    "astergdem": 17,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 15,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6551185",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "54.00419",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.20448",
+    "geonameId": 6551185,
+    "toponymName": "Sassen-Trantow",
+    "adminCode4": "13075123",
+    "population": 831,
+    "wikipediaURL": "en.wikipedia.org/wiki/Sassen-Trantow",
+    "adminName5": "",
+    "adminName4": "Sassen-Trantow",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Sassen-Trantow",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Sassen-Trantow",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": ""
+  }
+}

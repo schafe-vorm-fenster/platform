@@ -1,0 +1,126 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 14.208881465034821,
+    "south": 53.871862635124856,
+    "north": 53.87366136487515,
+    "west": 14.20583053496518,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Kamminke",
+  "astergdem": 6,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 7,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548271",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.87276",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "14.20736",
+  "geonameId": 2893322,
+  "toponymName": "Kamminke",
+  "adminCode4": "13075056",
+  "population": 299,
+  "adminName5": "",
+  "adminName4": "Kamminke",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Kamminke"
+  }, {
+    "name": "Q32063853",
+    "lang": "wkdt"
+  }, {
+    "name": "Каминке",
+    "lang": "mk"
+  }, {
+    "name": "Каминке",
+    "lang": "sr"
+  }, {
+    "name": "Камминке",
+    "lang": "kk"
+  }, {
+    "name": "Камминке",
+    "lang": "ru"
+  }, {
+    "name": "卡明克",
+    "lang": "zh"
+  }],
+  "adminName2": "",
+  "name": "Kamminke",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 14.215371850189602,
+      "south": 53.86575412668334,
+      "north": 53.88995289508559,
+      "west": 14.187890423006175,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Kamminke",
+    "astergdem": 5,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 8,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548271",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.87801",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "14.20275",
+    "geonameId": 6548271,
+    "toponymName": "Kamminke",
+    "adminCode4": "13075056",
+    "population": 249,
+    "wikipediaURL": "en.wikipedia.org/wiki/Kamminke",
+    "adminName5": "",
+    "adminName4": "Kamminke",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Kamminke",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Kamminke",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17419"
+  },
+  "wikidataId": "Q32063853"
+}

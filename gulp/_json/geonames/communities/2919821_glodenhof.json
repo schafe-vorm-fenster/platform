@@ -1,0 +1,109 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.505115493875293,
+    "south": 53.92637335124857,
+    "north": 53.94436064875143,
+    "west": 13.474554506124706,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Gloedenhof",
+  "astergdem": 23,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 25,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548260",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.93537",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.48983",
+  "geonameId": 2919821,
+  "toponymName": "Glödenhof",
+  "adminCode4": "13075040",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Gribow",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Glödenhof"
+  }, {
+    "name": "Gloedenhof"
+  }],
+  "adminName2": "",
+  "name": "Glödenhof",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.517111063244952,
+      "south": 53.92499101362451,
+      "north": 53.96174974256375,
+      "west": 13.464532056885275,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Gribow",
+    "astergdem": 22,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 22,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548260",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.95",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.4833",
+    "geonameId": 6548260,
+    "toponymName": "Gribow",
+    "adminCode4": "13075040",
+    "population": 144,
+    "wikipediaURL": "en.wikipedia.org/wiki/Gribow",
+    "adminName5": "",
+    "adminName4": "Gribow",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Gribow",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Gribow",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17506"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 14.270580459233829,
+    "south": 53.681519351248575,
+    "north": 53.69950664875143,
+    "west": 14.24019754076617,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Rieth",
+  "astergdem": 10,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 1,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548466",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.69051",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "14.25539",
+  "geonameId": 2846829,
+  "toponymName": "Rieth",
+  "adminCode4": "13075085",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Luckow",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Q2152591",
+    "lang": "wkdt"
+  }, {
+    "name": "Rieth"
+  }],
+  "adminName2": "",
+  "name": "Rieth",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 14.283681257633729,
+      "south": 53.651727468385225,
+      "north": 53.71545198651577,
+      "west": 14.11706083035374,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Luckow",
+    "astergdem": 7,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 2,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548466",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.7",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "14.1667",
+    "geonameId": 6548466,
+    "toponymName": "Luckow",
+    "adminCode4": "13075085",
+    "population": 572,
+    "wikipediaURL": "en.wikipedia.org/wiki/Luckow%2C_Mecklenburg-Vorpommern",
+    "adminName5": "",
+    "adminName4": "Luckow",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Luckow%2C_Mecklenburg-Vorpommern",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Luckow",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17375"
+  },
+  "wikidataId": "Q2152591"
+}

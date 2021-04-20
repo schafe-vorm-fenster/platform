@@ -1,0 +1,114 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 14.327072769114872,
+    "south": 53.38608735124857,
+    "north": 53.404074648751426,
+    "west": 14.296901230885128,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Sonnenberg",
+  "astergdem": 21,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 22,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "7602572",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.39508",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "14.31199",
+  "geonameId": 2831188,
+  "toponymName": "Sonnenberg",
+  "adminCode4": "13075038",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Grambow",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [],
+  "adminName2": "",
+  "name": "Sonnenberg",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 14.395310785941712,
+      "south": 53.34559176331123,
+      "north": 53.43887398345082,
+      "west": 14.277801860502837,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Grambow",
+    "astergdem": 50,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 38,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "7602572",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.41414",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "14.3351",
+    "geonameId": 7602572,
+    "toponymName": "Grambow",
+    "adminCode4": "13075038",
+    "population": 851,
+    "wikipediaURL": "en.wikipedia.org/wiki/Grambow%2C_Uecker-Randow",
+    "adminName5": "",
+    "adminName4": "Grambow",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Grambow%2C_Uecker-Randow",
+      "lang": "link"
+    }, {
+      "name": "Грамбов",
+      "lang": "mk"
+    }, {
+      "name": "Грамбов",
+      "lang": "ru"
+    }, {
+      "name": "Грамбов",
+      "lang": "sr"
+    }],
+    "adminName2": "",
+    "name": "Grambow",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17322"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.303826421294506,
+    "south": 54.042105030254405,
+    "north": 54.053129639282794,
+    "west": 13.287628501314776,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Dersekow",
+  "astergdem": 32,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 33,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548255",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "54.04583",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.29243",
+  "geonameId": 2938019,
+  "toponymName": "Dersekow",
+  "adminCode4": "13075027",
+  "population": 1132,
+  "adminName5": "",
+  "adminName4": "Dersekow",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Дерзеков",
+    "lang": "kk"
+  }, {
+    "name": "Дерзеков",
+    "lang": "mk"
+  }, {
+    "name": "Дерзеков",
+    "lang": "ru"
+  }, {
+    "name": "Дерзеков",
+    "lang": "sr"
+  }, {
+    "name": "德尔塞科",
+    "lang": "zh"
+  }],
+  "adminName2": "",
+  "name": "Dersekow",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.354764532914272,
+      "south": 54.00589046784839,
+      "north": 54.06777985833822,
+      "west": 13.233395158591192,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Dersekow",
+    "astergdem": 23,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 27,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548255",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "54.05",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.3",
+    "geonameId": 6548255,
+    "toponymName": "Dersekow",
+    "adminCode4": "13075027",
+    "population": 1063,
+    "wikipediaURL": "en.wikipedia.org/wiki/Dersekow",
+    "adminName5": "",
+    "adminName4": "Dersekow",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Dersekow",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Dersekow",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17498"
+  }
+}

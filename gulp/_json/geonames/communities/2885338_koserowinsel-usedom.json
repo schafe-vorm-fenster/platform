@@ -1,0 +1,129 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 14.02059605432753,
+    "south": 54.04247960571931,
+    "north": 54.05943476748899,
+    "west": 13.993822576846283,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Koserow",
+  "astergdem": 11,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 7,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548279",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "54.05189",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "14.00197",
+  "geonameId": 2885338,
+  "toponymName": "Koserow",
+  "adminCode4": "13075066",
+  "population": 1763,
+  "adminName5": "",
+  "adminName4": "Koserow",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Koserow"
+  }, {
+    "name": "Koserow/Insel Usedom",
+    "lang": "de"
+  }, {
+    "name": "Q32066737",
+    "lang": "wkdt"
+  }, {
+    "name": "Козеров",
+    "lang": "kk"
+  }, {
+    "name": "Козеров",
+    "lang": "mk"
+  }, {
+    "name": "Козеров",
+    "lang": "ru"
+  }, {
+    "name": "Козеров",
+    "lang": "sr"
+  }, {
+    "name": "科塞罗",
+    "lang": "zh"
+  }],
+  "adminName2": "",
+  "name": "Koserow/Insel Usedom",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 14.027580767628825,
+      "south": 54.03653285953127,
+      "north": 54.0687474789432,
+      "west": 13.964660055043353,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Koserow",
+    "astergdem": 11,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 0,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548279",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "54.05206",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.99739",
+    "geonameId": 6548279,
+    "toponymName": "Koserow",
+    "adminCode4": "13075066",
+    "population": 1732,
+    "wikipediaURL": "en.wikipedia.org/wiki/Koserow",
+    "adminName5": "",
+    "adminName4": "Koserow",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Koserow",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Koserow",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17459"
+  },
+  "wikidataId": "Q32066737"
+}

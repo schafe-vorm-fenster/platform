@@ -1,0 +1,111 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.451919281369978,
+    "south": 54.091481351248575,
+    "north": 54.10946864875143,
+    "west": 13.421236718630023,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Ladebow",
+  "astergdem": 6,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 1,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6551180",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "54.10048",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.43658",
+  "geonameId": 2881989,
+  "toponymName": "Ladebow",
+  "adminCode4": "13075039",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Greifswald, Hansestadt",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Ladebow"
+  }, {
+    "name": "Q1799888",
+    "lang": "wkdt"
+  }],
+  "adminName2": "",
+  "name": "Ladebow",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.50769185759334,
+      "south": 54.05418540619022,
+      "north": 54.185304434540285,
+      "west": 13.319351733636976,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Greifswald, Hansestadt",
+    "astergdem": 8,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 3,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6551180",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "54.08809",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.38756",
+    "geonameId": 6551180,
+    "toponymName": "Greifswald, Hansestadt",
+    "adminCode4": "13075039",
+    "population": 59382,
+    "wikipediaURL": "en.wikipedia.org/wiki/Greifswald",
+    "adminName5": "",
+    "adminName4": "Greifswald, Hansestadt",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Greifswald",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Greifswald, Hansestadt",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": ""
+  },
+  "wikidataId": "Q1799888"
+}

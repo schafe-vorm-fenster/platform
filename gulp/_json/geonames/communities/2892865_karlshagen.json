@@ -1,0 +1,131 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.843121432627608,
+    "south": 54.106044267328585,
+    "north": 54.12523318807828,
+    "west": 13.807173508573369,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Karlshagen",
+  "astergdem": 8,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 0,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548273",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "54.11107",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.83193",
+  "geonameId": 2892865,
+  "toponymName": "Karlshagen",
+  "adminCode4": "13075058",
+  "population": 3066,
+  "adminName5": "",
+  "adminName4": "Karlshagen",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Carlshagen"
+  }, {
+    "name": "Karlshagen"
+  }, {
+    "name": "Q32063947",
+    "lang": "wkdt"
+  }, {
+    "name": "Карлсхаген",
+    "lang": "kk"
+  }, {
+    "name": "Карлсхаген",
+    "lang": "ky"
+  }, {
+    "name": "Карлсхаген",
+    "lang": "mk"
+  }, {
+    "name": "Карлсхаген",
+    "lang": "ru"
+  }, {
+    "name": "Карлсхаген",
+    "lang": "sr"
+  }, {
+    "name": "卡尔斯哈根",
+    "lang": "zh"
+  }],
+  "adminName2": "",
+  "name": "Karlshagen",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.855302343722402,
+      "south": 54.099187232720276,
+      "north": 54.126056483422204,
+      "west": 13.807189925180435,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Karlshagen",
+    "astergdem": 22,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 13,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548273",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "54.1167",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.8333",
+    "geonameId": 6548273,
+    "toponymName": "Karlshagen",
+    "adminCode4": "13075058",
+    "population": 3194,
+    "wikipediaURL": "en.wikipedia.org/wiki/Karlshagen",
+    "adminName5": "",
+    "adminName4": "Karlshagen",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Karlshagen",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Karlshagen",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17449"
+  },
+  "wikidataId": "Q32063947"
+}

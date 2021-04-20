@@ -1,0 +1,111 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.909948230718234,
+    "south": 53.77015912496431,
+    "north": 53.78144262813674,
+    "west": 13.880549477761845,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Leopoldshagen",
+  "astergdem": 12,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 2,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548463",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.77413",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.89348",
+  "geonameId": 2878675,
+  "toponymName": "Leopoldshagen",
+  "adminCode4": "13075075",
+  "population": 793,
+  "adminName5": "",
+  "adminName4": "Leopoldshagen",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Leopoldshagen"
+  }, {
+    "name": "Q32093529",
+    "lang": "wkdt"
+  }],
+  "adminName2": "",
+  "name": "Leopoldshagen",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.93679799884766,
+      "south": 53.7477041593964,
+      "north": 53.797865714549786,
+      "west": 13.826413183229835,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Leopoldshagen",
+    "astergdem": 11,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": -3,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548463",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.7833",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.9",
+    "geonameId": 6548463,
+    "toponymName": "Leopoldshagen",
+    "adminCode4": "13075075",
+    "population": 661,
+    "wikipediaURL": "en.wikipedia.org/wiki/Leopoldshagen",
+    "adminName5": "",
+    "adminName4": "Leopoldshagen",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Leopoldshagen",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Leopoldshagen",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17375"
+  },
+  "wikidataId": "Q32093529"
+}

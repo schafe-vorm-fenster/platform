@@ -1,0 +1,111 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.830204935384788,
+    "south": 53.588237164948815,
+    "north": 53.59862957637336,
+    "west": 13.808883481213476,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Rothemuehl",
+  "astergdem": 25,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 30,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548477",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.59411",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.82366",
+  "geonameId": 2844163,
+  "toponymName": "Rothemühl",
+  "adminCode4": "13075118",
+  "population": 348,
+  "adminName5": "",
+  "adminName4": "Rothemühl",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Q33476465",
+    "lang": "wkdt"
+  }, {
+    "name": "Rothemühl"
+  }],
+  "adminName2": "",
+  "name": "Rothemühl",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.89906973981694,
+      "south": 53.5587015183653,
+      "north": 53.62770197160546,
+      "west": 13.785028005539624,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Rothemuehl",
+    "astergdem": 35,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 30,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548477",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.6",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.8333",
+    "geonameId": 6548477,
+    "toponymName": "Rothemühl",
+    "adminCode4": "13075118",
+    "population": 306,
+    "wikipediaURL": "en.wikipedia.org/wiki/Rothem%C3%BChl",
+    "adminName5": "",
+    "adminName4": "Rothemühl",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Rothem%C3%BChl",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Rothemühl",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17379"
+  },
+  "wikidataId": "Q33476465"
+}

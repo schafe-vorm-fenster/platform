@@ -1,0 +1,58 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.607400937420586,
+    "south": 53.73131955420517,
+    "north": 53.81276942897802,
+    "west": 13.344001165053314,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Spantekow",
+  "astergdem": 13,
+  "countryId": "2921044",
+  "fcl": "A",
+  "srtm3": 13,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548321",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.7833",
+  "fcode": "ADM4",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.5333",
+  "geonameId": 6548321,
+  "toponymName": "Spantekow",
+  "adminCode4": "13075127",
+  "population": 1089,
+  "wikipediaURL": "en.wikipedia.org/wiki/Spantekow",
+  "adminName5": "",
+  "adminName4": "Spantekow",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "https://en.wikipedia.org/wiki/Spantekow",
+    "lang": "link"
+  }],
+  "adminName2": "",
+  "name": "Spantekow",
+  "fclName": "country, state, region,...",
+  "countryName": "Deutschland",
+  "fcodeName": "fourth-order administrative division",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "geonameId": 8648415,
+    "name": "Vorpommern-Greifswald",
+    "fCode": "ADM3",
+    "fName": "third-order administrative division"
+  },
+  "postalCode": "17392"
+}

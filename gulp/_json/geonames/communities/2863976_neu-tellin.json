@@ -1,0 +1,111 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.235863168863936,
+    "south": 53.84338335124857,
+    "north": 53.861370648751425,
+    "west": 13.205362831136064,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Neu Tellin",
+  "astergdem": 22,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 18,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6547808",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.85238",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.22061",
+  "geonameId": 2863976,
+  "toponymName": "Neu Tellin",
+  "adminCode4": "13075002",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Alt Tellin",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "Neu Tellin"
+  }, {
+    "name": "Q21039870",
+    "lang": "wkdt"
+  }],
+  "adminName2": "",
+  "name": "Neu Tellin",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.287107128137785,
+      "south": 53.80761527077302,
+      "north": 53.85992132787674,
+      "west": 13.185104676604395,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Alt Tellin",
+    "astergdem": 16,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 16,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6547808",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.85",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.25",
+    "geonameId": 6547808,
+    "toponymName": "Alt Tellin",
+    "adminCode4": "13075002",
+    "population": 376,
+    "wikipediaURL": "en.wikipedia.org/wiki/Alt_Tellin",
+    "adminName5": "",
+    "adminName4": "Alt Tellin",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Alt_Tellin",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Alt Tellin",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17129"
+  },
+  "wikidataId": "Q21039870"
+}

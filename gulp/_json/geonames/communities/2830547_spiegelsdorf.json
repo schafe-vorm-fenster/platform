@@ -1,0 +1,105 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 13.639680837447415,
+    "south": 54.07135135124857,
+    "north": 54.08933864875143,
+    "west": 13.609013162552586,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Spiegelsdorf",
+  "astergdem": 17,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 6,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6548300",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "54.08035",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "13.62435",
+  "geonameId": 2830547,
+  "toponymName": "Spiegelsdorf",
+  "adminCode4": "13075097",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Neu Boltenhagen",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [],
+  "adminName2": "",
+  "name": "Spiegelsdorf",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 13.677549458247595,
+      "south": 54.02849422818325,
+      "north": 54.08746018328285,
+      "west": 13.569892676358423,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Neu Boltenhagen",
+    "astergdem": 12,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 12,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6548300",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "54.0667",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "13.6167",
+    "geonameId": 6548300,
+    "toponymName": "Neu Boltenhagen",
+    "adminCode4": "13075097",
+    "population": 583,
+    "wikipediaURL": "en.wikipedia.org/wiki/Neu_Boltenhagen",
+    "adminName5": "",
+    "adminName4": "Neu Boltenhagen",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Neu_Boltenhagen",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Neu Boltenhagen",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17509"
+  }
+}

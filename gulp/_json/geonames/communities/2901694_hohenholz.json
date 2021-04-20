@@ -1,0 +1,105 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 14.322037805453048,
+    "south": 53.34100535124857,
+    "north": 53.358992648751425,
+    "west": 14.29189819454695,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Hohenholz",
+  "astergdem": 32,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 38,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "7602573",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.35",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "14.30697",
+  "geonameId": 2901694,
+  "toponymName": "Hohenholz",
+  "adminCode4": "13075067",
+  "population": 0,
+  "adminName5": "",
+  "adminName4": "Krackow",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [],
+  "adminName2": "",
+  "name": "Hohenholz",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 14.35470966782151,
+      "south": 53.31521253379369,
+      "north": 53.3921716957723,
+      "west": 14.20344129487578,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Krackow",
+    "astergdem": 20,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": 25,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "7602573",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.35",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "14.26667",
+    "geonameId": 7602573,
+    "toponymName": "Krackow",
+    "adminCode4": "13075067",
+    "population": 639,
+    "wikipediaURL": "en.wikipedia.org/wiki/Krackow%2C_Germany",
+    "adminName5": "",
+    "adminName4": "Krackow",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Krackow%2C_Germany",
+      "lang": "link"
+    }],
+    "adminName2": "",
+    "name": "Krackow",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17329"
+  }
+}

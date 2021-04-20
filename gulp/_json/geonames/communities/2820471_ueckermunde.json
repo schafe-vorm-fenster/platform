@@ -1,0 +1,143 @@
+{
+  "timezone": {
+    "gmtOffset": 1,
+    "timeZoneId": "Europe/Berlin",
+    "dstOffset": 2
+  },
+  "bbox": {
+    "east": 14.084359391697378,
+    "south": 53.71815161544522,
+    "north": 53.746704741666726,
+    "west": 14.015758337096463,
+    "accuracyLevel": 0
+  },
+  "asciiName": "Ueckermuende",
+  "astergdem": 11,
+  "countryId": "2921044",
+  "fcl": "P",
+  "srtm3": 2,
+  "adminId3": "8648415",
+  "countryCode": "DE",
+  "adminId4": "6550738",
+  "adminCodes1": {
+    "ISO3166_2": "MV"
+  },
+  "adminId1": "2872567",
+  "lat": "53.73795",
+  "fcode": "PPL",
+  "continentCode": "EU",
+  "adminCode2": "00",
+  "adminCode3": "13075",
+  "adminCode1": "12",
+  "lng": "14.04473",
+  "geonameId": 2820471,
+  "toponymName": "Ueckermünde",
+  "adminCode4": "13075136",
+  "population": 11003,
+  "adminName5": "",
+  "adminName4": "Ueckermünde",
+  "adminName3": "Vorpommern-Greifswald",
+  "alternateNames": [{
+    "name": "DEUCK",
+    "lang": "unlc"
+  }, {
+    "name": "Ikerminde",
+    "lang": "lv"
+  }, {
+    "name": "Ueckermünde",
+    "lang": "de"
+  }, {
+    "name": "Wkra",
+    "lang": "csb"
+  }, {
+    "name": "اواکرمونده",
+    "lang": "fa"
+  }, {
+    "name": "أوكرمونده",
+    "lang": "ar"
+  }, {
+    "name": "Икерминде",
+    "lang": "mk"
+  }, {
+    "name": "Икерминде",
+    "lang": "sr"
+  }, {
+    "name": "Иккермюнде",
+    "lang": "ru"
+  }, {
+    "name": "Уккермунде",
+    "lang": "uk"
+  }, {
+    "name": "乌埃克尔明德",
+    "lang": "zh"
+  }],
+  "adminName2": "",
+  "name": "Ueckermünde",
+  "fclName": "city, village,...",
+  "countryName": "Deutschland",
+  "fcodeName": "populated place",
+  "adminName1": "Mecklenburg-Vorpommern",
+  "parent": {
+    "timezone": {
+      "gmtOffset": 1,
+      "timeZoneId": "Europe/Berlin",
+      "dstOffset": 2
+    },
+    "bbox": {
+      "east": 14.139786886943522,
+      "south": 53.69953247334263,
+      "north": 53.811618562659646,
+      "west": 13.962977574581926,
+      "accuracyLevel": 0
+    },
+    "asciiName": "Ueckermuende",
+    "astergdem": 12,
+    "countryId": "2921044",
+    "fcl": "A",
+    "srtm3": -1,
+    "adminId3": "8648415",
+    "countryCode": "DE",
+    "adminId4": "6550738",
+    "adminCodes1": {
+      "ISO3166_2": "MV"
+    },
+    "adminId1": "2872567",
+    "lat": "53.7312",
+    "fcode": "ADM4",
+    "continentCode": "EU",
+    "adminCode2": "00",
+    "adminCode3": "13075",
+    "adminCode1": "12",
+    "lng": "14.035",
+    "geonameId": 6550738,
+    "toponymName": "Ueckermünde",
+    "adminCode4": "13075136",
+    "population": 8591,
+    "wikipediaURL": "en.wikipedia.org/wiki/Ueckerm%C3%BCnde",
+    "adminName5": "",
+    "adminName4": "Ueckermünde",
+    "adminName3": "Vorpommern-Greifswald",
+    "alternateNames": [{
+      "name": "https://en.wikipedia.org/wiki/Ueckerm%C3%BCnde",
+      "lang": "link"
+    }, {
+      "name": "Stadt Ueckermünde"
+    }, {
+      "isShortName": true,
+      "name": "Ueckermünde"
+    }],
+    "adminName2": "",
+    "name": "Ueckermünde",
+    "fclName": "country, state, region,...",
+    "countryName": "Deutschland",
+    "fcodeName": "fourth-order administrative division",
+    "adminName1": "Mecklenburg-Vorpommern",
+    "parent": {
+      "geonameId": 8648415,
+      "name": "Vorpommern-Greifswald",
+      "fCode": "ADM3",
+      "fName": "third-order administrative division"
+    },
+    "postalCode": "17373"
+  }
+}
