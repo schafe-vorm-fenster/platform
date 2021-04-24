@@ -330,6 +330,11 @@ export default createSchema({
           type: "string",
         },
         {
+          title: "Wikidata ID",
+          name: "wikidata_id",
+          type: "string",
+        },
+        {
           title: "Website",
           name: "website",
           type: "url",
