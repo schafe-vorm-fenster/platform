@@ -228,6 +228,11 @@ export default createSchema({
           type: "string",
         },
         {
+          title: "Wikidata ID",
+          name: "wikidata_id",
+          type: "string",
+        },
+        {
           title: "Address",
           name: "address",
           type: "string",
@@ -257,6 +262,13 @@ export default createSchema({
           title: "Visual",
           name: "image",
           type: "image",
+        },
+        {
+          title: "Wikimedia Commons Images",
+          name: "wikimedia_commons_imagelinks",
+          type: "array",
+          of: [{ type: "string" }],
+          validation: (Rule) => Rule.unique(),
         },
         {
           title: "Description",

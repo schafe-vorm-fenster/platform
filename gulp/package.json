@@ -15,6 +15,7 @@
   "keywords": [],
   "license": "MIT",
   "dependencies": {
+    "@googlemaps/google-maps-services-js": "^3.1.16",
     "@sanity/client": "^0.146.0",
     "commons-photo-url": "^1.0.0",
     "del": "^4.1.0",
