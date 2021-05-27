@@ -103,6 +103,7 @@ gulp.task("sanity:events:push", function () {
           start: json.startDateTime,
           end: json.endDateTime,
           allday: json.allday,
+          cancelled: json.status === 'cancelled' ? true : false,
           calendar_id: json.organizer.email,
           googleeventattachment: json.googleeventattachment,
         };

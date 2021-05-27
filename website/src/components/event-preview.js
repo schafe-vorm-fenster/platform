@@ -10,6 +10,8 @@ import FilePreview from "./file-preview";
 function EventPreview(props) {
   var timeString;
 
+  if(props.cancelled) return <></>
+
   var eventType = "default";
   if (props.allday) {
     eventType = "allday";

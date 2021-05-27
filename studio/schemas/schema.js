@@ -505,6 +505,11 @@ export default createSchema({
           },
         },
         {
+          title: "Cancelled?",
+          name: "cancelled",
+          type: "boolean",
+        },
+        {
           title: "Location",
           name: "location",
           type: "string",

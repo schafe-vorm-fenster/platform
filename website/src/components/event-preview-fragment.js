@@ -7,6 +7,7 @@ export const query = graphql`
     start
     end
     allday
+    cancelled
     description
     location
     googleeventattachment {
