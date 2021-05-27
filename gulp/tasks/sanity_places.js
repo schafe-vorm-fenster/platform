@@ -14,6 +14,7 @@ var buffer = require("vinyl-buffer");
 var combine = require("gulp-concat-json-to-array");
 const beautify = require("gulp-jsbeautifier");
 const patchtosanity = require("../plugins/gulp-patch-to-sanity");
+const determinesanitycommunityreference = require("../plugins/gulp-determine-sanity-community-reference");
 const sanityClient = require("@sanity/client");
 const slugify = require("slugify");
 
@@ -82,6 +83,14 @@ gulp.task("sanity:place:get", function () {
     .pipe(gulp.dest("_json/sanity/place/"));
 });
 
+gulp.task("sanity:place:addrefs", function () {
+  return gulp
+    .src("_json/googlemaps/places/*.json")
+    .pipe(determinesanitycommunityreference(sanity_credentials))
+    .pipe(beautify({ indent_size: 2 }))
+    .pipe(gulp.dest("./"));
+});
+
 gulp.task("sanity:place:push", function () {
   return gulp
     .src("_json/googlemaps/places/*.json")
@@ -94,22 +103,21 @@ gulp.task("sanity:place:push", function () {
           shortNameArr?.length > 0 && shortNameArr[0].name
             ? shortNameArr[0].name
             : json.name;
-        let place = {
-          _id: "geonames." + json.geonameId,
+        let _id = null;
+        if (!_id && json.geonameId) _id = "geoname." + json.geonameId;
+        if (!_id && json.place_id) _id = "googleplace." + json.place_id;
+        if (!_id && json.address) _id = "address." + slugify(json.address);
+        return {
+          _id: _id,
           _type: "place",
-          name: json.toponymName,
-          localname: json.shortname,
-          /*
-          community: {
-            _type: "reference",
-            _ref: "geonames." + json.adminId4,
-            _weak: true,
-          },
-          */
+          name: json.toponymName ? json.toponymName : json.name,
+          localname: json.shortname ? json.shortname : json.name,
+          community: json.sanity_community_ref,
           place_id: json.place_id,
           wikidata_id: json?.wikidataId ? json.wikidataId : "",
           address: json.formatted_address,
           address_aliases: [
+            json.toponymName + ", " + json.formatted_address,
             json.toponymName + ", " + json.adminName4,
             json.toponymName + ", " + json.adminName4 + ", " + json.countryName,
             json.toponymName +
@@ -137,7 +145,6 @@ gulp.task("sanity:place:push", function () {
               })
             : [],
         };
-        return place;
       })
     )
     .pipe(patchtosanity(sanity_credentials, "overwrite"));
@@ -146,4 +153,9 @@ gulp.task("sanity:place:push", function () {
 gulp.task(
   "sanity:place",
   gulp.series(["sanity:place:clean", gulp.parallel(["sanity:place:get"])])
+);
+
+gulp.task(
+  "sanity:addplaces",
+  gulp.series(["sanity:place:addrefs", gulp.parallel(["sanity:place:push"])])
 );

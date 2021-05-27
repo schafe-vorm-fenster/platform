@@ -36,6 +36,7 @@ module.exports = function (credentials, filters = {}) {
       username: credentials.username,
       lan: credentials.lan ? credentials.lan : "de",
       encoding: "JSON",
+      token: 'token'
     });
 
     const jsonobj = JSON.parse(file.contents.toString());
@@ -51,13 +52,15 @@ module.exports = function (credentials, filters = {}) {
     }
 
     // build query
-    let searchQuery = { q: null };
+    let searchQuery = { q: 'Wasserschloss' };
     if (filters?.adminCode4 === true && jsonobj?.adminCode4)
       searchQuery.adminCode4 = jsonobj.adminCode4;
-    if (filters?.featureCode && filters?.featureCode.length > 0)
-      searchQuery.featureCode = filters.featureCode;
-    if (filters?.featureClass && filters?.featureClass.length > 0)
-      searchQuery.featureClass = filters.featureClass;
+    // if (filters?.featureCode && filters?.featureCode.length > 0)
+    //   searchQuery.featureCode = filters.featureCode;
+    // if (filters?.featureClass && filters?.featureClass.length > 0)
+    //   searchQuery.featureClass = filters.featureClass;
+
+    console.log(searchQuery);
 
     /**
      * query for geonames search
@@ -69,6 +72,7 @@ module.exports = function (credentials, filters = {}) {
         }
         let result = null;
         result = response;
+        console.log(result);
 
         if (result?.geonames?.length > 0) {
           for (let i = 0; i < result.geonames.length; i++) {

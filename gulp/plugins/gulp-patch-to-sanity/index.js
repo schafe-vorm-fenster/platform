@@ -56,6 +56,8 @@ module.exports = function (credentials, mode = "patch") {
       useCdn: false,
     });
 
+    setTimeout(() => {  console.log("..."); }, 500);
+
     client
       .createIfNotExists(jsonobj)
       .then((res) => {
