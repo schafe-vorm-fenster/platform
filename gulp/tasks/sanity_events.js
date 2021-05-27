@@ -3,6 +3,9 @@
 const gulp = require("gulp");
 const markdownjson = require("gulp-marked-json");
 const jeditor = require("gulp-json-editor");
+const request = require("request");
+var buffer = require("vinyl-buffer");
+var split = require("../plugins/gulp-split-array");
 const beautifyCode = require("gulp-beautify-code");
 const beautify = require("gulp-jsbeautifier");
 const rename = require("gulp-rename");
@@ -33,6 +36,41 @@ const client = sanityClient({
   useCdn: false,
 });
 
+gulp.task("sanity:events:clean:missingplaces", function () {
+  return del("_json/sanity/missingplaces/*");
+});
+
+gulp.task("sanity:events:get:missingplaces", function () {
+  const query = '*[_type=="event" && !defined(place)]{location}';
+  const uri =
+    "https://" +
+    sanity_credentials.projectId +
+    ".api.sanity.io/v2021-03-25/data/query/" +
+    sanity_credentials.dataset +
+    "?query=" +
+    encodeURIComponent(query);
+
+  return request({
+    method: "GET",
+    uri: uri,
+    auth: {
+      bearer: sanity_credentials.token,
+    },
+  })
+    .pipe(source("sanity_eventswithmissingplaces.json"))
+    .pipe(buffer())
+    .pipe(split("result", "location"))
+    .pipe(
+      jeditor(function (json) {
+        return {
+          address: json.location,
+        };
+      })
+    )
+    .pipe(beautify({ indent_size: 2 }))
+    .pipe(gulp.dest("_json/sanity/missingplaces/"));
+});
+
 gulp.task("sanity:events:delete:all", function () {
   const query = { query: '*[_type == "event"]' };
   return client.delete(query).catch((err) => {
@@ -50,6 +88,7 @@ gulp.task("sanity:events:delete:past", function () {
   });
 });
 
+/*
 gulp.task("sanity:events:delete:all", function () {
   const query = '*[_type == "event"]';
   return client
@@ -65,6 +104,7 @@ gulp.task("sanity:events:delete:all", function () {
       console.error("Oh no, the update failed: ", err.message);
     });
 });
+ */
 
 gulp.task("sanity:events:push", function () {
   return gulp
@@ -103,7 +143,7 @@ gulp.task("sanity:events:push", function () {
           start: json.startDateTime,
           end: json.endDateTime,
           allday: json.allday,
-          cancelled: json.status === 'cancelled' ? true : false,
+          cancelled: json.status === "cancelled" ? true : false,
           calendar_id: json.organizer.email,
           googleeventattachment: json.googleeventattachment,
         };
@@ -120,4 +160,12 @@ gulp.task("sanity:events:push", function () {
 gulp.task(
   "sanity:events",
   gulp.parallel(["sanity:events:delete:past", "sanity:events:push"])
+);
+
+gulp.task(
+  "sanity:events:missingplaces",
+  gulp.series([
+    "sanity:events:clean:missingplaces",
+    "sanity:events:get:missingplaces",
+  ])
 );

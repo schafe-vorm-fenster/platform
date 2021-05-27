@@ -74,11 +74,11 @@ gulp.task("sanity:place:get", function () {
     .pipe(source("sanity_place.json"))
     .pipe(buffer())
     .pipe(split("result", "name"))
-    .pipe(
+/*    .pipe(
       combine("places.json", function (data, meta) {
         return new Buffer.from(JSON.stringify(data));
       })
-    )
+    )*/
     .pipe(beautify({ indent_size: 2 }))
     .pipe(gulp.dest("_json/sanity/place/"));
 });
