@@ -525,7 +525,8 @@ export default createSchema({
           name: "place",
           type: "reference",
           weak: true,
-          to: [{ type: "place" },{ type: "community" }],
+          // to: [{ type: "place" },{ type: "community" }],
+          to: [{ type: "place" }],
           description: "At which place does the event happen? Might be a village.",
         },
         {
