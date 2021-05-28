@@ -52,7 +52,13 @@ module.exports = function (credentials) {
         params: {
           place_id: jsonobj.place_id,
           inputtype: PlaceInputType.textQuery,
-          fields: ["address_component", "business_status", "geometry", "types"],
+          fields: [
+            "name",
+            "address_component",
+            "business_status",
+            "geometry",
+            "types",
+          ],
           key: process.env.GOOGLE_MAPS_API_KEY,
         },
         timeout: process.env.GOOGLE_MAPS_API_TIMEOUT | 2000, // milliseconds
@@ -61,6 +67,7 @@ module.exports = function (credentials) {
         // TODO: REMOVE console.log(JSON.stringify(response.data, null, 2));
         if (response?.data?.status === "OK" && response?.data?.result) {
           const googleplace = response.data.result;
+          jsonobj.name = googleplace.name ? googleplace.name : undefined;
           if (googleplace.address_components)
             jsonobj.address_components = googleplace.address_components;
           if (googleplace.business_status)

@@ -70,6 +70,10 @@ module.exports = function (credentials) {
       .fetch(query, params)
       .then((places) => {
         if (places && places.length > 0) {
+          /**
+           * Found a matching place in sanity.
+           * So add place and community as reference to the event json.
+           */
           var place = places[0];
           jsonobj.community = place.community;
           jsonobj.place = {
@@ -79,6 +83,7 @@ module.exports = function (credentials) {
           };
 
           const filename = file.stem + file.extname;
+          file.dirname = ".";
           var opts = {
             path: path.resolve(file.dirname, filename),
           };
@@ -88,6 +93,10 @@ module.exports = function (credentials) {
           this.push(newfile);
           return cb(null);
         } else {
+          /**
+           * No place found in sanity.
+           * Check, if a community in sanity is matching.
+           */
           const query =
             '*[_type == "community" && $address in address_aliases]';
           const params = { address: jsonobj.location };
@@ -96,6 +105,10 @@ module.exports = function (credentials) {
             .fetch(query, params)
             .then((communities) => {
               if (communities && communities.length > 0) {
+                /**
+                 * Matching community found in sanity.
+                 * So add this community as place and community reference.
+                 */
                 var community = communities[0];
                 jsonobj.community = {
                   _type: "reference",
@@ -109,6 +122,7 @@ module.exports = function (credentials) {
                 };
 
                 const filename = file.stem + file.extname;
+                file.dirname = ".";
                 var opts = {
                   path: path.resolve(file.dirname, filename),
                 };
@@ -118,9 +132,14 @@ module.exports = function (credentials) {
                 this.push(newfile);
                 return cb(null);
               } else {
+                /**
+                 * No matching place and no mathcing community found.
+                 * If seems to be an unknown location.
+                 */
                 const filename = file.stem + file.extname;
+                const dirname = "missingplace";
                 var opts = {
-                  path: path.resolve(file.dirname, filename),
+                  path: path.resolve(dirname, filename),
                 };
                 var newfile = new vinyl(opts);
                 // stream out the event as json file

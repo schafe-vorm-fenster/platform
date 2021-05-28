@@ -14,6 +14,8 @@ var buffer = require("vinyl-buffer");
 var combine = require("gulp-concat-json-to-array");
 const beautify = require("gulp-jsbeautifier");
 const patchtosanity = require("../plugins/gulp-patch-to-sanity");
+const googlemapsfindplacefromtext = require("../plugins/gulp-googlemaps-findplacefromtext");
+const googlemapsplacedetails = require("../plugins/gulp-googlemaps-placedetails");
 const determinesanitycommunityreference = require("../plugins/gulp-determine-sanity-community-reference");
 const sanityClient = require("@sanity/client");
 const slugify = require("slugify");
@@ -64,23 +66,25 @@ gulp.task("sanity:place:delete", function () {
 });
 
 gulp.task("sanity:place:get", function () {
-  return request({
-    method: "GET",
-    uri: uri,
-    auth: {
-      bearer: token,
-    },
-  })
-    .pipe(source("sanity_place.json"))
-    .pipe(buffer())
-    .pipe(split("result", "name"))
-/*    .pipe(
+  return (
+    request({
+      method: "GET",
+      uri: uri,
+      auth: {
+        bearer: token,
+      },
+    })
+      .pipe(source("sanity_place.json"))
+      .pipe(buffer())
+      .pipe(split("result", "name"))
+      /*    .pipe(
       combine("places.json", function (data, meta) {
         return new Buffer.from(JSON.stringify(data));
       })
     )*/
-    .pipe(beautify({ indent_size: 2 }))
-    .pipe(gulp.dest("_json/sanity/place/"));
+      .pipe(beautify({ indent_size: 2 }))
+      .pipe(gulp.dest("_json/sanity/place/"))
+  );
 });
 
 gulp.task("sanity:place:addrefs", function () {
@@ -89,6 +93,48 @@ gulp.task("sanity:place:addrefs", function () {
     .pipe(determinesanitycommunityreference(sanity_credentials))
     .pipe(beautify({ indent_size: 2 }))
     .pipe(gulp.dest("./"));
+});
+
+gulp.task("sanity:place:collectbrokenevents", function () {
+  return gulp
+    .src("_json/sanity/events/missingplace/*.json")
+    .pipe(
+      jeditor(function (json) {
+        return {
+          address: json.address ? json.address : json.location,
+        };
+      })
+    )
+    .pipe(beautify({ indent_size: 2 }))
+    .pipe(gulp.dest("_json/googlemaps/addresses"));
+});
+
+gulp.task("sanity:place:addgoogleplaces", function () {
+  return gulp
+    .src("_json/googlemaps/places/*.json")
+    .pipe(determinesanitycommunityreference(sanity_credentials))
+    .pipe(
+      jeditor(function (json) {
+        return {
+          _id: json.place_id,
+          _type: "place",
+          name: json.name,
+          localname: json.name,
+          place_id: json.place_id,
+          address: json.address,
+          community: json.sanity_community_ref,
+          geolocation: {
+            _type: "geopoint",
+            lat: json.geometry.location.lat,
+            lng: json.geometry.location.lng,
+          },
+          description: json.types.join(", "),
+        };
+      })
+    )
+    .pipe(beautify({ indent_size: 2 }))
+    .pipe(patchtosanity(sanity_credentials, "overwrite"))
+    .pipe(gulp.dest("_json/googlemaps/places"));
 });
 
 gulp.task("sanity:place:push", function () {

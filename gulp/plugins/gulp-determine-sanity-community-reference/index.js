@@ -80,7 +80,7 @@ module.exports = function (credentials) {
     }
 
     const query =
-      '*[_type == "community" && name == $communityName]{ _id, name, municipality->{_id,name}}';
+      '*[_type == "community" && (name == $communityName || $communityName in address_aliases)]{ _id, name, municipality->{_id,name}}';
     const params = {
       communityName: communityName,
       municipalityName: municipalityName,
