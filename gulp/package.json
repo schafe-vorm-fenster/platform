@@ -7,7 +7,7 @@
   "main": "gulpfile.js",
   "scripts": {
     "build": "gulp build",
-    "deploy": "gulp build",
+    "deploy": "gulp -v",
     "develop": "gulp build && gulp watch",
     "start": "gulp",
     "test": "gulp -v"
