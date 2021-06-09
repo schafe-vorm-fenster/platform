@@ -182,6 +182,7 @@ export default createSchema({
           wikimedia: "wikimedia_commons_imagelinks.0",
           description: "description",
           publication_status: "publication_status",
+          wikidata_id: "wikidata_id"
         },
         prepare(selection) {
           const {
@@ -191,11 +192,12 @@ export default createSchema({
             wikimedia,
             description,
             publication_status,
+            wikidata_id = 'Q?',
           } = selection;
           const thumb = wikimedia ? wikimedia : media + "?h=80&w=80&fit=crop";
           return {
             title: title,
-            subtitle: `in der ${municipality ? municipality : "unknown"} (${publication_status})`,
+            subtitle: `in ${municipality ? municipality : "MISSING"} (${wikidata_id}, Public? ${publication_status})`,
             media: <img src={thumb} />,
             description: description,
           };

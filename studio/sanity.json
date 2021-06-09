@@ -7,6 +7,25 @@
   "project": {
     "name": "Schafe vorm Fenster"
   },
+  "__experimental_spaces": [
+    {
+      "name": "production",
+      "title": "Production",
+      "default": true,
+      "api": {
+        "projectId": "gzgufr8h",
+        "dataset": "production"
+      }
+    },
+    {
+      "name": "development",
+      "title": "Development",
+      "api": {
+        "projectId": "gzgufr8h",
+        "dataset": "development"
+      }
+    }
+  ],
   "plugins": [
     "@sanity/base",
     "@sanity/components",
