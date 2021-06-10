@@ -8,7 +8,7 @@ import Logo from '../../assets/schafe-vorm-fenster_logo.inline.svg'
 
 export const query = graphql`
   query IndexPageQuery {
-    onlioneCommunities: allSanityCommunity(filter: { publication_status: { in: ["0"] } }, limit: 100, sort: { fields: [name], order: ASC }) {
+    onlioneCommunities: allSanityCommunity(filter: { publication_status: { in: ["0"] } }, limit: 500, sort: { fields: [name], order: ASC }) {
       edges {
         node {
           id
@@ -23,7 +23,7 @@ export const query = graphql`
         }
       }
     },
-    betaCommunities: allSanityCommunity(filter: { publication_status: { in: ["1"] } }, limit: 100, sort: { fields: [name], order: ASC }) {
+    betaCommunities: allSanityCommunity(filter: { publication_status: { in: ["1", "2"] } }, limit: 500, sort: { fields: [name], order: ASC }) {
       edges {
         node {
           id
@@ -38,7 +38,7 @@ export const query = graphql`
         }
       }
     },
-    upcomingCommunities: allSanityCommunity(filter: { publication_status: { in: ["2"] } }, limit: 100, sort: { fields: [name], order: ASC }) {
+    upcomingCommunities: allSanityCommunity(filter: { publication_status: { in: ["3"] } }, limit: 500, sort: { fields: [name], order: ASC }) {
       edges {
         node {
           id
