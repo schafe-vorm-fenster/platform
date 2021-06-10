@@ -16,7 +16,7 @@ function EventPreview(props) {
   if (props.allday) {
     eventType = "allday";
   } else {
-    if (props.end && parseInt(props.calendar.display_mode) == 4) {
+    if (props.end && parseInt(props?.calendar?.display_mode) === 4) {
       timeString = (
         <>
           <Moment format="HH:mm" tz="Europe/Berlin">
@@ -25,7 +25,7 @@ function EventPreview(props) {
           <span> Uhr</span>
         </>
       );
-    } else if (props.end && parseInt(props.calendar.display_mode) >= 2) {
+    } else if (props.end && parseInt(props?.calendar?.display_mode) >= 2) {
       timeString = (
         <>
           <Moment format="HH:mm" tz="Europe/Berlin">
@@ -51,7 +51,7 @@ function EventPreview(props) {
   }
   return (
     <>
-      {parseInt(props.calendar.display_mode) === 4 && (
+      {parseInt(props?.calendar?.display_mode) === 4 && (
         <article
           id={props.id}
           className={"event " + eventType + " mb-4 p-3 pb-0"}
@@ -79,7 +79,7 @@ function EventPreview(props) {
           </div>
         </article>
       )}
-      {parseInt(props.calendar.display_mode) < 4 && (
+      {parseInt(props?.calendar?.display_mode) < 4 && (
         <article id={props.id} className={"event " + eventType + " mb-4 p-3"}>
           <div className="w-full flex">
             <div className="w-1/6 pr-5">
@@ -101,15 +101,15 @@ function EventPreview(props) {
                 </span>
               </div>
             </div>
-            {parseInt(props.calendar.display_mode) < 4 && (
+            {parseInt(props?.calendar?.display_mode) < 4 && (
               <div className="w-5/6">
                 {props.calendar != null && timeString != null && (
                   <p>
-                    {parseInt(props.calendar.display_mode) > 0 && (
+                    {parseInt(props?.calendar?.display_mode) > 0 && (
                       <span className="time">{timeString}</span>
                     )}
                     {props.calendar != null &&
-                      parseInt(props.calendar.display_mode) <= 1 &&
+                      parseInt(props?.calendar?.display_mode) <= 1 &&
                       props.place != null &&
                       props.place.community != null && (
                         <span className="location">
@@ -121,7 +121,7 @@ function EventPreview(props) {
                         </span>
                       )}
                     {props.calendar != null &&
-                      parseInt(props.calendar.display_mode) <= 1 &&
+                      parseInt(props?.calendar?.display_mode) <= 1 &&
                       props.place === null &&
                       props.community != null && (
                         <span className="location">
@@ -136,7 +136,7 @@ function EventPreview(props) {
                 <h3 className="title">{props.name}</h3>
                 <p>
                   {props.calendar != null &&
-                    parseInt(props.calendar.display_mode) >= 2 &&
+                    parseInt(props?.calendar?.display_mode) >= 2 &&
                     props.place != null &&
                     props.place.community != null && (
                       <span className="location">
@@ -147,7 +147,7 @@ function EventPreview(props) {
                       </span>
                     )}
                   {props.calendar != null &&
-                    parseInt(props.calendar.display_mode) >= 2 &&
+                    parseInt(props?.calendar?.display_mode) >= 2 &&
                     props.place === null &&
                     props.community != null && (
                       <span className="location">
@@ -159,7 +159,7 @@ function EventPreview(props) {
                     )}
                   {props.calendar != null &&
                     props.calendar.organizer != null &&
-                    parseInt(props.calendar.display_mode) >= 2 && (
+                    parseInt(props?.calendar?.display_mode) >= 2 && (
                       <span
                         className="organizer"
                         title={props.calendar.organizer.longname}
@@ -174,13 +174,13 @@ function EventPreview(props) {
               </div>
             )}
           </div>
-          {parseInt(props.calendar.display_mode) < 4 && (
+          {parseInt(props?.calendar?.display_mode) < 4 && (
             <div className="w-full">
               {props.googleeventattachment.map((attachment) => (
                 <FilePreview file={attachment} type="image" />
               ))}
               {props.calendar != null &&
-                parseInt(props.calendar.display_mode) >= 2 &&
+                parseInt(props?.calendar?.display_mode) >= 2 &&
                 props.description != null && (
                   <div
                     className="description"

@@ -1,5 +1,5 @@
 import React from 'react'
-import {MdFileDownload, MdOpenInNew} from 'react-icons/md'
+import {MdOpenInNew} from 'react-icons/md'
 
 function FilePreview ( {file, type} ) {
 
