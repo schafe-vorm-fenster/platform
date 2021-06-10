@@ -7780,7 +7780,7 @@ duplexify@^3.4.2, duplexify@^3.5.0, duplexify@^3.6.0:
 
 duplexify@^4.1.1:
   version "4.1.1"
-  resolved "https://nexus.bitgrip.berlin/repository/npm/duplexify/-/duplexify-4.1.1.tgz#7027dc374f157b122a8ae08c2d3ea4d2d953aa61"
+  resolved "https://registry.yarnpkg.com/duplexify/-/duplexify-4.1.1.tgz#7027dc374f157b122a8ae08c2d3ea4d2d953aa61"
   integrity sha512-DY3xVEmVHTv1wSzKNbwoU6nVjzI369Y6sPoqfYr0/xlx3IdX2n94xIszTcjPO8W8ZIv0Wb0PXNcjuZyT4wiICA==
   dependencies:
     end-of-stream "^1.4.1"
@@ -9360,7 +9360,7 @@ forever-agent@~0.6.1:
 
 fork-stream@^0.0.4:
   version "0.0.4"
-  resolved "https://nexus.bitgrip.berlin/repository/npm/fork-stream/-/fork-stream-0.0.4.tgz#db849fce77f6708a5f8f386ae533a0907b54ae70"
+  resolved "https://registry.yarnpkg.com/fork-stream/-/fork-stream-0.0.4.tgz#db849fce77f6708a5f8f386ae533a0907b54ae70"
   integrity sha1-24Sfznf2cIpfjzhq5TOgkHtUrnA=
 
 form-data@4.0.0:
@@ -10850,7 +10850,7 @@ gulp-google-calendar-events@^1.0.4:
 
 gulp-if@^3.0.0:
   version "3.0.0"
-  resolved "https://nexus.bitgrip.berlin/repository/npm/gulp-if/-/gulp-if-3.0.0.tgz#6c3e7edc8bafadc34f2ebecb314bf43324ba1e40"
+  resolved "https://registry.yarnpkg.com/gulp-if/-/gulp-if-3.0.0.tgz#6c3e7edc8bafadc34f2ebecb314bf43324ba1e40"
   integrity sha512-fCUEngzNiEZEK2YuPm+sdMpO6ukb8+/qzbGfJBXyNOXz85bCG7yBI+pPSl+N90d7gnLvMsarthsAImx0qy7BAw==
   dependencies:
     gulp-match "^1.1.0"
@@ -10924,7 +10924,7 @@ gulp-marked-json@^1.1.0:
 
 gulp-match@^1.1.0:
   version "1.1.0"
-  resolved "https://nexus.bitgrip.berlin/repository/npm/gulp-match/-/gulp-match-1.1.0.tgz#552b7080fc006ee752c90563f9fec9d61aafdf4f"
+  resolved "https://registry.yarnpkg.com/gulp-match/-/gulp-match-1.1.0.tgz#552b7080fc006ee752c90563f9fec9d61aafdf4f"
   integrity sha512-DlyVxa1Gj24DitY2OjEsS+X6tDpretuxD6wTfhXE/Rw2hweqc1f6D/XtsJmoiCwLWfXgR87W9ozEityPCVzGtQ==
   dependencies:
     minimatch "^3.0.3"
@@ -20449,7 +20449,7 @@ term-size@^2.1.0:
 
 ternary-stream@^3.0.0:
   version "3.0.0"
-  resolved "https://nexus.bitgrip.berlin/repository/npm/ternary-stream/-/ternary-stream-3.0.0.tgz#7951930ea9e823924d956f03d516151a2d516253"
+  resolved "https://registry.yarnpkg.com/ternary-stream/-/ternary-stream-3.0.0.tgz#7951930ea9e823924d956f03d516151a2d516253"
   integrity sha512-oIzdi+UL/JdktkT+7KU5tSIQjj8pbShj3OASuvDEhm0NT5lppsm7aXWAmAq4/QMaBIyfuEcNLbAQA+HpaISobQ==
   dependencies:
     duplexify "^4.1.1"
