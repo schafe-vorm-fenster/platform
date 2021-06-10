@@ -38,6 +38,7 @@ async function createCommunityPages (graphql, actions, reporter) {
     const path = `/${slug.current}/`
     const municipalityId = edge.node.municipality._id
     const todayOffset = moment().startOf('day').format()
+    console.log(todayOffset)
     const todayLimit = moment().endOf('day').format()
     const tomorrowOffset = moment().add(1, 'days').startOf('day').format()
     const tomorrowLimit = moment().add(1, 'days').endOf('day').format()
