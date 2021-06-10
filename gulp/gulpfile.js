@@ -18,9 +18,7 @@ wrench.readdirSyncRecursive('./tasks').filter(function(file) {
 
 gulp.task('build', 
 	gulp.series([
-    'sanity:calendars',
-		'google:events',
-		'sanity:events'
+    'netlifyCopy'
 	])
 );
 
