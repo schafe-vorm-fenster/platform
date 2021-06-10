@@ -32,14 +32,6 @@ module.exports = {
         display: "minimal-ui",
         icon: "src/img/Schafe-vorm-Fenster-UG_Logo_green_Avatar.png",
         crossOrigin: `use-credentials`,
-        localize: [
-          {
-            start_url: `/schlatkow/`,
-            lang: `de`,
-            name: `Schlatkow`,
-            short_name: `Schlatkow`,
-          },
-        ],
       }
     },
     'gatsby-plugin-offline',
