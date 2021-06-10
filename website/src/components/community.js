@@ -19,7 +19,7 @@ function Community(props) {
       <img
         id="community-image"
         src={wikimedia_commons_imagelinks[0]}
-        className="object-cover h-hero"
+        className="object-cover h-hero w-full"
       />
     );
   } else if (image && image.asset && image.asset.fluid) {
