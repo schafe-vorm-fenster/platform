@@ -182,7 +182,7 @@ export default createSchema({
           wikimedia: "wikimedia_commons_imagelinks.0",
           description: "description",
           publication_status: "publication_status",
-          wikidata_id: "wikidata_id"
+          wikidata_id: "wikidata_id",
         },
         prepare(selection) {
           const {
@@ -192,12 +192,14 @@ export default createSchema({
             wikimedia,
             description,
             publication_status,
-            wikidata_id = 'Q?',
+            wikidata_id = "Q?",
           } = selection;
           const thumb = wikimedia ? wikimedia : media + "?h=80&w=80&fit=crop";
           return {
             title: title,
-            subtitle: `in ${municipality ? municipality : "MISSING"} (${wikidata_id}, Public? ${publication_status})`,
+            subtitle: `in ${
+              municipality ? municipality : "MISSING"
+            } (${wikidata_id}, Public? ${publication_status})`,
             media: <img src={thumb} />,
             description: description,
           };
@@ -529,7 +531,8 @@ export default createSchema({
           weak: true,
           // to: [{ type: "place" },{ type: "community" }],
           to: [{ type: "place" }],
-          description: "At which place does the event happen? Might be a village.",
+          description:
+            "At which place does the event happen? Might be a village.",
         },
         {
           title: "Village",
@@ -572,6 +575,81 @@ export default createSchema({
             title: title,
             subtitle: `in ${community ? community : "unknown"} at ${
               start ? start : "unknown"
+            }`,
+          };
+        },
+      },
+    },
+
+    {
+      title: "News",
+      name: "news",
+      type: "document",
+      icon: FiWatch,
+      fields: [
+        {
+          title: "Headline",
+          name: "title",
+          type: "string",
+          validation: (Rule) => Rule.required(),
+        },
+        {
+          title: "Abstract",
+          name: "abstract",
+          type: "string",
+        },
+        {
+          title: "Publihing Date",
+          name: "date",
+          type: "datetime",
+          options: {
+            dateFormat: "DD.MM.YYYY",
+            timeFormat: "HH:mm",
+            timeStep: 15,
+            calendarTodayLabel: "Today",
+          },
+          validation: (Rule) => Rule.required(),
+        },
+        {
+          title: "Link",
+          name: "url",
+          type: "string",
+        },
+        {
+          title: "Source",
+          name: "source",
+          type: "string",
+          options: {
+            list: [
+              { title: "Twitter", value: "twitter" },
+              { title: "Nordkurier", value: "nordkurier" },
+              { title: "Unknown", value: "unknown" },
+            ],
+            layout: "radio",
+            direction: "horizontal",
+          },
+        },
+        {
+          title: "Village",
+          name: "community",
+          type: "reference",
+          weak: true,
+          to: [{ type: "community" }],
+          description: "To which village does that place belong to?",
+        },
+      ],
+      preview: {
+        select: {
+          title: "title",
+          date: "date",
+          community: "community.name",
+        },
+        prepare(selection) {
+          const { title, date, community } = selection;
+          return {
+            title: title,
+            subtitle: `in ${community ? community : "unknown"} at ${
+              date ? date : "unknown"
             }`,
           };
         },
