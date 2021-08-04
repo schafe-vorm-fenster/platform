@@ -78,6 +78,12 @@ export default createSchema({
           name: "zip",
           type: "string",
         },
+        {
+          title: "Population",
+          name: "population",
+          type: "number",
+        },
+
       ],
       preview: {
         select: {
@@ -156,6 +162,11 @@ export default createSchema({
           type: "array",
           of: [{ type: "string" }],
           validation: (Rule) => Rule.unique(),
+        },
+        {
+          title: "Population",
+          name: "population",
+          type: "number",
         },
         {
           title: "Municipality",
