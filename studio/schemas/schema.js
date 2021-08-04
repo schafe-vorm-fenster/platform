@@ -68,6 +68,16 @@ export default createSchema({
           name: "place_id",
           type: "string",
         },
+        {
+          title: "Geolocation",
+          name: "geolocation",
+          type: "geopoint",
+        },
+        {
+          title: "Zip Code",
+          name: "zip",
+          type: "string",
+        },
       ],
       preview: {
         select: {
@@ -118,14 +128,19 @@ export default createSchema({
           type: "string",
         },
         {
-          title: "Wikidata ID",
-          name: "wikidata_id",
-          type: "string",
-        },
-        {
           title: "Geolocation",
           name: "geolocation",
           type: "geopoint",
+        },
+        {
+          title: "Zip Code",
+          name: "zip",
+          type: "string",
+        },
+        {
+          title: "Wikidata ID",
+          name: "wikidata_id",
+          type: "string",
         },
         {
           title: "Visual",
