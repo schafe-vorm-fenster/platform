@@ -123,6 +123,11 @@ export default createSchema({
           type: "string",
         },
         {
+          title: "Geolocation",
+          name: "geolocation",
+          type: "geopoint",
+        },
+        {
           title: "Visual",
           name: "image",
           type: "image",
