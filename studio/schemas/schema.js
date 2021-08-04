@@ -611,6 +611,11 @@ export default createSchema({
           validation: (Rule) => Rule.required(),
         },
         {
+          title: "Image",
+          name: "image_url",
+          type: "string",
+        },
+        {
           title: "Link",
           name: "url",
           type: "string",
@@ -637,18 +642,26 @@ export default createSchema({
           to: [{ type: "community" }],
           description: "To which village does that place belong to?",
         },
+        {
+          title: "Municipality",
+          name: "municipality",
+          type: "reference",
+          weak: true,
+          to: [{ type: "municipality" }],
+          description: "To which municipality does that village belong to?",
+        },
       ],
       preview: {
         select: {
           title: "title",
           date: "date",
-          community: "community.name",
+          municipality: "municipality.name",
         },
         prepare(selection) {
-          const { title, date, community } = selection;
+          const { title, date, municipality } = selection;
           return {
             title: title,
-            subtitle: `in ${community ? community : "unknown"} at ${
+            subtitle: `in ${municipality ? municipality : "unknown"} at ${
               date ? date : "unknown"
             }`,
           };
