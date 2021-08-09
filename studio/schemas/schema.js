@@ -415,7 +415,14 @@ export default createSchema({
           title: "Google Calendar ID",
           name: "calendar_id",
           type: "string",
-          validation: (Rule) => Rule.required(),
+          validation: (Rule) => Rule.custom(calendar_id => {
+            if (typeof calendar_id === 'undefined') {
+              return true;
+            }
+            return calendar_id === calendar_id.trim()
+              ? true
+              : 'Avoid white spaces.'
+          }).warning()
         },
         {
           title: "Organizer",
