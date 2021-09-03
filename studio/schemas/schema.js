@@ -483,6 +483,7 @@ export default createSchema({
                 title: 'Start and end time',
                 value: '2',
               },
+              { title: 'Combine times of multiple events', value: '3' },
             ],
             layout: 'radio',
             direction: 'horizontal',
