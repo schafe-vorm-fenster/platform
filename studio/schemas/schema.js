@@ -490,6 +490,14 @@ export default createSchema({
           },
           validation: (Rule) => Rule.required(),
         },
+        {
+          title: 'Default Village',
+          name: 'community',
+          type: 'reference',
+          weak: true,
+          to: [{ type: 'community' }],
+          description: 'To which village events should belong to, when address cannot be geocoded?',
+        },
       ],
       initialValue: {
         scope: '0',
