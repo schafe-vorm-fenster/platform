@@ -466,6 +466,7 @@ export default createSchema({
               { title: 'Default', value: '2' },
               { title: 'Extended (special events)', value: '3' },
               { title: 'One Line (combine times of multiple events)', value: '5' },
+              { title: 'Commercial Ad', value: '6' },
             ],
             layout: 'radio',
             direction: 'horizontal',
