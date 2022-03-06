@@ -161,6 +161,11 @@ export default createSchema({
           type: 'number',
         },
         {
+          title: 'Geonames ADM3',
+          name: 'county_geoname_id',
+          type: 'number',
+        },
+        {
           title: 'Municipality',
           name: 'municipality',
           type: 'reference',
