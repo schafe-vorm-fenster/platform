@@ -37,7 +37,7 @@
     "gulp-rename": "^1.4.0",
     "gulp-streamify": "^1.0.2",
     "gulp-uglify": "^3.0.2",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^2.6.7",
     "node-stream": "^1.7.0",
     "request": "^2.88.0",
     "require-dir": "^1.2.0",
