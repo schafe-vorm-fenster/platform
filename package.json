@@ -35,8 +35,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-icons": "^3.8.0",
-    "sanity-plugin-dashboard-widget-netlify": "^1.0.1"
+    "react-icons": "^3.8.0"
   },
   "devDependencies": {},
   "repository": "https://github.com/schafe-vorm-fenster/platform"

@@ -938,6 +938,16 @@
     postcss-value-parser "^3.3.0"
     source-list-map "^2.0.0"
 
+"@sanity/dashboard@^1.149.3":
+  version "1.150.8"
+  resolved "https://registry.yarnpkg.com/@sanity/dashboard/-/dashboard-1.150.8.tgz#b34886c8250b83650a7591d9bb3423723f98da5c"
+  integrity sha512-yGUf5qHrQ/X0MngP0qUu/T0oiZg9o8k8qlAFzoyE05iBoN4hlv6L2wnfqnlh3b/YXYQ4Woj3z59SAwqU/yg2Lg==
+  dependencies:
+    "@sanity/image-url" "^0.140.19"
+    lodash "^4.17.15"
+    react-icons "^2.2.7"
+    rxjs "^6.5.3"
+
 "@sanity/data-aspects@0.146.0":
   version "0.146.0"
   resolved "https://registry.yarnpkg.com/@sanity/data-aspects/-/data-aspects-0.146.0.tgz#4d8e348e0b0b6ee7bb1f68e04abe6a6b06d7cbe4"
@@ -1092,6 +1102,11 @@
   version "0.140.15"
   resolved "https://registry.yarnpkg.com/@sanity/image-url/-/image-url-0.140.15.tgz#7b8afc49130398e1a6e7bde03b5961d2384f7676"
   integrity sha512-SlL3JNWLmWEbnUW7B2vVIUazoRD/a6bg5D8nA4PNvRhu8EEE3WykrONQj7Ibpv/fAwTyxm1u2Hh+sy6f2FHvXg==
+
+"@sanity/image-url@^0.140.19":
+  version "0.140.22"
+  resolved "https://registry.yarnpkg.com/@sanity/image-url/-/image-url-0.140.22.tgz#7a65f56bb751f7b1c5dfacfadd34ee10fc4f0fde"
+  integrity sha512-CAmQZnj+KM7FSEYiWlIGDit072syicYuAw0w7R2ctMzHiZ4p9mE/g6dBnYqrqFUrw2J+GpJgPt+RVspKP8vdqA==
 
 "@sanity/imagetool@0.146.0":
   version "0.146.0"
@@ -7628,6 +7643,13 @@ rxjs@^6.5.2:
   version "6.5.3"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.5.3.tgz#510e26317f4db91a7eb1de77d9dd9ba0a4899a3a"
   integrity sha512-wuYsAYYFdWTAnAaPoKGNhfpWwKZbJW+HgAJ+mImp+Epl7BG8oNWBCTyRM8gba9k4lk8BgWdoYm21Mo/RYhhbgA==
+  dependencies:
+    tslib "^1.9.0"
+
+rxjs@^6.5.3:
+  version "6.6.7"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.6.7.tgz#90ac018acabf491bf65044235d5863c4dab804c9"
+  integrity sha512-hTdwr+7yYNIT5n4AMYp85KA6yw2Va0FLa3Rguvbpa4W3I5xynaBZo41cM3XM+4Q6fRMj3sBYIR1VAmZMXYJvRQ==
   dependencies:
     tslib "^1.9.0"
 

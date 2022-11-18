@@ -10,8 +10,9 @@ yarn-error.log
 # lerna files
 /lerna-debug.log
 
+# Ignore temp data
+/_json
+
 # Ignore hidden files as default
 .*
 !.gitignore
-
-env.sh
