@@ -580,6 +580,21 @@ export default createSchema({
           type: 'string',
         },
         {
+          title: 'Geolocation',
+          name: 'geolocation',
+          type: 'geopoint',
+        },
+        {
+          title: 'Place',
+          name: 'placeName',
+          type: 'string',
+        },
+        {
+          title: 'Place (local name)',
+          name: 'placeLocalName',
+          type: 'string',
+        },
+        {
           title: 'Google Event Attachment',
           name: 'googleeventattachment',
           type: 'array',
@@ -590,7 +605,6 @@ export default createSchema({
           name: 'place',
           type: 'reference',
           weak: true,
-          // to: [{ type: "place" },{ type: "community" }],
           to: [{ type: 'place' }],
           description: 'At which place does the event happen? Might be a village.',
         },
