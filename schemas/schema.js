@@ -546,7 +546,7 @@ export default createSchema({
           const { title, start, community } = selection;
           return {
             title: title,
-            subtitle: `in ${community ? community : 'MISSING'}, ${placeLocalName} at ${start}`,
+            subtitle: `in ${community ? community : 'MISSING'} at ${start}`,
           };
         },
       },
