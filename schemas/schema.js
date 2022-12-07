@@ -234,99 +234,6 @@ export default createSchema({
     },
 
     {
-      title: 'Place',
-      name: 'place',
-      type: 'document',
-      icon: FiCrosshair,
-      fields: [
-        {
-          title: 'Name',
-          name: 'name',
-          type: 'string',
-          validation: (Rule) => Rule.required(),
-        },
-        {
-          title: 'Local name',
-          name: 'localname',
-          type: 'string',
-          description: 'How is the place called within the village context?',
-          validation: (Rule) => Rule.required(),
-        },
-        {
-          title: 'Google Place ID',
-          name: 'place_id',
-          type: 'string',
-        },
-        {
-          title: 'Wikidata ID',
-          name: 'wikidata_id',
-          type: 'string',
-        },
-        {
-          title: 'Address',
-          name: 'address',
-          type: 'string',
-        },
-        {
-          title: 'Address aliases',
-          name: 'address_aliases',
-          type: 'array',
-          of: [{ type: 'string' }],
-          validation: (Rule) => Rule.unique(),
-        },
-        {
-          title: 'Geolocation',
-          name: 'geolocation',
-          type: 'geopoint',
-        },
-        {
-          title: 'Village',
-          name: 'community',
-          type: 'reference',
-          weak: true,
-          to: [{ type: 'community' }],
-          description: 'To which village does that place belong to?',
-          validation: (Rule) => Rule.required(),
-        },
-        {
-          title: 'Visual',
-          name: 'image',
-          type: 'image',
-        },
-        {
-          title: 'Wikimedia Commons Images',
-          name: 'wikimedia_commons_imagelinks',
-          type: 'array',
-          of: [{ type: 'string' }],
-          validation: (Rule) => Rule.unique(),
-        },
-        {
-          title: 'Description',
-          name: 'description',
-          type: 'string',
-        },
-      ],
-      preview: {
-        select: {
-          title: 'name',
-          community: 'community.name',
-          description: 'description',
-          media: 'image.asset.url',
-        },
-        prepare(selection) {
-          const { title, community, description, media } = selection;
-          const thumb = media + '?h=80&w=80&fit=crop';
-          return {
-            title: title,
-            subtitle: `in ${community ? community : 'unknown'}`,
-            media: <img src={thumb} />,
-            description: description,
-          };
-        },
-      },
-    },
-
-    {
       title: 'Organizer',
       name: 'organizer',
       type: 'document',
@@ -601,20 +508,12 @@ export default createSchema({
           of: [{ type: 'googleeventattachment' }],
         },
         {
-          title: 'Place',
-          name: 'place',
-          type: 'reference',
-          weak: true,
-          to: [{ type: 'place' }],
-          description: 'At which place does the event happen? Might be a village.',
-        },
-        {
           title: 'Village',
           name: 'community',
           type: 'reference',
           weak: true,
           to: [{ type: 'community' }],
-          description: 'To which village does that place belong to?',
+          description: 'To which village does this event belong to?',
         },
         {
           title: 'Calendar',
@@ -647,7 +546,7 @@ export default createSchema({
           const { title, start, community } = selection;
           return {
             title: title,
-            subtitle: `in ${community ? community : 'unknown'} at ${start ? start : 'unknown'}`,
+            subtitle: `in ${community ? community : 'MISSING'}, ${placeLocalName} at ${start}`,
           };
         },
       },
